@@ -1,0 +1,2 @@
+V20 yeni final release kapısı araçlarıdır. Mevcut compiler kaynak dosyalarını doğrudan değiştirmez.
+Amaç: placeholder/servis/kılavuz uyumunu raporlayıp release kapısını kırmızı/yeşil belirlemektir.

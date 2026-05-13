@@ -1,0 +1,11 @@
+test_path,expect_path,stage,purpose
+uxm\tests\stage20\test_s20_01_expect_inline_source_temiz.uxm,uxm\tests\stage20\test_s20_01_expect_inline_source_temiz.expect,20,Stage17 inline #source expect temizleme kapısı
+uxm\tests\stage20\test_s20_02_expect_header_ayrac.uxm,uxm\tests\stage20\test_s20_02_expect_header_ayrac.expect,20,Stage17 header/ayraç expect okuma kapısı
+uxm\tests\stage20\test_s20_03_expect_contains_kipi.uxm,uxm\tests\stage20\test_s20_03_expect_contains_kipi.expect,20,Stage17 contains mode kapısı
+uxm\tests\stage20\test_s20_04_stage10_bellek_data_4mb.uxm,uxm\tests\stage20\test_s20_04_stage10_bellek_data_4mb.expect,20,Stage10 16 MB memory/data dword kapısı
+uxm\tests\stage20\test_s20_05_stage18_tensor4d_kopru.uxm,uxm\tests\stage20\test_s20_05_stage18_tensor4d_kopru.expect,20,Stage18 tensor4d bridge kapısı
+uxm\tests\stage20\test_s20_06_data_yaz_oku_dword.uxm,uxm\tests\stage20\test_s20_06_data_yaz_oku_dword.expect,20,DATA write/read dword kapısı
+uxm\tests\stage20\test_s20_07_fifo_buyuk_model_roundtrip.uxm,uxm\tests\stage20\test_s20_07_fifo_buyuk_model_roundtrip.expect,20,FIFO 2MB byte roundtrip kapısı
+uxm\tests\stage20\test_s20_08_meta_dynamic_addr.uxm,uxm\tests\stage20\test_s20_08_meta_dynamic_addr.expect,20,Native/meta output kapısı
+uxm\tests\stage20\test_s20_09_matrix_temel_kapi.uxm,uxm\tests\stage20\test_s20_09_matrix_temel_kapi.expect,20,Stage10 temel output kapısı
+uxm\tests\stage20\test_s20_10_entegre_kalite_kapisi.uxm,uxm\tests\stage20\test_s20_10_entegre_kalite_kapisi.expect,20,Stage20 entegre kalite kapısı

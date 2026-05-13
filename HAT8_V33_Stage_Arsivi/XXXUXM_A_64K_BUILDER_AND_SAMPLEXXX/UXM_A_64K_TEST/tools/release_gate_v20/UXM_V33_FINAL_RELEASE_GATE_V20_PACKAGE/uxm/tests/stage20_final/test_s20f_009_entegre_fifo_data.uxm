@@ -1,0 +1,12 @@
+# Stage20 final integrated test 2: data + fifo output
+#cell byte
+#memory total=16mb,tape=64kb,stack=64kb,data=64kb,fifo=2mb
+#mode normal
+>>>>>
+0(T-2)+k5
+0(T-1)+k66
+@96
+0(T-1)+k65
+@90
+@91
+@61

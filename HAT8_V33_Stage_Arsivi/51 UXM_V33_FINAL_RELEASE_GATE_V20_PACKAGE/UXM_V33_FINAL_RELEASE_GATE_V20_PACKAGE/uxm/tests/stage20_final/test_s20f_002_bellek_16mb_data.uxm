@@ -1,0 +1,7 @@
+# Stage20 final: 16 MB total + 4 MB data cell count check
+#cell dword
+#memory total=16mb,tape=64kb,stack=64kb,data=4mb,fifo=64kb
+#mode normal
+>>>>>
+@85
+@61

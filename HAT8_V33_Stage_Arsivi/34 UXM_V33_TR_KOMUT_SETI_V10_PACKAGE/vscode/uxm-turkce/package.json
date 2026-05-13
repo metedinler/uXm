@@ -1,0 +1,92 @@
+{
+  "name": "uxm-turkce",
+  "displayName": "UXM Türkçe Desteği / UXM Turkish Support",
+  "description": "UXM/uXBasic için Türkçe odaklı VSCode desteği, görevler ve kısa komutlar.",
+  "version": "0.10.0",
+  "publisher": "metedinler",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Programming Languages",
+    "Other"
+  ],
+  "activationEvents": [
+    "onLanguage:uxm",
+    "onCommand:uxmTurkce.bellekTest",
+    "onCommand:uxmTurkce.hizliTara",
+    "onCommand:uxmTurkce.hataliTest",
+    "onCommand:uxmTurkce.tumTest",
+    "onCommand:uxmTurkce.derle"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "languages": [
+      {
+        "id": "uxm",
+        "aliases": [
+          "UXM",
+          "uXBasic",
+          "UXM Türkçe"
+        ],
+        "extensions": [
+          ".uxm"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "uxm",
+        "scopeName": "source.uxm",
+        "path": "./syntaxes/uxm.tmLanguage.json"
+      }
+    ],
+    "snippets": [
+      {
+        "language": "uxm",
+        "path": "./snippets/uxm.json"
+      }
+    ],
+    "commands": [
+      {
+        "command": "uxmTurkce.derle",
+        "title": "UXM: Derle / Build"
+      },
+      {
+        "command": "uxmTurkce.bellekTest",
+        "title": "UXM: Bellek Testi / Memory Test"
+      },
+      {
+        "command": "uxmTurkce.hizliTara",
+        "title": "UXM: Hızlı Tara / Fast Scan"
+      },
+      {
+        "command": "uxmTurkce.hataliTest",
+        "title": "UXM: Hatalıları Koş / Rerun Failed"
+      },
+      {
+        "command": "uxmTurkce.tumTest",
+        "title": "UXM: Tüm Testler / All Tests"
+      },
+      {
+        "command": "uxmTurkce.rapor",
+        "title": "UXM: Son Rapor / Last Report"
+      }
+    ],
+    "configuration": {
+      "title": "UXM Türkçe",
+      "properties": {
+        "uxmTurkce.komutDili": {
+          "type": "string",
+          "enum": [
+            "tr",
+            "en"
+          ],
+          "default": "tr",
+          "description": "Komut açıklama dili / Command language"
+        }
+      }
+    }
+  }
+}

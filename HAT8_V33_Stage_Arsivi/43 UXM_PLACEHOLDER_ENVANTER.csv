@@ -1,0 +1,16 @@
+servis,ad,grup,durum,not,plan_fazi
+270,STAT_QUARTILE,statistics,Yok,@270 case yok,Faz 2
+271,STAT_PERCENTILE,statistics,Yok,@271 case yok,Faz 2
+272,STAT_SKEWNESS,statistics,Yok,@272 case yok,Faz 2
+273,STAT_KURTOSIS,statistics,Yok,@273 case yok,Faz 2
+281,CORR_SPEARMAN,correlation,Yok,@281 case yok,Faz 2
+282,CORR_KENDALL,correlation,Yok,@282 case yok,Faz 2
+@300..@309,TTEST/ZTEST/ANOVA/CHI,hypothesis,Yanlış adres,Bu band string servisleri; yeni @760..@789 gerekir,Faz 3
+@320..@325,POSTHOC_*,posthoc,Yok,Dispatch yok; yeni @790..@809 gerekir,Faz 4
+@340..@356,AI_* eski registry,ai,Yanlış adres,Bu band string-ext servisleri; yeni @810..@839 gerekir,Faz 5
+@180..@199,MAT_ADV eski registry,matrix_adv,Yok/legacy,Yeni matrix/tensor bandları @512+ kullanılıyor,Registry temizliği
+@390..@399,NUMERIC eski registry,numeric,Yok/legacy,Gerçek numeric band @420..@439,Registry temizliği
+410,FILE_READ_BLOCK,file,Yok,Block read eklenecek,Faz 6
+411,FILE_WRITE_BLOCK,file,Yok,Block write eklenecek,Faz 6
+412,FILE_SEEK,file,Yok,seek eklenecek,Faz 6
+416..419,FILE_DELETE/RENAME/MKDIR/STATUS,file,Yok/reserved,dosya yönetimi eklenecek,Faz 6

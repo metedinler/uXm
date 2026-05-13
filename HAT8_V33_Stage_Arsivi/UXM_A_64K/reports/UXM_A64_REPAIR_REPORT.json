@@ -1,0 +1,39 @@
+[
+  {
+    "file": "src\\compiler\\native\\native_cli.bas",
+    "action": "PATCH",
+    "note": "ApplyMemoryModel exact 64KB yerine <=64KB üst sınırı yapıldı",
+    "backup": "reports\\patch_backups\\src\\compiler\\native\\native_cli.bas.before_repair.bak"
+  },
+  {
+    "file": "src\\interpreter\\uxm_v20_interpreter.bas",
+    "action": "PATCH",
+    "note": "runtime_io ile çakışan interpreter callback tekrarları kaldırıldı",
+    "backup": "reports\\patch_backups\\src\\interpreter\\uxm_v20_interpreter.bas.before_repair.bak"
+  },
+  {
+    "file": "src\\interpreter\\uxm_v20_interpreter.bas.uxma.bak",
+    "action": "MOVE_BACKUP",
+    "note": "reports\\patch_backups\\interpreter\\uxm_v20_interpreter.bas.uxma.bak"
+  },
+  {
+    "file": "src\\runtime\\runtime_meta_dispatch.bas.uxma.bak",
+    "action": "MOVE_BACKUP",
+    "note": "reports\\patch_backups\\runtime\\runtime_meta_dispatch.bas.uxma.bak"
+  },
+  {
+    "file": "src\\compiler\\native\\native_cli.bas.uxma.bak",
+    "action": "MOVE_BACKUP",
+    "note": "reports\\patch_backups\\compiler\\native\\native_cli.bas.uxma.bak"
+  },
+  {
+    "file": "src\\compiler\\native\\uxm31_compiler_fb.bas.uxma.bak",
+    "action": "MOVE_BACKUP",
+    "note": "reports\\patch_backups\\compiler\\native\\uxm31_compiler_fb.bas.uxma.bak"
+  },
+  {
+    "file": "reports\\UXM_A64_COMPILE_UNIT_DUPLICATES.csv",
+    "action": "WRITE_REPORT",
+    "note": "Compile-unit duplicate raporu üretildi"
+  }
+]

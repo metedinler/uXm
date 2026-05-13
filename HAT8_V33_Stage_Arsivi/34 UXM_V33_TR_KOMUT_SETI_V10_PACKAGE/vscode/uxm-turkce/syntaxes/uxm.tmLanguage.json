@@ -1,0 +1,27 @@
+{
+  "scopeName": "source.uxm",
+  "patterns": [
+    {
+      "name": "comment.line.number-sign.uxm",
+      "match": "#.*$"
+    },
+    {
+      "name": "keyword.control.uxm",
+      "match": "\\b(mode|normal|safe|wild|memory|cell|byte|word|dword|toplam|sinirli|total|bounded)\\b"
+    },
+    {
+      "name": "constant.numeric.uxm",
+      "match": "\\b\\d+(kb|mb|b)?\\b"
+    },
+    {
+      "name": "support.function.meta.uxm",
+      "match": "@!?#?|@!?\\d+"
+    },
+    {
+      "name": "string.quoted.uxm",
+      "begin": "\\{",
+      "end": "\\}"
+    }
+  ],
+  "name": "UXM"
+}

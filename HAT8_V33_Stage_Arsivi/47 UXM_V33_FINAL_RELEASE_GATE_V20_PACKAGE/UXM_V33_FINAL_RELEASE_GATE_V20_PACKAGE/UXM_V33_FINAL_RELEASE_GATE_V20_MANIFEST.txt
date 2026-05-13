@@ -1,0 +1,34 @@
+UXM V33 FINAL RELEASE GATE V20
+
+Türkçe bat dosyaları:
+- stage20_release_kapi.bat
+- stage20_test.bat
+- stage20_placeholder_kapi.bat
+- stage20_servis_uyum.bat
+- stage20_kilavuz_uyum.bat
+- stage20_performans.bat
+- stage20_final_rapor.bat
+- stage20_tamamla.bat
+- plan_durumu.bat
+
+Türkçe Python:
+- araclar/uxm_stage20_final.py
+
+İngilizce araçlar:
+- tool_en/uxm_stage20_final.py
+- tool_en/stage20_release_gate.bat
+- tool_en/stage20_test.bat
+- tool_en/stage20_placeholder_gate.bat
+- tool_en/stage20_service_alignment.bat
+- tool_en/stage20_guide_alignment.bat
+- tool_en/stage20_performance.bat
+- tool_en/stage20_final_report.bat
+
+Stage-20 final testleri:
+- uxm/tests/stage20_final/*.uxm
+- uxm/tests/stage20_final/*.expect
+
+Dokümanlar:
+- README_V20.md
+- docs/final/STAGE20_FINAL_RELEASE_KAPISI.md
+- manifests/stage20_final_manifest.csv

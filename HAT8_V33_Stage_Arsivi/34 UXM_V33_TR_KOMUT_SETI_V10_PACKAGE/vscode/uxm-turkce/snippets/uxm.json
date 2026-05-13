@@ -1,0 +1,31 @@
+{
+  "Bellek 16MB": {
+    "prefix": "bellek16",
+    "body": [
+      "#memory total=16mb,tape=1mb,stack=512kb,data=8mb,fifo=2mb",
+      "#cell dword",
+      "#mode normal",
+      ">>>>>",
+      "$0"
+    ],
+    "description": "16 MB toplam bellek modeli"
+  },
+  "Yazdır decimal": {
+    "prefix": "yazdec",
+    "body": [
+      "0(T-1)+k${1:42}",
+      "@61"
+    ],
+    "description": "Arg2 decimal yazdır"
+  },
+  "FIFO char": {
+    "prefix": "fifochar",
+    "body": [
+      "0(T-1)+k${1:65}",
+      "@90",
+      "@91",
+      "@61"
+    ],
+    "description": "FIFO yaz/oku"
+  }
+}

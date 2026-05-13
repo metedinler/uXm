@@ -1,0 +1,4 @@
+﻿entry,status,files,duplicates,duplicate_names
+src/uxm_v20_native_compiler.bas,OK,11,0,
+src/uxm_v20_runtime.bas,OK,25,0,
+src/interpreter/uxm_v20_interpreter.bas,OK,30,0,

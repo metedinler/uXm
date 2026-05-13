@@ -1,0 +1,10 @@
+# Stage20 final: placeholder sonrası gerçek servis örneği @287 LERP_PERMILLE
+#cell dword
+#memory data=1mb,tape=64kb,stack=16kb,queue=64kb
+#mode normal
+>>>>>
+0(T-3)+k10
+0(T-2)+k20
+0(T-1)+k250
+@287
+@61

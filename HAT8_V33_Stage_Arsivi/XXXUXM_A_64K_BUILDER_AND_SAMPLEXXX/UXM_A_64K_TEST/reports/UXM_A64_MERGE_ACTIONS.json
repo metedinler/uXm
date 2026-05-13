@@ -1,0 +1,191 @@
+[
+  {
+    "layer": "base",
+    "action": "COPY_TREE",
+    "source": "/mnt/data/uxm_work/inner/52 UXM_V33_V20_SRC_KLASORU/src",
+    "target": "/mnt/data/UXM_A_64K_TEST/src",
+    "status": "OK",
+    "note": "V20 temiz src mimarisi temel alındı.",
+    "sha256": ""
+  },
+  {
+    "layer": "compiler/native",
+    "action": "COPY_FILE",
+    "source": "/mnt/data/uxm_work/inner/13 UXM_V33_STAGE12_tensor_advanced2_package/UXM_V33_STAGE12/uxm/core/compiler/native/native_lexer_parser.bas",
+    "target": "/mnt/data/UXM_A_64K_TEST/src/compiler/native/native_lexer_parser.bas",
+    "status": "OK",
+    "note": "Stage12 gelişmiş native compiler split dosyası.",
+    "sha256": "27689e29294a199a11b2a6b9cfe82f74b2f3afd5cf6e05b7f5a4d0504d9bec1b"
+  },
+  {
+    "layer": "compiler/native",
+    "action": "COPY_FILE",
+    "source": "/mnt/data/uxm_work/inner/13 UXM_V33_STAGE12_tensor_advanced2_package/UXM_V33_STAGE12/uxm/core/compiler/native/native_addressing.bas",
+    "target": "/mnt/data/UXM_A_64K_TEST/src/compiler/native/native_addressing.bas",
+    "status": "OK",
+    "note": "Stage12 gelişmiş native compiler split dosyası.",
+    "sha256": "b3eb726da223f5d92af39b8160397cc7e8200357a2740117fe26d44bc1389e51"
+  },
+  {
+    "layer": "compiler/native",
+    "action": "COPY_FILE",
+    "source": "/mnt/data/uxm_work/inner/13 UXM_V33_STAGE12_tensor_advanced2_package/UXM_V33_STAGE12/uxm/core/compiler/native/native_meta_parse.bas",
+    "target": "/mnt/data/UXM_A_64K_TEST/src/compiler/native/native_meta_parse.bas",
+    "status": "OK",
+    "note": "Stage12 gelişmiş native compiler split dosyası.",
+    "sha256": "20ad3d242cdc4f7f0f1aa187bbb0a83c7f5efe33954fad932888593199e001af"
+  },
+  {
+    "layer": "compiler/native",
+    "action": "COPY_FILE",
+    "source": "/mnt/data/uxm_work/inner/13 UXM_V33_STAGE12_tensor_advanced2_package/UXM_V33_STAGE12/uxm/core/compiler/native/native_validation.bas",
+    "target": "/mnt/data/UXM_A_64K_TEST/src/compiler/native/native_validation.bas",
+    "status": "OK",
+    "note": "Stage12 gelişmiş native compiler split dosyası.",
+    "sha256": "6cd9d3d8d8e0ff19b8aa44460af26b4b77b63f981ff6f1e3d217e1c6b1734db0"
+  },
+  {
+    "layer": "compiler/native",
+    "action": "COPY_FILE",
+    "source": "/mnt/data/uxm_work/inner/13 UXM_V33_STAGE12_tensor_advanced2_package/UXM_V33_STAGE12/uxm/core/compiler/native/native_asm_emit.bas",
+    "target": "/mnt/data/UXM_A_64K_TEST/src/compiler/native/native_asm_emit.bas",
+    "status": "OK",
+    "note": "Stage12 gelişmiş native compiler split dosyası.",
+    "sha256": "b36d0aa116fecbd8e223ed0ec45528882ba12bd33986eba8637731f781da3f64"
+  },
+  {
+    "layer": "compiler/native",
+    "action": "COPY_FILE",
+    "source": "/mnt/data/uxm_work/inner/13 UXM_V33_STAGE12_tensor_advanced2_package/UXM_V33_STAGE12/uxm/core/compiler/native/native_main.bas",
+    "target": "/mnt/data/UXM_A_64K_TEST/src/compiler/native/native_main.bas",
+    "status": "OK",
+    "note": "Stage12 gelişmiş native compiler split dosyası.",
+    "sha256": "53d6fe452308192f3cd636861dbc5a4376f94da015916c114af4580fbc498787"
+  },
+  {
+    "layer": "compiler/native",
+    "action": "COPY_FILE",
+    "source": "/mnt/data/uxm_work/inner/13 UXM_V33_STAGE12_tensor_advanced2_package/UXM_V33_STAGE12/uxm/core/compiler/native/uxm31_compiler_fb.bas",
+    "target": "/mnt/data/UXM_A_64K_TEST/src/compiler/native/uxm31_compiler_fb.bas",
+    "status": "OK",
+    "note": "Patch öncesi Stage12 ana compiler header dosyası.",
+    "sha256": "7c1915e351ce90347818fcff2b3a514ed74fac7bc8a7231a8d18bf842603e84a"
+  },
+  {
+    "layer": "compiler/native",
+    "action": "COPY_FILE",
+    "source": "/mnt/data/uxm_work/inner/13 UXM_V33_STAGE12_tensor_advanced2_package/UXM_V33_STAGE12/uxm/core/compiler/native/native_cli.bas",
+    "target": "/mnt/data/UXM_A_64K_TEST/src/compiler/native/native_cli.bas",
+    "status": "OK",
+    "note": "Patch öncesi Stage12 CLI/memory dosyası.",
+    "sha256": "c921c85e0cba9fc33dab58b28946da87c402ed1e12dd7550f45d46a405dcca57"
+  },
+  {
+    "layer": "compiler/native",
+    "action": "PATCH",
+    "source": "/mnt/data/UXM_A_64K_TEST/src/compiler/native/uxm31_compiler_fb.bas",
+    "target": "/mnt/data/UXM_A_64K_TEST/src/compiler/native/uxm31_compiler_fb.bas",
+    "status": "OK",
+    "note": "uxm31_compiler_fb.bas 64KB sabitleri + Stage12 gelişmiş deklarasyonları.",
+    "sha256": "441c2e38e3322a85307e191478dac45f04db2c17c8be2001728693bc07eeca9d"
+  },
+  {
+    "layer": "compiler/native",
+    "action": "PATCH",
+    "source": "/mnt/data/UXM_A_64K_TEST/src/compiler/native/native_cli.bas",
+    "target": "/mnt/data/UXM_A_64K_TEST/src/compiler/native/native_cli.bas",
+    "status": "OK",
+    "note": "native_cli.bas 64KB Tape+Stack+Data invariantı.",
+    "sha256": "2b4192e7ab855283992a8b13003af29c83e9ac07a840a02e1a60792a680396f9"
+  },
+  {
+    "layer": "runtime",
+    "action": "PATCH",
+    "source": "/mnt/data/UXM_A_64K_TEST/src/runtime/runtime_meta_dispatch.bas",
+    "target": "/mnt/data/UXM_A_64K_TEST/src/runtime/runtime_meta_dispatch.bas",
+    "status": "OK",
+    "note": "runtime_meta_dispatch.bas standalone End Extern temizliği.",
+    "sha256": "b4a2bb7f0c9a4773dbf8a87a676add491333e86033768d3645b42ac0ecabf282"
+  },
+  {
+    "layer": "interpreter",
+    "action": "WRITE_TEXT",
+    "source": "<generated>",
+    "target": "/mnt/data/UXM_A_64K_TEST/src/interpreter/interpreter_runtime_memory_64k.bas",
+    "status": "OK",
+    "note": "runtime_memory adapteri üretildi.",
+    "sha256": "9a030200161cb6978bda728e716c392f22126fed2f636d622b4c84d7f2ee24c1"
+  },
+  {
+    "layer": "interpreter",
+    "action": "WRITE_TEXT",
+    "source": "<generated>",
+    "target": "/mnt/data/UXM_A_64K_TEST/src/interpreter/interpreter_runtime_adapter_64k.bas",
+    "status": "OK",
+    "note": "runtime full adapteri üretildi.",
+    "sha256": "8a65e0653d351c8fbfbcbf6adcf6370c905e7516d37fa948db05fbb49dc09816"
+  },
+  {
+    "layer": "interpreter",
+    "action": "PATCH",
+    "source": "/mnt/data/UXM_A_64K_TEST/src/interpreter/uxm_v20_interpreter.bas",
+    "target": "/mnt/data/UXM_A_64K_TEST/src/interpreter/uxm_v20_interpreter.bas",
+    "status": "OK",
+    "note": "Interpreter 64KB adaptere bağlandı.",
+    "sha256": "8cf52e1a7da009022a5fd906efecfbb1ce40fa3282e92e2a704a76e0b66dc1d7"
+  },
+  {
+    "layer": "vscode",
+    "action": "COPY_TREE",
+    "source": "/mnt/data/uxm_work/inner/39 UXM_V33_STAGE17_20_V15_PACKAGE/vscode/uxm-dil-destegi-v11",
+    "target": "/mnt/data/UXM_A_64K_TEST/tools/vscode_release/uxm-dil-destegi-v15",
+    "status": "OK",
+    "note": "Kurulabilir VSCode artifact.",
+    "sha256": ""
+  },
+  {
+    "layer": "tests",
+    "action": "COPY_TREE",
+    "source": "/mnt/data/uxm_work/inner/24 UXM_V33_FINAL_EXPECTED_TEST_SUITE/UXM_V33_FINAL_EXPECTED_TEST_SUITE/uxm/tests",
+    "target": "/mnt/data/UXM_A_64K_TEST/tests/final_expected",
+    "status": "OK",
+    "note": "Final expected suite seçici kopya.",
+    "sha256": ""
+  },
+  {
+    "layer": "tools",
+    "action": "COPY_TREE",
+    "source": "/mnt/data/uxm_work/inner/47 UXM_V33_FINAL_RELEASE_GATE_V20_PACKAGE",
+    "target": "/mnt/data/UXM_A_64K_TEST/tools/release_gate_v20",
+    "status": "OK",
+    "note": "V20 release gate araçları.",
+    "sha256": ""
+  },
+  {
+    "layer": "tools",
+    "action": "COPY_TREE",
+    "source": "/mnt/data/uxm_work/inner/50 UXM_V33_PS1_BAT_KOMUT_ONARIM_V22_PACKAGE",
+    "target": "/mnt/data/UXM_A_64K_TEST/tools/ps1_bat_fix_v22",
+    "status": "OK",
+    "note": "V22 PS1/BAT onarım paketi.",
+    "sha256": ""
+  },
+  {
+    "layer": "tools",
+    "action": "WRITE_TEXT",
+    "source": "<generated>",
+    "target": "/mnt/data/UXM_A_64K_TEST/build_a64_gate.bat",
+    "status": "OK",
+    "note": "Windows build/gate betiği.",
+    "sha256": "0e1ec03e9d2e8de31ea4ce6d506c3bc0ea393fbd628ee8b88b5db1562d81e2fa"
+  },
+  {
+    "layer": "tools",
+    "action": "WRITE_TEXT",
+    "source": "<generated>",
+    "target": "/mnt/data/UXM_A_64K_TEST/tools/uxm_a64_static_gate.py",
+    "status": "OK",
+    "note": "Statik 64KB/placeholder kapısı.",
+    "sha256": "b21c6d6e0f405a5f955e8453b9bde64d791247bec33ad787db8a6abcf6c2be52"
+  }
+]

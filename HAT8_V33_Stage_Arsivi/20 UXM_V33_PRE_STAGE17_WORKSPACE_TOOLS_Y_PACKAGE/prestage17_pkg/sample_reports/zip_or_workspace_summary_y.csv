@@ -1,0 +1,14 @@
+﻿Metric,Name,Count
+kind,uxm_test_or_source,1534
+kind,asm,1388
+kind,object,1283
+kind,doc_or_log,455
+kind,freebasic_source,415
+kind,other,199
+kind,csv,136
+kind,bat_tool,81
+kind,python_tool,38
+kind,package_or_diff,25
+kind,xlsx,12
+top,UXMv33,3336
+top,uxm dosyalari,2230

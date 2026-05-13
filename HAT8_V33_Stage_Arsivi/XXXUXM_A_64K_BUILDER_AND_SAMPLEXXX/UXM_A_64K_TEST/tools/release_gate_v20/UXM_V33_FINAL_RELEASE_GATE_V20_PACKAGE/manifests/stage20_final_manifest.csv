@@ -1,0 +1,10 @@
+test,gorev,beklenen
+uxm/tests/stage20_final/test_s20f_001_expect_parser_duz.uxm,expect parser plain output,42
+uxm/tests/stage20_final/test_s20f_002_bellek_16mb_data.uxm,16MB memory data cells,1048576
+uxm/tests/stage20_final/test_s20f_003_data_yaz_oku.uxm,DATA write/read,321
+uxm/tests/stage20_final/test_s20f_004_fifo_roundtrip.uxm,FIFO byte roundtrip,65
+uxm/tests/stage20_final/test_s20f_005_tensor4d_kopru.uxm,Tensor4D bridge,88
+uxm/tests/stage20_final/test_s20f_006_stat_mode_gercek.uxm,STAT_MODE gerçek servis,7
+uxm/tests/stage20_final/test_s20f_007_numeric_lerp_gercek.uxm,LERP gerçek servis,12
+uxm/tests/stage20_final/test_s20f_008_entegre_data_aritmetik.uxm,Birleşik data+aritmetik,15
+uxm/tests/stage20_final/test_s20f_009_entegre_fifo_data.uxm,Birleşik fifo+data,65

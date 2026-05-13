@@ -1,0 +1,9 @@
+{
+  "scopeName": "source.uxm",
+  "patterns": [
+    { "name": "keyword.operator.uxm", "match": "[><+\\-.,\\[\\]]" },
+    { "name": "support.function.service.uxm", "match": "@[#@*]?[0-9]+" },
+    { "name": "string.quoted.double.uxm", "begin": "\\\"", "end": "\\\"" },
+    { "name": "comment.line.apostrophe.uxm", "match": "'.*$" }
+  ]
+}
