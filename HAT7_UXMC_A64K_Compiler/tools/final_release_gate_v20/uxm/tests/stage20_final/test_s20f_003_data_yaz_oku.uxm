@@ -1,0 +1,11 @@
+# Stage20 final: DATA write/read gate
+#cell dword
+#memory tape=32,stack=4,data=64,queue=4
+#mode normal
+>>>>>
+0(T-2)+k12
+0(T-1)+k321
+@96
+0(T-1)+k12
+@95
+@61
