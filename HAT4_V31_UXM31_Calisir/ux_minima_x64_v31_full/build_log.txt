@@ -1,0 +1,11 @@
+.\uxm31_compiler_fb.clean.bas(1) error 146: Only valid in -lang deprecated or fblite or qb, found 'Option' in 'Option Explicit'
+.\uxm31_compiler_fb.clean.bas(334) error 4: Duplicated definition, pos in 'Dim pos As Long'
+.\uxm31_compiler_fb.clean.bas(337) error 317: Function result assignment outside of the function, found '=' in 'pos=InStr(lineText,keyName+"=")'
+.\uxm31_compiler_fb.clean.bas(403) error 4: Duplicated definition, val in 'Dim val As Long'
+.\uxm31_compiler_fb.clean.bas(432) error 317: Function result assignment outside of the function, found '=' in 'val=0'
+.\uxm31_compiler_fb.clean.bas(443) error 99: No matching overloaded function, VAL() in 'hasAddr=ParseAddress(code,p,kind,val)'
+.\uxm31_compiler_fb.clean.bas(453) error 99: No matching overloaded function, VAL() in 'AddInstr(OP_INC,amt,kind,val,Mid(code,startP,p-startP))'
+.\uxm31_compiler_fb.clean.bas(455) error 99: No matching overloaded function, VAL() in 'AddInstr(OP_DEC,amt,kind,val,Mid(code,startP,p-startP))'
+.\uxm31_compiler_fb.clean.bas(457) error 99: No matching overloaded function, VAL() in 'AddInstr(OP_CLEAR,0,kind,val,Mid(code,startP,p-startP))'
+.\uxm31_compiler_fb.clean.bas(470) error 99: No matching overloaded function, VAL() in 'AddInstr(OP_INC,amt2,kind,val,"+k"+LTrim(Str(amt2))+" inherit "+AddressText(kind,val))'
+.\uxm31_compiler_fb.clean.bas(470) error 133: Too many errors, exiting

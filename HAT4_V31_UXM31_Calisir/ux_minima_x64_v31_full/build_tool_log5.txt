@@ -1,0 +1,32 @@
+.\uxm31_full_tool_fb.bas(137) warning 47(1): Use of reserved global or backend symbol, SP
+.\uxm31_full_tool_fb.bas(605) error 4: Duplicated definition, dir
+    Dim dir As Long
+               ^
+.\uxm31_full_tool_fb.bas(652) error 317: Function result assignment outside of the function, found '='
+        dir=1
+           ^
+.\uxm31_full_tool_fb.bas(654) error 317: Function result assignment outside of the function, found '='
+        dir=-1
+           ^
+.\uxm31_full_tool_fb.bas(662) error 58: Type mismatch, at parameter 2 of ADDBRANCH()
+    AddBranch cond,dir,dist,Mid(code,st,p-st)
+                      ^
+.\uxm31_full_tool_fb.bas(678) error 4: Duplicated definition, at parameter 2 (dir) of ADDBRANCH()
+Sub AddBranch(ByVal cond As Long, ByVal dir As Long, ByVal dist As Long, ByVal txt As String)
+                                                                                            ^
+.\uxm31_full_tool_fb.bas(679) error 42: Variable not declared, txt
+    AddInstr OP_BRANCH,0,ADDR_T,0,txt
+                                  ^
+.\uxm31_full_tool_fb.bas(681) error 181: Invalid assignment/conversion
+    InstrArr(InstrCount).brDir=dir
+                               ^
+.\uxm31_full_tool_fb.bas(682) error 42: Variable not declared, dist
+    InstrArr(InstrCount).brDist=dist
+                                ^
+.\uxm31_full_tool_fb.bas(735) error 3: Expected End-of-Line, found 'ElseIf'
+            If n="n" Then r=r+Chr(10) ElseIf n="r" Then r=r+Chr(13) ElseIf n="t" Then r=r+Chr(9) Else r=r+n
+                                      ^
+.\uxm31_full_tool_fb.bas(831) error 3: Expected End-of-Line, found 'ElseIf'
+        If c=Chr(34) Then r=r+"\"+Chr(34) ElseIf c="\" Then r=r+"\\" ElseIf c=Chr(10) Then r=r+"\n" ElseIf c=Chr(13) Then r=r+"\r" Else r=r+c
+                                          ^
+.\uxm31_full_tool_fb.bas(831) error 133: Too many errors, exiting

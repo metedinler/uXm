@@ -1,0 +1,28 @@
+.\uxm31_full_tool_fb.bas(1) error 10: Expected '='
+text
+^
+.\uxm31_full_tool_fb.bas(2) error 10: Expected '=', found 'trace'
+JSON trace
+     ^
+.\uxm31_full_tool_fb.bas(3) error 10: Expected '=', found 'd'
+UIR dışa aktarma
+    ^
+.\uxm31_full_tool_fb.bas(4) error 10: Expected '=', found 'optimizer'
+pattern optimizer
+        ^
+.\uxm31_full_tool_fb.bas(5) error 10: Expected '=', found 'protokol'
+IDE protokol dosyası okuma
+    ^
+.\uxm31_full_tool_fb.bas(6) error 10: Expected '=', found 'UXM'
+runtime UXM macro call stack
+        ^
+.\uxm31_full_tool_fb.bas(7) error 10: Expected '=', found 'meta'
+FIFO meta servisleri
+     ^
+.\uxm31_full_tool_fb.bas(8) warning 11(1): Implicit variable allocation, block
+.\uxm31_full_tool_fb.bas(8) error 11: Expected constant, found 'copy'
+data block copy / clear / sort servisleri
+           ^
+.\uxm31_full_tool_fb.bas(9) error 10: Expected '=', found 'mode'
+wild mode memory layout değiştirme
+     ^

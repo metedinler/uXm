@@ -1,0 +1,11 @@
+.\uxm31_compiler_fb.bas(1) error 42: Variable not declared, Tamam in 'Tamam Mete abi. **Önceki QB64 + FreeBASIC runtime sürümü ilk çalışan iskelet seviyesinde bitti**, ama V3.1’in bütün kurallarını tam taşıyan son sürüm değildi. Şimdi bunu **tamamen FreeBASIC tarafına çekiyorum**. İlk dosya: **FreeBASIC ile yazılmış compiler**. Bu dosya `.uxm` okur, V3.1 kurallarına göre parse eder ve Windows x64 NASM `.asm` üretir.'
+.\uxm31_compiler_fb.bas(3) error 42: Variable not declared, Kod in 'Kod uzun olduğu için önce compiler dosyasını veriyorum. Sonraki mesajda runtime’ı vereceğim.'
+.\uxm31_compiler_fb.bas(5) error 17: Syntax error, found 'Dosya' in '# Dosya 1: `uxm31_compiler_fb.bas`'
+.\uxm31_compiler_fb.bas(7) error 3: Expected End-of-Line, found '`' in '```freebasic'
+.\uxm31_compiler_fb.bas(8) error 146: Only valid in -lang deprecated or fblite or qb, found 'Option' in 'Option Explicit'
+.\uxm31_compiler_fb.bas(341) error 4: Duplicated definition, pos in 'Dim pos As Long'
+.\uxm31_compiler_fb.bas(344) error 317: Function result assignment outside of the function, found '=' in 'pos=InStr(lineText,keyName+"=")'
+.\uxm31_compiler_fb.bas(410) error 4: Duplicated definition, val in 'Dim val As Long'
+.\uxm31_compiler_fb.bas(439) error 317: Function result assignment outside of the function, found '=' in 'val=0'
+.\uxm31_compiler_fb.bas(450) error 99: No matching overloaded function, VAL() in 'hasAddr=ParseAddress(code,p,kind,val)'
+.\uxm31_compiler_fb.bas(450) error 133: Too many errors, exiting

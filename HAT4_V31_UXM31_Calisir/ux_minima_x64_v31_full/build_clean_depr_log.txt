@@ -1,0 +1,31 @@
+.\uxm31_compiler_fb.clean.bas(334) error 4: Duplicated definition, pos
+    Dim pos As Long
+               ^
+.\uxm31_compiler_fb.clean.bas(337) error 317: Function result assignment outside of the function, found '='
+    pos=InStr(lineText,keyName+"=")
+       ^
+.\uxm31_compiler_fb.clean.bas(403) error 4: Duplicated definition, val
+    Dim val As Long
+               ^
+.\uxm31_compiler_fb.clean.bas(432) error 317: Function result assignment outside of the function, found '='
+    val=0
+       ^
+.\uxm31_compiler_fb.clean.bas(443) error 99: No matching overloaded function, VAL()
+    hasAddr=ParseAddress(code,p,kind,val)
+                                        ^
+.\uxm31_compiler_fb.clean.bas(453) error 99: No matching overloaded function, VAL()
+            AddInstr(OP_INC,amt,kind,val,Mid(code,startP,p-startP))
+                                        ^
+.\uxm31_compiler_fb.clean.bas(455) error 99: No matching overloaded function, VAL()
+            AddInstr(OP_DEC,amt,kind,val,Mid(code,startP,p-startP))
+                                        ^
+.\uxm31_compiler_fb.clean.bas(457) error 99: No matching overloaded function, VAL()
+            AddInstr(OP_CLEAR,0,kind,val,Mid(code,startP,p-startP))
+                                        ^
+.\uxm31_compiler_fb.clean.bas(470) error 99: No matching overloaded function, VAL()
+                                AddInstr(OP_INC,amt2,kind,val,"+k"+LTrim(Str(amt2))+" inherit "+AddressText(kind,val))
+                                                             ^
+.\uxm31_compiler_fb.clean.bas(472) error 99: No matching overloaded function, VAL()
+                                AddInstr(OP_DEC,amt2,kind,val,"-k"+LTrim(Str(amt2))+" inherit "+AddressText(kind,val))
+                                                             ^
+.\uxm31_compiler_fb.clean.bas(472) error 133: Too many errors, exiting

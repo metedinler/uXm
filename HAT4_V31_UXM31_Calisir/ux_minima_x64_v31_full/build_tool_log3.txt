@@ -1,0 +1,32 @@
+.\uxm31_full_tool_fb.bas(136) error 4: Duplicated definition, found 'Ptr'
+Dim Shared Ptr As Long
+           ^
+.\uxm31_full_tool_fb.bas(137) warning 47(1): Use of reserved global or backend symbol, SP
+.\uxm31_full_tool_fb.bas(299) error 3: Expected End-of-Line, found 'Ptr'
+    Ptr=0
+    ^
+.\uxm31_full_tool_fb.bas(605) error 4: Duplicated definition, dir
+    Dim dir As Long
+               ^
+.\uxm31_full_tool_fb.bas(613) error 3: Expected End-of-Line, found 'ElseIf'
+    If c=":" Then cond=BR_ALWAYS:p=p+1 ElseIf c="0" Then cond=BR_CUR_Z:p=p+1 ElseIf c="z" Then cond=BR_Z_SET:p=p+1 ElseIf c="Z" Then cond=BR_Z_CLR:p=p+1 ElseIf c="c" Then cond=BR_C_SET:p=p+1 ElseIf c="C" Then cond=BR_C_CLR:p=p+1 ElseIf c="o" Then cond=BR_O_SET:p=p+1 ElseIf c="O" Then cond=BR_O_CLR:p=p+1 ElseIf c="s" Then cond=BR_S_SET:p=p+1 ElseIf c="S" Then cond=BR_S_CLR:p=p+1 ElseIf c="+" Or c="-" Then cond=BR_CUR_NZ Else SyntaxError "gecersiz branch tipi",p:Exit Sub
+                                       ^
+.\uxm31_full_tool_fb.bas(616) error 317: Function result assignment outside of the function, found '='
+    If c="+" Then dir=1 ElseIf c="-" Then dir=-1 Else SyntaxError "branch + veya - olmali",p:Exit Sub
+                     ^
+.\uxm31_full_tool_fb.bas(620) error 58: Type mismatch, at parameter 2 of ADDBRANCH()
+    AddBranch cond,dir,dist,Mid(code,st,p-st)
+                      ^
+.\uxm31_full_tool_fb.bas(636) error 4: Duplicated definition, at parameter 2 (dir) of ADDBRANCH()
+Sub AddBranch(ByVal cond As Long, ByVal dir As Long, ByVal dist As Long, ByVal txt As String)
+                                                                                            ^
+.\uxm31_full_tool_fb.bas(637) error 42: Variable not declared, txt
+    AddInstr OP_BRANCH,0,ADDR_T,0,txt
+                                  ^
+.\uxm31_full_tool_fb.bas(639) error 181: Invalid assignment/conversion
+    InstrArr(InstrCount).brDir=dir
+                               ^
+.\uxm31_full_tool_fb.bas(640) error 42: Variable not declared, dist
+    InstrArr(InstrCount).brDist=dist
+                                ^
+.\uxm31_full_tool_fb.bas(640) error 133: Too many errors, exiting

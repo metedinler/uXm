@@ -1,0 +1,32 @@
+.\uxm31_full_tool_fb.bas(137) warning 47(1): Use of reserved global or backend symbol, SP
+.\uxm31_full_tool_fb.bas(243) error 42: Variable not declared, p
+        Do While p<=Len(code)
+                 ^
+.\uxm31_full_tool_fb.bas(243) error 3: Expected End-of-Line, found 'p'
+        Do While p<=Len(code)
+                 ^
+.\uxm31_full_tool_fb.bas(245) error 29: Expected 'LOOP', found 'End'
+    End If
+        ^
+.\uxm31_full_tool_fb.bas(247) error 42: Variable not declared, n
+                If n="n" Then
+                   ^
+.\uxm31_full_tool_fb.bas(247) error 3: Expected End-of-Line, found 'n'
+                If n="n" Then
+                   ^
+.\uxm31_full_tool_fb.bas(248) error 42: Variable not declared, r
+                    r=r+Chr(10)
+                     ^
+.\uxm31_full_tool_fb.bas(249) error 116: ELSEIF without IF, found 'ElseIf'
+                ElseIf n="r" Then
+                ^
+.\uxm31_full_tool_fb.bas(250) error 3: Expected End-of-Line, found 'r'
+                    r=r+Chr(13)
+                     ^
+.\uxm31_full_tool_fb.bas(251) error 116: ELSEIF without IF, found 'ElseIf'
+                ElseIf n="t" Then
+                ^
+.\uxm31_full_tool_fb.bas(252) error 3: Expected End-of-Line, found 'r'
+                    r=r+Chr(9)
+                     ^
+.\uxm31_full_tool_fb.bas(252) error 133: Too many errors, exiting

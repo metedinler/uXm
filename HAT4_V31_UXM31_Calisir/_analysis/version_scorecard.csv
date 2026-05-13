@@ -1,0 +1,4 @@
+"Candidate","Score","HasIDE","HasMathExt","HasFPDoc","HasFinalCompiler","HasCompiler","HasRuntime","TestCount","MdNonEmpty","MdEmpty"
+"uxm31_FULL_FINAL_REAL","144","True","True","True","True","True","True","34","21","0"
+"ux_minima_x64_v31_fb","86","True","False","True","False","True","True","18","18","0"
+"ux_minima_x64_v31_full","75","True","False","True","False","False","True","34","11","5"

@@ -1,0 +1,24 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^Set-Location -LiteralPath 'C:\\\\Users\\\\mete\\\\Downloads\\\\uxminima'; New-Item -ItemType Directory -Force -Path 'C:\\\\Users\\\\mete\\\\Downloads\\\\uxminima\\\\ux_minima_x64_v31_full' \\| Out-Null; Copy-Item -Path 'ux_minima_x64_v31_fb\\\\\\*' -Destination 'ux_minima_x64_v31_full' -Recurse -Force -ErrorAction Stop; Write-Output 'COPY_DONE'$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^Set-Location -LiteralPath 'C:\\\\Users\\\\mete\\\\Downloads\\\\uxminima\\\\ux_minima_x64_v31_full'; fbc -lang fb \\.\\\\uxm31_compiler_fb\\.clean\\.bas -x \\.\\\\uxm31_compiler\\.exe$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^\\$srcFolder='C:\\\\Users\\\\mete\\\\Downloads\\\\uxminima\\\\ux_minima_x64_v31_fb'; \\$dstFolder='C:\\\\Users\\\\mete\\\\Downloads\\\\uxminima\\\\ux_minima_x64_v31_full'; Get-ChildItem -Path \\$srcFolder -Filter \\*\\.bas -Recurse \\| ForEach-Object \\{ \\$src=\\$_\\.FullName; \\$name=\\$_\\.Name; \\$dst=Join-Path \\$dstFolder \\$name; \\$text=Get-Content -Raw -LiteralPath \\$src; \\$m=\\[regex\\]::Match\\(\\$text,'```freebasic\\\\s\\*\\(\\.\\*\\?\\)\\\\s\\*```',\\[System\\.Text\\.RegularExpressions\\.RegexOptions\\]::Singleline\\); if \\(\\$m\\.Success\\) \\{ \\$code=\\$m\\.Groups\\[1\\]\\.Value; Set-Content -LiteralPath \\$dst -Value \\$code; Write-Output \"COPIED_FB_CODE: \\$name -> \\$dst\" \\} else \\{ Write-Output \"NO_FREEBASIC_IN_SRC: \\$src\" \\} \\}$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^\\$path='C:\\\\Users\\\\mete\\\\Downloads\\\\uxminima\\\\ux_minima_x64_v31_full\\\\uxm31_full_tool_fb\\.bas'; \\$text=Get-Content -Raw -LiteralPath \\$path; \\$text=\\[regex\\]::Replace\\(\\$text,'\\(\\^\\\\s\\*Dim\\\\s\\+Shared\\\\s\\+\\)Instr\\\\\\(','\\$1InstrArr\\(','Multiline'\\); \\$text=\\[regex\\]::Replace\\(\\$text,'\\(\\?<!\\[A-Za-z0-9_\\]\\)Instr\\\\\\(','InstrArr\\('\\); \\$text=\\[regex\\]::Replace\\(\\$text,'\\(\\?<!\\[A-Za-z0-9_\\]\\)Instr\\\\\\)','InstrArr\\)'\\); \\$text=\\[regex\\]::Replace\\(\\$text,'\\(\\?<!\\[A-Za-z0-9_\\]\\)Instr\\\\\\.','InstrArr\\.'\\); Set-Content -LiteralPath \\$path -Value \\$text; Write-Output 'RENAMED Instr -> InstrArr in uxm31_full_tool_fb\\.bas'$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^\\$path='C:\\\\Users\\\\mete\\\\Downloads\\\\uxminima\\\\ux_minima_x64_v31_full\\\\uxm31_full_tool_fb\\.bas'; \\$text=Get-Content -Raw -LiteralPath \\$path; \\$text=\\[regex\\]::Replace\\(\\$text,'\\\\bDim\\\\s\\+Shared\\\\s\\+Ptr\\\\s\\+As\\\\s\\+Long','Dim Shared PtrIdx As Long'\\); \\$text=\\[regex\\]::Replace\\(\\$text,'\\(\\?<!\\[A-Za-z0-9_\\]\\)Ptr\\(\\?!\\[A-Za-z0-9_\\]\\)','PtrIdx'\\); Set-Content -LiteralPath \\$path -Value \\$text; Write-Output 'RENAMED Ptr->PtrIdx in uxm31_full_tool_fb\\.bas'$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}
