@@ -1,0 +1,8 @@
+START_SESSION@2026-05-10@02:23:32@STAGE@15
+RUN_DIR@C:\Users\mete\Downloads\1\UXMv33\stage_runs\stage_15_20260510_022332
+FBC@C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe
+NASM@nasm
+START_BUILD@02:23:32
+OK: build\exe\uxm_native.exe
+END_BUILD@02:23:33@SECONDS@1.715398
+START_SMOKE@run_stage14_smoke.bat@02:23:33

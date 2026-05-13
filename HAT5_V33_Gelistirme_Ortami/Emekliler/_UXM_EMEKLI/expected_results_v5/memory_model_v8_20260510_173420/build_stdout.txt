@@ -1,0 +1,1 @@
+C:\Users\mete\Downloads\1\UXMv33\uxm\core\compiler\native\native_cli.bas(262) error 7: Expected ')', found 'B4' in 'kb=CLng((bytesVal+1023)B4)'

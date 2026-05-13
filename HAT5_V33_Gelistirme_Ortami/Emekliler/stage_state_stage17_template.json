@@ -1,0 +1,8 @@
+{
+  "current_stage": 17,
+  "stage_name": "expected_actual_test_framework",
+  "status": "patch_prepared",
+  "does_not_replace_existing_runner": true,
+  "test_dir": "uxm/tests/stage17",
+  "result_root": "stage17_results"
+}

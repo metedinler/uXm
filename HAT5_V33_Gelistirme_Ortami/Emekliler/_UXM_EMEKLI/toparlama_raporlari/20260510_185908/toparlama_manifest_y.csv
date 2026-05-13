@@ -1,0 +1,20 @@
+﻿action,category,src,dst,reason
+MOVE,build_dir,build,Emekliler\builds\20260510_185908\build,bitmis build/obj/asm/exe ciktilari
+MOVE,package_zip,expected_results_v5.zip,Emekliler\packages\20260510_185908\expected_results_v5.zip,eski paket/zip arsivi
+MOVE,csv,MEGA_CORPUS_MANIFEST.csv,Emekliler\csv\20260510_185908\MEGA_CORPUS_MANIFEST.csv,ara/deneme csv raporu
+MOVE,package_zip,mismatch_diagnostics.zip,Emekliler\packages\20260510_185908\mismatch_diagnostics.zip,eski paket/zip arsivi
+MOVE,y_trial,run_06_workspace_clean_apply.bat,Emekliler\y_denemeleri\20260510_185908\run_06_workspace_clean_apply.bat,kullanici y suffix deneme dosyasi
+MOVE,y_trial,run_12_rerun_buildfail_only.bat,Emekliler\y_denemeleri\20260510_185908\run_12_rerun_buildfail_only.bat,kullanici y suffix deneme dosyasi
+MOVE,y_trial,run_13_rerun_mismatch_only.bat,Emekliler\y_denemeleri\20260510_185908\run_13_rerun_mismatch_only.bat,kullanici y suffix deneme dosyasi
+MOVE,y_trial,run_14_rerun_memory_policy_only.bat,Emekliler\y_denemeleri\20260510_185908\run_14_rerun_memory_policy_only.bat,kullanici y suffix deneme dosyasi
+MOVE,y_trial,run_mismatch_solver_v3_apply.bat,Emekliler\y_denemeleri\20260510_185908\run_mismatch_solver_v3_apply.bat,kullanici y suffix deneme dosyasi
+MOVE,log,sonuc1.txt,Emekliler\logs\20260510_185908\sonuc1.txt,test/build log dosyasi
+MOVE,log,sonuc4.txt,Emekliler\logs\20260510_185908\sonuc4.txt,test/build log dosyasi
+MOVE,log,sonuc5.txt,Emekliler\logs\20260510_185908\sonuc5.txt,test/build log dosyasi
+MOVE,log,sonuc6.txt,Emekliler\logs\20260510_185908\sonuc6.txt,test/build log dosyasi
+MOVE,log,sonuc7.txt,Emekliler\logs\20260510_185908\sonuc7.txt,test/build log dosyasi
+MOVE,log,sonuc8.txt,Emekliler\logs\20260510_185908\sonuc8.txt,test/build log dosyasi
+MOVE,xlsx_report,UXM_Performans_Analiz_Raporu_Final.xlsx,Emekliler\reports\20260510_185908\UXM_Performans_Analiz_Raporu_Final.xlsx,eski Excel raporu
+MOVE,xlsx_report,UXM_Performans_Raporu_Final.xlsx,Emekliler\reports\20260510_185908\UXM_Performans_Raporu_Final.xlsx,eski Excel raporu
+MOVE,diff,UXM_V33_MEMORY_MODEL_V7.diff,Emekliler\diffs\20260510_185908\UXM_V33_MEMORY_MODEL_V7.diff,eski diff arsivi
+MOVE,package_zip,UXMv33.zip,Emekliler\packages\20260510_185908\UXMv33.zip,eski paket/zip arsivi

@@ -1,0 +1,20 @@
+LABEL: test:uxm\tests\fp\test_fp07_int_zero_sign_abs.uxm
+COMMAND: call build_one_native.bat "uxm\tests\fp\test_fp07_int_zero_sign_abs.uxm"
+RETURNCODE: 0
+ELAPSED_SEC: 3.438728
+
+--- STDOUT ---
+ASM uretildi: build\asm\test_fp07_int_zero_sign_abs.asm
+[V3.3-stage12] Native ASM hazir. Link islemi build_one_native.bat tarafindan yurutulur.
+NASM:
+nasm -f win64 "build\asm\test_fp07_int_zero_sign_abs.asm" -o "build\obj\test_fp07_int_zero_sign_abs.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\test_fp07_int_zero_sign_abs.o" -x "build\exe\test_fp07_int_zero_sign_abs.exe"
+210
+0
+1
+0
+210
+[UXM program derlendi.]
+
+--- STDERR ---

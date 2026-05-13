@@ -1,0 +1,17 @@
+LABEL: test:uxm\tests\v33\test_v33_bio_translate_gc.uxm
+COMMAND: call build_one_native.bat "uxm\tests\v33\test_v33_bio_translate_gc.uxm"
+RETURNCODE: 0
+ELAPSED_SEC: 3.831576
+
+--- STDOUT ---
+ASM uretildi: build\asm\test_v33_bio_translate_gc.asm
+[V3.3-stage12] Native ASM hazir. Link islemi build_one_native.bat tarafindan yurutulur.
+NASM:
+nasm -f win64 "build\asm\test_v33_bio_translate_gc.asm" -o "build\obj\test_v33_bio_translate_gc.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\test_v33_bio_translate_gc.o" -x "build\exe\test_v33_bio_translate_gc.exe"
+ILY
+11
+[UXM program derlendi.]
+
+--- STDERR ---

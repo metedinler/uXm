@@ -1,0 +1,9 @@
+{
+  "run_id": "all_expected_v2_20260510_073624",
+  "total_selected": 1054,
+  "passed": 889,
+  "mismatch": 128,
+  "buildfail": 37,
+  "skipped": 0,
+  "outdir": "C:\\Users\\mete\\Downloads\\1\\UXMv33\\expected_results_v2\\all_expected_v2_20260510_073624"
+}

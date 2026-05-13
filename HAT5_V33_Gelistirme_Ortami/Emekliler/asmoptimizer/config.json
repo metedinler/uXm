@@ -1,0 +1,222 @@
+
+# 8. CONFIG DOSYASI - JSON formatında kural yapılandırması
+config_json = '''{
+  "rules": {
+    "mov_zero_to_xor": {
+      "enabled": true,
+      "description": "Replace mov reg, 0 with xor reg, reg (safe when flags not needed)"
+    },
+    "jmp_to_next": {
+      "enabled": true,
+      "description": "Remove jump to immediately following label"
+    },
+    "mul_to_shift": {
+      "enabled": true,
+      "description": "Replace mul by power of 2 with shift"
+    },
+    "add_zero": {
+      "enabled": true,
+      "description": "Remove add reg, 0 (no-op)"
+    },
+    "sub_zero": {
+      "enabled": true,
+      "description": "Remove sub reg, 0 (no-op)"
+    },
+    "lea_identity": {
+      "enabled": true,
+      "description": "Remove lea reg, [reg] (no-op)"
+    },
+    "redundant_mov_swap": {
+      "enabled": true,
+      "description": "Remove redundant mov pair (mov A,B then mov B,A)"
+    },
+    "push_pop_pair": {
+      "enabled": true,
+      "max_push_pop_distance": 20,
+      "description": "Remove push/pop pair when register not used between"
+    },
+    "and_to_movzx": {
+      "enabled": true,
+      "description": "Replace and reg, 0xFF with movzx for zero extension"
+    },
+    "test_to_cmp": {
+      "enabled": false,
+      "description": "Replace test reg, reg with cmp reg, 0 for clarity"
+    },
+    "redundant_mov_pair": {
+      "enabled": true,
+      "description": "Remove redundant mov pair (same instruction twice)"
+    },
+    "dead_xor": {
+      "enabled": true,
+      "description": "Remove xor reg,reg when immediately overwritten by mov"
+    },
+    "shl_zero": {
+      "enabled": true,
+      "description": "Remove shl/shr reg, 0 (no-op)"
+    },
+    "inc_to_add": {
+      "enabled": false,
+      "convert_inc_dec": false,
+      "description": "Replace inc/dec with add/sub 1 for flag consistency"
+    },
+    "redundant_load_store": {
+      "enabled": true,
+      "description": "Remove redundant load-store pair to same memory"
+    },
+    "cmp_to_test": {
+      "enabled": true,
+      "description": "Replace cmp reg, 0 with test reg, reg (smaller encoding)"
+    },
+    "constant_folding_mov_add": {
+      "enabled": true,
+      "description": "Fold mov reg, imm1 / add reg, imm2 into single mov"
+    },
+    "nop_sled": {
+      "enabled": true,
+      "min_nop_sled": 3,
+      "description": "Remove sequences of nop instructions"
+    },
+    "movzx_and_cleanup": {
+      "enabled": true,
+      "description": "Remove redundant and after movzx"
+    },
+    "ret_nop_cleanup": {
+      "enabled": true,
+      "description": "Remove nop instructions after ret"
+    }
+  },
+  "global": {
+    "max_passes": 5,
+    "preserve_comments": true,
+    "safety_level": "strict",
+    "output_format": "asm",
+    "backup_original": true
+  }
+}'''
+
+with open(os.path.join(base_dir, "config", "rules.json"), "w") as f:
+    f.write(config_json)
+
+# 9. TEST DOSYASI - Örnek ASM test
+test_asm = '''; Test ASM file for UXM Optimizer
+; This file contains various patterns to test optimization rules
+
+.code
+main PROC
+    ; Rule 1: mov zero to xor
+    mov rax, 0
+    mov rbx, 0
+    
+    ; Rule 2: jmp to next (should be removed)
+    jmp label1
+label1:
+    mov rcx, 10
+    
+    ; Rule 3: mul to shift
+    mul rax, 8
+    mul rbx, 4
+    
+    ; Rule 4: add zero
+    add rcx, 0
+    
+    ; Rule 5: sub zero
+    sub rdx, 0
+    
+    ; Rule 6: lea identity
+    lea rax, [rax]
+    
+    ; Rule 7: redundant mov swap
+    mov rax, rbx
+    mov rbx, rax
+    
+    ; Rule 12: dead xor
+    xor rdx, rdx
+    mov rdx, 100
+    
+    ; Rule 13: shift zero
+    shl rax, 0
+    
+    ; Rule 18: nop sled
+    nop
+    nop
+    nop
+    nop
+    nop
+    
+    ; Rule 20: ret nop cleanup
+    ret
+    nop
+    nop
+    
+main ENDP
+END
+'''
+
+with open(os.path.join(base_dir, "tests", "test_sample.asm"), "w") as f:
+    f.write(test_asm)
+
+# 10. ANA ÇALIŞTIRMA DOSYASI
+main_runner = '''#!/usr/bin/env python3
+"""UXM ASM Optimizer - Main Entry Point"""
+import sys
+import os
+
+# Add project root to path
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+
+from core.optimizer import main
+
+if __name__ == "__main__":
+    main()
+'''
+
+with open(os.path.join(base_dir, "run_optimizer.py"), "w") as f:
+    f.write(main_runner)
+
+# 11. HOOKS MODÜLÜ - Merkezi hook sistemi
+hooks_code = '''"""Central Hook System for UXM ASM Optimizer"""
+from typing import Callable, Dict, List
+from .nop_hook import nop_hook
+
+class HookManager:
+    """Manages hooks for all modules."""
+    
+    _hooks: Dict[str, List[Callable]] = {}
+    
+    @classmethod
+    def register(cls, hook_name: str, func: Callable):
+        """Register a hook function."""
+        if hook_name not in cls._hooks:
+            cls._hooks[hook_name] = []
+        cls._hooks[hook_name].append(func)
+    
+    @classmethod
+    def execute(cls, hook_name: str, *args, **kwargs):
+        """Execute all hooks for a given name."""
+        for func in cls._hooks.get(hook_name, []):
+            func(*args, **kwargs)
+    
+    @classmethod
+    def clear(cls, hook_name: str = None):
+        """Clear hooks. If name is None, clear all."""
+        if hook_name is None:
+            cls._hooks.clear()
+        elif hook_name in cls._hooks:
+            del cls._hooks[hook_name]
+'''
+
+with open(os.path.join(base_dir, "hooks", "hook_manager.py"), "w") as f:
+    f.write(hooks_code)
+
+print("✅ Config, test, runner ve hooks modülleri oluşturuldu")
+print(f"\n📁 Proje yapısı: {base_dir}")
+
+# Son yapıyı göster
+for root, dirs_list, files in os.walk(base_dir):
+    level = root.replace(base_dir, '').count(os.sep)
+    indent = ' ' * 2 * level
+    print(f'{indent}{os.path.basename(root)}/')
+    subindent = ' ' * 2 * (level + 1)
+    for file in sorted(files):
+        print(f'{subindent}{file}')

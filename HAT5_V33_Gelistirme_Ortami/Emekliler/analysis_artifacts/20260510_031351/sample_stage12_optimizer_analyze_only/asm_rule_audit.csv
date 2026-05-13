@@ -1,0 +1,13 @@
+﻿rule_id,tier,detect,rough_hit_count,note
+P001,safe,"mov r64, 0",618,rax/rbx/rcx/rdx/r8-r15 için
+P002,safe,"add/sub reg, 1",0,UXM flag hesaplaması ayrı yapılıyorsa güvenli
+P003,safe,jmp next_label,29,doğrudan düşüş
+P004,guarded,push rax ... pop rax,172,mevcut zekiassop burada fazla agresif
+P005,emitter,tekrar eden ux_flags load/store,0,runtime semantics bozulmamalı
+P006,emitter,"cmp r10, TAPE_CELLS her erişimde",239,tensor/matrix döngülerinde güçlü kazanç
+P007,safe,"mov reg, reg",618,gereksiz self move
+P008,safe,"add reg, 0 / sub reg, 0",16,bazı asm flag yan etkisine dikkat
+P009,safe,"imul reg, reg, 2/4/8/16/32",0,adres hesaplarında uygun
+P010,guarded,"lea r11,[r12+idx] + mov byte [r11]",201,register basıncını düşürür
+P011,emitter,CALL meta küçük sabit id,65,@8/@16/@32 gibi sıcak servislerde
+P012,analysis,jump density yüksek,102,rapor önerisi; otomatik uygulama yok

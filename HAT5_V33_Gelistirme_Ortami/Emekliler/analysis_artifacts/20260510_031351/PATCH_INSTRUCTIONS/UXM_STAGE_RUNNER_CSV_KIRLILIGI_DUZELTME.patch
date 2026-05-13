@@ -1,0 +1,30 @@
+*** UXM_STAGE_RUNNER.py içinde test_history.csv yazma hatası ***
+
+HATALI BÖLGE: lines 605-613 civarı
+
+    current_csv = self.run_dir / "test_results.csv"
+    write_dataclass_csv(current_csv, self.test_results)
+
+    history_path = self.base / "test_history.csv"
+    append_dataclass_csv(history_path, self.test_results)
+
+    summary_path = self.base / "test_stats_summary.csv"
+    self.write_stats_summary(history_path, summary_path)
+
+DÜZELT:
+
+    current_csv = self.run_dir / "test_results.csv"
+    write_dataclass_csv(current_csv, self.test_results)
+
+    # DİKKAT: Eski sistemin test_history.csv dosyasına yazma.
+    # Eski test_history.csv 4 kolon legacy formattadır.
+    # StageRunner 10 kolonlu veri üretir; ayrı dosyaya yazılmalı.
+    history_path = self.base / "test_history_stage_runner.csv"
+    append_dataclass_csv(history_path, self.test_results)
+
+    summary_path = self.base / "test_stats_summary_stage_runner.csv"
+    self.write_stats_summary(history_path, summary_path)
+
+SONUÇ:
+- test_history.csv = sadece stsx.py / eski sistem
+- test_history_stage_runner.csv = sadece UXM_STAGE_RUNNER.py / yeni sistem

@@ -1,0 +1,16 @@
+LABEL: test:uxm\tests\native\test26_tape_sort_descending_chars.uxm
+COMMAND: call build_one_native.bat "uxm\tests\native\test26_tape_sort_descending_chars.uxm"
+RETURNCODE: 0
+ELAPSED_SEC: 3.539472
+
+--- STDOUT ---
+ASM uretildi: build\asm\test26_tape_sort_descending_chars.asm
+[V3.3-stage12] Native ASM hazir. Link islemi build_one_native.bat tarafindan yurutulur.
+NASM:
+nasm -f win64 "build\asm\test26_tape_sort_descending_chars.asm" -o "build\obj\test26_tape_sort_descending_chars.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\test26_tape_sort_descending_chars.o" -x "build\exe\test26_tape_sort_descending_chars.exe"
+321
+[UXM program derlendi.]
+
+--- STDERR ---

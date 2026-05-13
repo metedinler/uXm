@@ -1,0 +1,16 @@
+LABEL: test:uxm\tests\native\test27_tape_linear_search.uxm
+COMMAND: call build_one_native.bat "uxm\tests\native\test27_tape_linear_search.uxm"
+RETURNCODE: 0
+ELAPSED_SEC: 3.506491
+
+--- STDOUT ---
+ASM uretildi: build\asm\test27_tape_linear_search.asm
+[V3.3-stage12] Native ASM hazir. Link islemi build_one_native.bat tarafindan yurutulur.
+NASM:
+nasm -f win64 "build\asm\test27_tape_linear_search.asm" -o "build\obj\test27_tape_linear_search.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\test27_tape_linear_search.o" -x "build\exe\test27_tape_linear_search.exe"
+2
+[UXM program derlendi.]
+
+--- STDERR ---

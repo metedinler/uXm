@@ -1,0 +1,7 @@
+ASM uretildi: build\asm\program.asm
+[V3.3-stage13] Native ASM hazir. Link islemi build_one_native.bat tarafindan yurutulur.
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+C:\Users\mete\Downloads\1\UXMv33\uxm\core\runtime\services\runtime_sparse_vector_services.bas(61) error 4: Duplicated definition in 'Declare Sub MetaSparseVector(ByVal metaId As ULongInt)'

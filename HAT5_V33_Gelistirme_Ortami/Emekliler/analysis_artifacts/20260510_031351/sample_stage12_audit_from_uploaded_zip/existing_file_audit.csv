@@ -1,0 +1,28 @@
+﻿kind,path,role,status,action,note
+bat,build_native.bat,compiler build,AKTIF,koru,fbc yolu var; yoksa PATH'teki fbc kullanılıyor
+bat,build_one_native.bat,tek .uxm derle+link+çalıştır,AKTIF,koru; pause patch gerekirse küçük yama,optimizer için named exe modunda -x kullanma
+bat,rtx.bat,eski sonucN logger,LEGACY,toparlayıcı ile emekli edilebilir,@ işaretli veri üretir
+bat,rtxz.bat,eski sonucN logger varyantı,LEGACY,toparlayıcı ile emekli edilebilir,@ işaretli veri üretir
+bat,run_opt.bat,optimizer zinciri,DÜZELTME GEREK,manager opt sırasını kullan,uxm_optimizer_pro.py çağırıyor ama zipte uxm_optimizer_pro2.py var
+bat,run_stage11_smoke.bat,smoke + expected-output kapısı,AKTIF,önce çalıştır,Stage 12 smoke yoksa en yeni smoke olarak kullanılır
+bat,run_tests_native.bat,basit full test,YEDEK,aktif hatta zorunlu değil,istatistik üretmez
+bat,runalltests.bat,eski full test,HATALI/LEGACY,emekli et veya parantez düzelt,if/for kapanış parantezi eksik görünüyor
+py,UXMPerformansAnalizatoru.py,test_history Excel raporu,AKTIF/YEDEK,koru,pandas/openpyxl ister
+py,UXM_Heavy_Asm_Optimizer.py,optimizer öneri raporu,ZAYIF,kural kitabı genişlet,rules=[] boş; strateji_kitabi_v2 Kural Sayısı 0 üretiyor
+py,asmoptimizer.py,isim yanıltıcı performans analiz kopyası,DUPLICATE,emekli adayı,ASM optimizer değil; UXMPerformansAnalizatoru ile aynı iş
+py,build_optimized.py,yeni_optimize_asm derleme/link/çalıştırma,AKTIF,opt zincirinde çalıştır,FBC yolu sabit ama mevcutsa sorun yok
+py,stat.py,eski log parser,LEGACY,emekli et,sonuc.txt arıyor; yeni sonucN akışıyla uyumsuz
+py,sts.py,eski log parser,LEGACY,emekli et veya sadece referans,eski format varsayımları var
+py,stsx.py,eski log parser/rapor,LEGACY,emekli et veya sadece referans,yeni manager doğrudan CSV üretir
+py,uxm_analizor(birlesik).py,birleşik analiz,ANALIZ,koru,daha dolu analiz dosyası
+py,uxm_analizor.py,servis/analiz,ANALIZ,koru,rapor üretmek için kullanılabilir
+py,uxm_analizor2.py,servis/analiz,ANALIZ,koru,rapor üretmek için kullanılabilir
+py,uxm_optimizer_pro2.py,orijinal/opt exe kıyas + sqlite,AKTIF,run_opt son adımı bu olmalı,run_opt yanlışlıkla pro.py çağırıyor
+py,zekiassop.py,ASM örüntü analizi + optimize ASM üretimi,AKTIF AMA HARD-CODED,manager import ederek çalıştır,__main__ eski C:\Users\mete yoluna sabit
+csv,test_history.csv,geçmiş/veri,KORU,aktif hatta veri kaynağı,test_history ve stats summary korunmalı
+csv,test_stats_summary.csv,geçmiş/veri,KORU,aktif hatta veri kaynağı,test_history ve stats summary korunmalı
+xlsx,Performans_Raporu_20260508_0746.xlsx,önceki rapor çıktısı,ARSIV,toparlayıcı ile rapor arşivine taşı,aktif girdi değil
+xlsx,Performans_Raporu_20260508_0820.xlsx,önceki rapor çıktısı,ARSIV,toparlayıcı ile rapor arşivine taşı,aktif girdi değil
+xlsx,UXM_Performans_Analiz_Raporu_Final.xlsx,önceki rapor çıktısı,ARSIV,toparlayıcı ile rapor arşivine taşı,aktif girdi değil
+xlsx,UXM_Performans_Raporu_Final.xlsx,önceki rapor çıktısı,ARSIV,toparlayıcı ile rapor arşivine taşı,aktif girdi değil
+optimizer,optimizasyon/strateji_kitabi_v2.txt,ağır optimizer kural kitabı,ZAYIF,kural seti doldur,mevcut dosyada Kural Sayısı: 0

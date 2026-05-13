@@ -1,0 +1,9 @@
+ASM uretildi: build\asm\t0001_6fc39badaf.asm
+[V3.3-stage15-16] Native ASM hazir. Link islemi build_one_native.bat tarafindan yurutulur.
+NASM:
+nasm -f win64 "build\asm\t0001_6fc39badaf.asm" -o "build\obj\t0001_6fc39badaf.o"
+FreeBASIC runtime cache ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe "build\obj\uxm_runtime_fb_full_cache.o" "build\obj\t0001_6fc39badaf.o" -x "build\exe\t0001_6fc39badaf.exe"
+
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\bin\win64\ld.exe: C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\lib\win64/libmingw32.a(lib64_libmingw32_a-crt0_c.o): in function `main':
+R:\winlibs64-sjlj-9.3.0\mingw-w64-v7.0.0\mingw-w64-crt/crt/crt0_c.c:18: undefined reference to `WinMain'

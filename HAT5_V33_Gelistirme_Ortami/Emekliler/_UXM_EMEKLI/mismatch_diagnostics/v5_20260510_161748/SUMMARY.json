@@ -1,0 +1,8 @@
+{
+  "source": "C:\\Users\\mete\\Downloads\\1\\UXMv33\\expected_results_v2\\all_expected_v2_20260510_141605\\expected_results_v2.csv",
+  "mismatch_count": 37,
+  "classes": {
+    "BUILD_OR_RUNTIME_ERROR": 37
+  },
+  "outdir": "C:\\Users\\mete\\Downloads\\1\\UXMv33\\mismatch_diagnostics\\v5_20260510_161748"
+}

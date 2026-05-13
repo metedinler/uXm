@@ -1,0 +1,16 @@
+LABEL: test:uxm\tests\native\test15_branch_nonzero.uxm
+COMMAND: call build_one_native.bat "uxm\tests\native\test15_branch_nonzero.uxm"
+RETURNCODE: 0
+ELAPSED_SEC: 6.561356
+
+--- STDOUT ---
+ASM uretildi: build\asm\test15_branch_nonzero.asm
+[V3.3-stage12] Native ASM hazir. Link islemi build_one_native.bat tarafindan yurutulur.
+NASM:
+nasm -f win64 "build\asm\test15_branch_nonzero.asm" -o "build\obj\test15_branch_nonzero.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\test15_branch_nonzero.o" -x "build\exe\test15_branch_nonzero.exe"
+B
+[UXM program derlendi.]
+
+--- STDERR ---

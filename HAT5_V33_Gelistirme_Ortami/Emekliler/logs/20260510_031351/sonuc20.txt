@@ -1,0 +1,182 @@
+START_SESSION@2026-05-10@02:10:52@STAGE@15
+RUN_DIR@C:\Users\mete\Downloads\1\UXMv33\stage_runs\stage_15_20260510_021052
+FBC@C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe
+NASM@nasm
+START_BUILD@02:10:52
+OK: build\exe\uxm_native.exe
+END_BUILD@02:10:54@SECONDS@1.951849
+START_SMOKE@run_stage14_smoke.bat@02:10:54
+[OK] compiler build
+----------------------------------------
+[TEST] C:\Users\mete\Downloads\1\UXMv33\uxm\tests\v33\stage14\test_s14_integration_rowops_det.uxm
+[FAIL_BUILD_TEST] C:\Users\mete\Downloads\1\UXMv33\uxm\tests\v33\stage14\test_s14_integration_rowops_det.uxm
+ASM uretildi: build\asm\program.asm
+[V3.3-stage15-16] Native ASM hazir. Link islemi build_one_native.bat tarafindan yurutulur.
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+C:\Users\mete\Downloads\1\UXMv33\uxm\core\runtime\services\runtime_ml_data_pipeline_services.bas(435) error 1: Argument count mismatch in 'MatInit matBase,DsRows(dsBase),DsCols(dsBase)'
+----------------------------------------
+[TEST] C:\Users\mete\Downloads\1\UXMv33\uxm\tests\v33\stage14\test_s14_integration_solve_then_matvec.uxm
+[FAIL_BUILD_TEST] C:\Users\mete\Downloads\1\UXMv33\uxm\tests\v33\stage14\test_s14_integration_solve_then_matvec.uxm
+ASM uretildi: build\asm\program.asm
+[V3.3-stage15-16] Native ASM hazir. Link islemi build_one_native.bat tarafindan yurutulur.
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+C:\Users\mete\Downloads\1\UXMv33\uxm\core\runtime\services\runtime_ml_data_pipeline_services.bas(435) error 1: Argument count mismatch in 'MatInit matBase,DsRows(dsBase),DsCols(dsBase)'
+----------------------------------------
+[TEST] C:\Users\mete\Downloads\1\UXMv33\uxm\tests\v33\stage14\test_s14_linalg_add_row_multiple.uxm
+[FAIL_BUILD_TEST] C:\Users\mete\Downloads\1\UXMv33\uxm\tests\v33\stage14\test_s14_linalg_add_row_multiple.uxm
+ASM uretildi: build\asm\program.asm
+[V3.3-stage15-16] Native ASM hazir. Link islemi build_one_native.bat tarafindan yurutulur.
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+C:\Users\mete\Downloads\1\UXMv33\uxm\core\runtime\services\runtime_ml_data_pipeline_services.bas(435) error 1: Argument count mismatch in 'MatInit matBase,DsRows(dsBase),DsCols(dsBase)'
+----------------------------------------
+[TEST] C:\Users\mete\Downloads\1\UXMv33\uxm\tests\v33\stage14\test_s14_linalg_col_sum.uxm
+[FAIL_BUILD_TEST] C:\Users\mete\Downloads\1\UXMv33\uxm\tests\v33\stage14\test_s14_linalg_col_sum.uxm
+ASM uretildi: build\asm\program.asm
+[V3.3-stage15-16] Native ASM hazir. Link islemi build_one_native.bat tarafindan yurutulur.
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+C:\Users\mete\Downloads\1\UXMv33\uxm\core\runtime\services\runtime_ml_data_pipeline_services.bas(435) error 1: Argument count mismatch in 'MatInit matBase,DsRows(dsBase),DsCols(dsBase)'
+----------------------------------------
+[TEST] C:\Users\mete\Downloads\1\UXMv33\uxm\tests\v33\stage14\test_s14_linalg_det_n.uxm
+[FAIL_BUILD_TEST] C:\Users\mete\Downloads\1\UXMv33\uxm\tests\v33\stage14\test_s14_linalg_det_n.uxm
+ASM uretildi: build\asm\program.asm
+[V3.3-stage15-16] Native ASM hazir. Link islemi build_one_native.bat tarafindan yurutulur.
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+C:\Users\mete\Downloads\1\UXMv33\uxm\core\runtime\services\runtime_ml_data_pipeline_services.bas(435) error 1: Argument count mismatch in 'MatInit matBase,DsRows(dsBase),DsCols(dsBase)'
+----------------------------------------
+[TEST] C:\Users\mete\Downloads\1\UXMv33\uxm\tests\v33\stage14\test_s14_linalg_diag_product.uxm
+[FAIL_BUILD_TEST] C:\Users\mete\Downloads\1\UXMv33\uxm\tests\v33\stage14\test_s14_linalg_diag_product.uxm
+ASM uretildi: build\asm\program.asm
+[V3.3-stage15-16] Native ASM hazir. Link islemi build_one_native.bat tarafindan yurutulur.
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+C:\Users\mete\Downloads\1\UXMv33\uxm\core\runtime\services\runtime_ml_data_pipeline_services.bas(435) error 1: Argument count mismatch in 'MatInit matBase,DsRows(dsBase),DsCols(dsBase)'
+----------------------------------------
+[TEST] C:\Users\mete\Downloads\1\UXMv33\uxm\tests\v33\stage14\test_s14_linalg_identity_check.uxm
+[FAIL_BUILD_TEST] C:\Users\mete\Downloads\1\UXMv33\uxm\tests\v33\stage14\test_s14_linalg_identity_check.uxm
+ASM uretildi: build\asm\program.asm
+[V3.3-stage15-16] Native ASM hazir. Link islemi build_one_native.bat tarafindan yurutulur.
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+C:\Users\mete\Downloads\1\UXMv33\uxm\core\runtime\services\runtime_ml_data_pipeline_services.bas(435) error 1: Argument count mismatch in 'MatInit matBase,DsRows(dsBase),DsCols(dsBase)'
+----------------------------------------
+[TEST] C:\Users\mete\Downloads\1\UXMv33\uxm\tests\v33\stage14\test_s14_linalg_info.uxm
+[FAIL_BUILD_TEST] C:\Users\mete\Downloads\1\UXMv33\uxm\tests\v33\stage14\test_s14_linalg_info.uxm
+ASM uretildi: build\asm\program.asm
+[V3.3-stage15-16] Native ASM hazir. Link islemi build_one_native.bat tarafindan yurutulur.
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+C:\Users\mete\Downloads\1\UXMv33\uxm\core\runtime\services\runtime_ml_data_pipeline_services.bas(435) error 1: Argument count mismatch in 'MatInit matBase,DsRows(dsBase),DsCols(dsBase)'
+----------------------------------------
+[TEST] C:\Users\mete\Downloads\1\UXMv33\uxm\tests\v33\stage14\test_s14_linalg_inverse_nxn.uxm
+[FAIL_BUILD_TEST] C:\Users\mete\Downloads\1\UXMv33\uxm\tests\v33\stage14\test_s14_linalg_inverse_nxn.uxm
+ASM uretildi: build\asm\program.asm
+[V3.3-stage15-16] Native ASM hazir. Link islemi build_one_native.bat tarafindan yurutulur.
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+C:\Users\mete\Downloads\1\UXMv33\uxm\core\runtime\services\runtime_ml_data_pipeline_services.bas(435) error 1: Argument count mismatch in 'MatInit matBase,DsRows(dsBase),DsCols(dsBase)'
+----------------------------------------
+[TEST] C:\Users\mete\Downloads\1\UXMv33\uxm\tests\v33\stage14\test_s14_linalg_matvec.uxm
+[FAIL_BUILD_TEST] C:\Users\mete\Downloads\1\UXMv33\uxm\tests\v33\stage14\test_s14_linalg_matvec.uxm
+ASM uretildi: build\asm\program.asm
+[V3.3-stage15-16] Native ASM hazir. Link islemi build_one_native.bat tarafindan yurutulur.
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+C:\Users\mete\Downloads\1\UXMv33\uxm\core\runtime\services\runtime_ml_data_pipeline_services.bas(435) error 1: Argument count mismatch in 'MatInit matBase,DsRows(dsBase),DsCols(dsBase)'
+----------------------------------------
+[TEST] C:\Users\mete\Downloads\1\UXMv33\uxm\tests\v33\stage14\test_s14_linalg_rank.uxm
+[FAIL_BUILD_TEST] C:\Users\mete\Downloads\1\UXMv33\uxm\tests\v33\stage14\test_s14_linalg_rank.uxm
+ASM uretildi: build\asm\program.asm
+[V3.3-stage15-16] Native ASM hazir. Link islemi build_one_native.bat tarafindan yurutulur.
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+C:\Users\mete\Downloads\1\UXMv33\uxm\core\runtime\services\runtime_ml_data_pipeline_services.bas(435) error 1: Argument count mismatch in 'MatInit matBase,DsRows(dsBase),DsCols(dsBase)'
+----------------------------------------
+[TEST] C:\Users\mete\Downloads\1\UXMv33\uxm\tests\v33\stage14\test_s14_linalg_row_sum.uxm
+[FAIL_BUILD_TEST] C:\Users\mete\Downloads\1\UXMv33\uxm\tests\v33\stage14\test_s14_linalg_row_sum.uxm
+ASM uretildi: build\asm\program.asm
+[V3.3-stage15-16] Native ASM hazir. Link islemi build_one_native.bat tarafindan yurutulur.
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+C:\Users\mete\Downloads\1\UXMv33\uxm\core\runtime\services\runtime_ml_data_pipeline_services.bas(435) error 1: Argument count mismatch in 'MatInit matBase,DsRows(dsBase),DsCols(dsBase)'
+----------------------------------------
+[TEST] C:\Users\mete\Downloads\1\UXMv33\uxm\tests\v33\stage14\test_s14_linalg_scale_row.uxm
+[FAIL_BUILD_TEST] C:\Users\mete\Downloads\1\UXMv33\uxm\tests\v33\stage14\test_s14_linalg_scale_row.uxm
+ASM uretildi: build\asm\program.asm
+[V3.3-stage15-16] Native ASM hazir. Link islemi build_one_native.bat tarafindan yurutulur.
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+C:\Users\mete\Downloads\1\UXMv33\uxm\core\runtime\services\runtime_ml_data_pipeline_services.bas(435) error 1: Argument count mismatch in 'MatInit matBase,DsRows(dsBase),DsCols(dsBase)'
+----------------------------------------
+[TEST] C:\Users\mete\Downloads\1\UXMv33\uxm\tests\v33\stage14\test_s14_linalg_solve_nxn.uxm
+[FAIL_BUILD_TEST] C:\Users\mete\Downloads\1\UXMv33\uxm\tests\v33\stage14\test_s14_linalg_solve_nxn.uxm
+ASM uretildi: build\asm\program.asm
+[V3.3-stage15-16] Native ASM hazir. Link islemi build_one_native.bat tarafindan yurutulur.
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+C:\Users\mete\Downloads\1\UXMv33\uxm\core\runtime\services\runtime_ml_data_pipeline_services.bas(435) error 1: Argument count mismatch in 'MatInit matBase,DsRows(dsBase),DsCols(dsBase)'
+----------------------------------------
+[TEST] C:\Users\mete\Downloads\1\UXMv33\uxm\tests\v33\stage14\test_s14_linalg_swap_rows.uxm
+[FAIL_BUILD_TEST] C:\Users\mete\Downloads\1\UXMv33\uxm\tests\v33\stage14\test_s14_linalg_swap_rows.uxm
+ASM uretildi: build\asm\program.asm
+[V3.3-stage15-16] Native ASM hazir. Link islemi build_one_native.bat tarafindan yurutulur.
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+C:\Users\mete\Downloads\1\UXMv33\uxm\core\runtime\services\runtime_ml_data_pipeline_services.bas(435) error 1: Argument count mismatch in 'MatInit matBase,DsRows(dsBase),DsCols(dsBase)'
+----------------------------------------
+[TEST] C:\Users\mete\Downloads\1\UXMv33\uxm\tests\v33\stage14\test_s14_linalg_symmetric_check.uxm
+[FAIL_BUILD_TEST] C:\Users\mete\Downloads\1\UXMv33\uxm\tests\v33\stage14\test_s14_linalg_symmetric_check.uxm
+ASM uretildi: build\asm\program.asm
+[V3.3-stage15-16] Native ASM hazir. Link islemi build_one_native.bat tarafindan yurutulur.
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+C:\Users\mete\Downloads\1\UXMv33\uxm\core\runtime\services\runtime_ml_data_pipeline_services.bas(435) error 1: Argument count mismatch in 'MatInit matBase,DsRows(dsBase),DsCols(dsBase)'
+----------------------------------------
+[TEST] C:\Users\mete\Downloads\1\UXMv33\uxm\tests\v33\stage14\test_s14_linalg_upper_triangular.uxm
+[FAIL_BUILD_TEST] C:\Users\mete\Downloads\1\UXMv33\uxm\tests\v33\stage14\test_s14_linalg_upper_triangular.uxm
+ASM uretildi: build\asm\program.asm
+[V3.3-stage15-16] Native ASM hazir. Link islemi build_one_native.bat tarafindan yurutulur.
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+C:\Users\mete\Downloads\1\UXMv33\uxm\core\runtime\services\runtime_ml_data_pipeline_services.bas(435) error 1: Argument count mismatch in 'MatInit matBase,DsRows(dsBase),DsCols(dsBase)'
+[STAGE14_SMOKE_FAIL] 17 test calisti, hata var.
+END_SMOKE@run_stage14_smoke.bat@02:11:07@RC@1@SECONDS@13.867835
+END_SESSION@2026-05-10@02:11:10@SECONDS@18.698141

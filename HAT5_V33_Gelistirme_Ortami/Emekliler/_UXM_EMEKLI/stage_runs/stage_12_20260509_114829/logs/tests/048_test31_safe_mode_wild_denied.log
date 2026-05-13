@@ -1,0 +1,16 @@
+LABEL: test:uxm\tests\native\test31_safe_mode_wild_denied.uxm
+COMMAND: call build_one_native.bat "uxm\tests\native\test31_safe_mode_wild_denied.uxm"
+RETURNCODE: 0
+ELAPSED_SEC: 3.457896
+
+--- STDOUT ---
+ASM uretildi: build\asm\test31_safe_mode_wild_denied.asm
+[V3.3-stage12] Native ASM hazir. Link islemi build_one_native.bat tarafindan yurutulur.
+NASM:
+nasm -f win64 "build\asm\test31_safe_mode_wild_denied.asm" -o "build\obj\test31_safe_mode_wild_denied.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\test31_safe_mode_wild_denied.o" -x "build\exe\test31_safe_mode_wild_denied.exe"
+23
+[UXM program derlendi.]
+
+--- STDERR ---

@@ -1,0 +1,17 @@
+LABEL: test:uxm\tests\native\test08_newline.uxm
+COMMAND: call build_one_native.bat "uxm\tests\native\test08_newline.uxm"
+RETURNCODE: 0
+ELAPSED_SEC: 3.289088
+
+--- STDOUT ---
+ASM uretildi: build\asm\test08_newline.asm
+[V3.3-stage12] Native ASM hazir. Link islemi build_one_native.bat tarafindan yurutulur.
+NASM:
+nasm -f win64 "build\asm\test08_newline.asm" -o "build\obj\test08_newline.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\test08_newline.o" -x "build\exe\test08_newline.exe"
+A
+B
+[UXM program derlendi.]
+
+--- STDERR ---

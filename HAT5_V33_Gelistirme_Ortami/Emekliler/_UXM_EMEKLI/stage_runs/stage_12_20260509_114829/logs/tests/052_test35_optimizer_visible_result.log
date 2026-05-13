@@ -1,0 +1,16 @@
+LABEL: test:uxm\tests\native\test35_optimizer_visible_result.uxm
+COMMAND: call build_one_native.bat "uxm\tests\native\test35_optimizer_visible_result.uxm"
+RETURNCODE: 0
+ELAPSED_SEC: 3.434462
+
+--- STDOUT ---
+ASM uretildi: build\asm\test35_optimizer_visible_result.asm
+[V3.3-stage12] Native ASM hazir. Link islemi build_one_native.bat tarafindan yurutulur.
+NASM:
+nasm -f win64 "build\asm\test35_optimizer_visible_result.asm" -o "build\obj\test35_optimizer_visible_result.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\test35_optimizer_visible_result.o" -x "build\exe\test35_optimizer_visible_result.exe"
+B
+[UXM program derlendi.]
+
+--- STDERR ---

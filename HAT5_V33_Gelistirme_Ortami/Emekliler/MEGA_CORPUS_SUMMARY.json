@@ -1,0 +1,29 @@
+{
+  "total_uxm_tests": 439,
+  "auto_tests": 437,
+  "manual_tests": 2,
+  "categories": {
+    "core": 13,
+    "arithmetic": 17,
+    "math": 18,
+    "io": 8,
+    "memory_fifo_data": 44,
+    "flags_endian": 10,
+    "matrix_basic": 17,
+    "floating_point": 25,
+    "math_extra": 10,
+    "statistics": 15,
+    "string": 37,
+    "probability": 10,
+    "file": 16,
+    "numeric_methods": 20,
+    "complex": 20,
+    "bio": 9,
+    "matrix_tensor_linalg": 51,
+    "vector_sparse": 30,
+    "ml_data_pipeline": 32,
+    "command_operator": 7,
+    "professional_example": 25,
+    "domain_program": 5
+  }
+}

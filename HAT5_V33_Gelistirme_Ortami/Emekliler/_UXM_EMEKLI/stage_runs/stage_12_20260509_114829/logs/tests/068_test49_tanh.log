@@ -1,0 +1,16 @@
+LABEL: test:uxm\tests\native\test49_tanh.uxm
+COMMAND: call build_one_native.bat "uxm\tests\native\test49_tanh.uxm"
+RETURNCODE: 0
+ELAPSED_SEC: 3.406699
+
+--- STDOUT ---
+ASM uretildi: build\asm\test49_tanh.asm
+[V3.3-stage12] Native ASM hazir. Link islemi build_one_native.bat tarafindan yurutulur.
+NASM:
+nasm -f win64 "build\asm\test49_tanh.asm" -o "build\obj\test49_tanh.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\test49_tanh.o" -x "build\exe\test49_tanh.exe"
+48
+[UXM program derlendi.]
+
+--- STDERR ---

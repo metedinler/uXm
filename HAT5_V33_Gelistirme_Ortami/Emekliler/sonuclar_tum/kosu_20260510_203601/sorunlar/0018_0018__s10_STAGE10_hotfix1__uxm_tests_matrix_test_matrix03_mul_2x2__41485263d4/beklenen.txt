@@ -1,0 +1,4 @@
+# source: embedded_EXPECT_OUTPUT
+
+[19 22]
+[43 50]

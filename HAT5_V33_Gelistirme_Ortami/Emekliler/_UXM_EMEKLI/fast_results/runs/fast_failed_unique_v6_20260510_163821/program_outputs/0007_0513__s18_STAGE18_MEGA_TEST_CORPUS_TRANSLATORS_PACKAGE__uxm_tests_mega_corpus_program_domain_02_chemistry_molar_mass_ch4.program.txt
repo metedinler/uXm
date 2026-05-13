@@ -1,0 +1,1 @@
+Dosya başka bir işlem tarafından kullanıldığından bu işlem dosyaya erişemiyor.

@@ -1,0 +1,16 @@
+LABEL: test:uxm\tests\math\test_math02_poly_integral_arge.uxm
+COMMAND: call build_one_native.bat "uxm\tests\math\test_math02_poly_integral_arge.uxm"
+RETURNCODE: 0
+ELAPSED_SEC: 3.357961
+
+--- STDOUT ---
+ASM uretildi: build\asm\test_math02_poly_integral_arge.asm
+[V3.3-stage12] Native ASM hazir. Link islemi build_one_native.bat tarafindan yurutulur.
+NASM:
+nasm -f win64 "build\asm\test_math02_poly_integral_arge.asm" -o "build\obj\test_math02_poly_integral_arge.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\test_math02_poly_integral_arge.o" -x "build\exe\test_math02_poly_integral_arge.exe"
+0 + 2x + 2x^2 + 2x^3 + 2x^4
+[UXM program derlendi.]
+
+--- STDERR ---

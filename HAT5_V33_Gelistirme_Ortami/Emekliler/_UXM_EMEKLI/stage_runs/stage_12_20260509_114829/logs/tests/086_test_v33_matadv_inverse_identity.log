@@ -1,0 +1,18 @@
+LABEL: test:uxm\tests\v33\test_v33_matadv_inverse_identity.uxm
+COMMAND: call build_one_native.bat "uxm\tests\v33\test_v33_matadv_inverse_identity.uxm"
+RETURNCODE: 0
+ELAPSED_SEC: 3.626750
+
+--- STDOUT ---
+ASM uretildi: build\asm\test_v33_matadv_inverse_identity.asm
+[V3.3-stage12] Native ASM hazir. Link islemi build_one_native.bat tarafindan yurutulur.
+NASM:
+nasm -f win64 "build\asm\test_v33_matadv_inverse_identity.asm" -o "build\obj\test_v33_matadv_inverse_identity.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\test_v33_matadv_inverse_identity.o" -x "build\exe\test_v33_matadv_inverse_identity.exe"
+[1 0]
+[0 1]
+
+[UXM program derlendi.]
+
+--- STDERR ---

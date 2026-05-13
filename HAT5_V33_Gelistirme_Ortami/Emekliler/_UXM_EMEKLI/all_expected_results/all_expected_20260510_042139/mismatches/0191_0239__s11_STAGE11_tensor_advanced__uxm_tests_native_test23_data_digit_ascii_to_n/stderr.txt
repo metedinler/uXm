@@ -1,0 +1,3 @@
+uxm\core\runtime\uxm31_runtime_fb_full.asm: Assembler messages:
+uxm\core\runtime\uxm31_runtime_fb_full.asm:48857: Warning: end of file not at end of a line; newline inserted
+uxm\core\runtime\uxm31_runtime_fb_full.asm:49088: Error: operand type mismatch for `movsd'

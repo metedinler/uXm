@@ -1,0 +1,13 @@
+ASM uretildi: build\asm\t0039_4123d16122.asm
+[V3.3-stage15-16] Native ASM hazir. Link islemi build_one_native.bat tarafindan yurutulur.
+NASM:
+nasm -f win64 "build\asm\t0039_4123d16122.asm" -o "build\obj\t0039_4123d16122.o"
+FreeBASIC runtime kaynak ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe "uxm\core\runtime\uxm31_runtime_fb_full.bas" "build\obj\t0039_4123d16122.o" -x "build\exe\t0039_4123d16122.exe"
+4BIT CPU TEST
+ADD=3 C=1
+AND=4
+XOR=11
+SHL=8 C=1
+
+[UXM program derlendi.]

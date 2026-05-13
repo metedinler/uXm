@@ -1,0 +1,3 @@
+# source: embedded_EXPECT_OUTPUT
+
+46.0000000000000000

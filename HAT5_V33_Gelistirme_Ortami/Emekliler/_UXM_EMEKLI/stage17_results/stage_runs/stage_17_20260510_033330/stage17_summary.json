@@ -1,0 +1,12 @@
+{
+  "stage": "17",
+  "run_id": "stage_17_20260510_033330",
+  "root": "C:\\Users\\mete\\Downloads\\1\\UXMv33",
+  "test_dir": "C:\\Users\\mete\\Downloads\\1\\UXMv33\\uxm\\tests\\stage17",
+  "total": 5,
+  "passed": 2,
+  "failed": 3,
+  "seconds_total": 33.8532,
+  "results_csv": "C:\\Users\\mete\\Downloads\\1\\UXMv33\\stage17_results\\stage_runs\\stage_17_20260510_033330\\stage17_results.csv",
+  "history_csv": "C:\\Users\\mete\\Downloads\\1\\UXMv33\\stage17_results\\csv\\test_history_stage17_expected.csv"
+}

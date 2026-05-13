@@ -1,0 +1,260 @@
+LABEL: smoke:run_stage13_smoke.bat
+COMMAND: call "run_stage13_smoke.bat"
+RETURNCODE: 1
+ELAPSED_SEC: 7.960176
+
+--- STDOUT ---
+[OK] compiler build
+----------------------------------------
+[TEST] C:\Users\mete\Downloads\1\UXMv33\uxm\tests\v33\stage13\test_s13_integration_sparse_matvec_dot.uxm
+[FAIL_BUILD_TEST] C:\Users\mete\Downloads\1\UXMv33\uxm\tests\v33\stage13\test_s13_integration_sparse_matvec_dot.uxm
+ASM uretildi: build\asm\program.asm
+[V3.3-stage13] Native ASM hazir. Link islemi build_one_native.bat tarafindan yurutulur.
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+C:\Users\mete\Downloads\1\UXMv33\uxm\core\runtime\services\runtime_sparse_vector_services.bas(61) error 4: Duplicated definition in 'Declare Sub MetaSparseVector(ByVal metaId As ULongInt)'
+----------------------------------------
+[TEST] C:\Users\mete\Downloads\1\UXMv33\uxm\tests\v33\stage13\test_s13_integration_vector_data_pipeline.uxm
+[FAIL_BUILD_TEST] C:\Users\mete\Downloads\1\UXMv33\uxm\tests\v33\stage13\test_s13_integration_vector_data_pipeline.uxm
+ASM uretildi: build\asm\program.asm
+[V3.3-stage13] Native ASM hazir. Link islemi build_one_native.bat tarafindan yurutulur.
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+C:\Users\mete\Downloads\1\UXMv33\uxm\core\runtime\services\runtime_sparse_vector_services.bas(61) error 4: Duplicated definition in 'Declare Sub MetaSparseVector(ByVal metaId As ULongInt)'
+----------------------------------------
+[TEST] C:\Users\mete\Downloads\1\UXMv33\uxm\tests\v33\stage13\test_s13_sparse_get_entry_value.uxm
+[FAIL_BUILD_TEST] C:\Users\mete\Downloads\1\UXMv33\uxm\tests\v33\stage13\test_s13_sparse_get_entry_value.uxm
+ASM uretildi: build\asm\program.asm
+[V3.3-stage13] Native ASM hazir. Link islemi build_one_native.bat tarafindan yurutulur.
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+C:\Users\mete\Downloads\1\UXMv33\uxm\core\runtime\services\runtime_sparse_vector_services.bas(61) error 4: Duplicated definition in 'Declare Sub MetaSparseVector(ByVal metaId As ULongInt)'
+----------------------------------------
+[TEST] C:\Users\mete\Downloads\1\UXMv33\uxm\tests\v33\stage13\test_s13_sparse_info.uxm
+[FAIL_BUILD_TEST] C:\Users\mete\Downloads\1\UXMv33\uxm\tests\v33\stage13\test_s13_sparse_info.uxm
+ASM uretildi: build\asm\program.asm
+[V3.3-stage13] Native ASM hazir. Link islemi build_one_native.bat tarafindan yurutulur.
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+C:\Users\mete\Downloads\1\UXMv33\uxm\core\runtime\services\runtime_sparse_vector_services.bas(61) error 4: Duplicated definition in 'Declare Sub MetaSparseVector(ByVal metaId As ULongInt)'
+----------------------------------------
+[TEST] C:\Users\mete\Downloads\1\UXMv33\uxm\tests\v33\stage13\test_s13_sparse_init.uxm
+[FAIL_BUILD_TEST] C:\Users\mete\Downloads\1\UXMv33\uxm\tests\v33\stage13\test_s13_sparse_init.uxm
+ASM uretildi: build\asm\program.asm
+[V3.3-stage13] Native ASM hazir. Link islemi build_one_native.bat tarafindan yurutulur.
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+C:\Users\mete\Downloads\1\UXMv33\uxm\core\runtime\services\runtime_sparse_vector_services.bas(61) error 4: Duplicated definition in 'Declare Sub MetaSparseVector(ByVal metaId As ULongInt)'
+----------------------------------------
+[TEST] C:\Users\mete\Downloads\1\UXMv33\uxm\tests\v33\stage13\test_s13_sparse_matvec.uxm
+[FAIL_BUILD_TEST] C:\Users\mete\Downloads\1\UXMv33\uxm\tests\v33\stage13\test_s13_sparse_matvec.uxm
+ASM uretildi: build\asm\program.asm
+[V3.3-stage13] Native ASM hazir. Link islemi build_one_native.bat tarafindan yurutulur.
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+C:\Users\mete\Downloads\1\UXMv33\uxm\core\runtime\services\runtime_sparse_vector_services.bas(61) error 4: Duplicated definition in 'Declare Sub MetaSparseVector(ByVal metaId As ULongInt)'
+----------------------------------------
+[TEST] C:\Users\mete\Downloads\1\UXMv33\uxm\tests\v33\stage13\test_s13_sparse_nnz.uxm
+[FAIL_BUILD_TEST] C:\Users\mete\Downloads\1\UXMv33\uxm\tests\v33\stage13\test_s13_sparse_nnz.uxm
+ASM uretildi: build\asm\program.asm
+[V3.3-stage13] Native ASM hazir. Link islemi build_one_native.bat tarafindan yurutulur.
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+C:\Users\mete\Downloads\1\UXMv33\uxm\core\runtime\services\runtime_sparse_vector_services.bas(61) error 4: Duplicated definition in 'Declare Sub MetaSparseVector(ByVal metaId As ULongInt)'
+----------------------------------------
+[TEST] C:\Users\mete\Downloads\1\UXMv33\uxm\tests\v33\stage13\test_s13_sparse_set_entry.uxm
+[FAIL_BUILD_TEST] C:\Users\mete\Downloads\1\UXMv33\uxm\tests\v33\stage13\test_s13_sparse_set_entry.uxm
+ASM uretildi: build\asm\program.asm
+[V3.3-stage13] Native ASM hazir. Link islemi build_one_native.bat tarafindan yurutulur.
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+C:\Users\mete\Downloads\1\UXMv33\uxm\core\runtime\services\runtime_sparse_vector_services.bas(61) error 4: Duplicated definition in 'Declare Sub MetaSparseVector(ByVal metaId As ULongInt)'
+----------------------------------------
+[TEST] C:\Users\mete\Downloads\1\UXMv33\uxm\tests\v33\stage13\test_s13_sparse_set_nnz.uxm
+[FAIL_BUILD_TEST] C:\Users\mete\Downloads\1\UXMv33\uxm\tests\v33\stage13\test_s13_sparse_set_nnz.uxm
+ASM uretildi: build\asm\program.asm
+[V3.3-stage13] Native ASM hazir. Link islemi build_one_native.bat tarafindan yurutulur.
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+C:\Users\mete\Downloads\1\UXMv33\uxm\core\runtime\services\runtime_sparse_vector_services.bas(61) error 4: Duplicated definition in 'Declare Sub MetaSparseVector(ByVal metaId As ULongInt)'
+----------------------------------------
+[TEST] C:\Users\mete\Downloads\1\UXMv33\uxm\tests\v33\stage13\test_s13_sparse_sum_values.uxm
+[FAIL_BUILD_TEST] C:\Users\mete\Downloads\1\UXMv33\uxm\tests\v33\stage13\test_s13_sparse_sum_values.uxm
+ASM uretildi: build\asm\program.asm
+[V3.3-stage13] Native ASM hazir. Link islemi build_one_native.bat tarafindan yurutulur.
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+C:\Users\mete\Downloads\1\UXMv33\uxm\core\runtime\services\runtime_sparse_vector_services.bas(61) error 4: Duplicated definition in 'Declare Sub MetaSparseVector(ByVal metaId As ULongInt)'
+----------------------------------------
+[TEST] C:\Users\mete\Downloads\1\UXMv33\uxm\tests\v33\stage13\test_s13_sparse_to_dense.uxm
+[FAIL_BUILD_TEST] C:\Users\mete\Downloads\1\UXMv33\uxm\tests\v33\stage13\test_s13_sparse_to_dense.uxm
+ASM uretildi: build\asm\program.asm
+[V3.3-stage13] Native ASM hazir. Link islemi build_one_native.bat tarafindan yurutulur.
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+C:\Users\mete\Downloads\1\UXMv33\uxm\core\runtime\services\runtime_sparse_vector_services.bas(61) error 4: Duplicated definition in 'Declare Sub MetaSparseVector(ByVal metaId As ULongInt)'
+----------------------------------------
+[TEST] C:\Users\mete\Downloads\1\UXMv33\uxm\tests\v33\stage13\test_s13_sparse_trace.uxm
+[FAIL_BUILD_TEST] C:\Users\mete\Downloads\1\UXMv33\uxm\tests\v33\stage13\test_s13_sparse_trace.uxm
+ASM uretildi: build\asm\program.asm
+[V3.3-stage13] Native ASM hazir. Link islemi build_one_native.bat tarafindan yurutulur.
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+C:\Users\mete\Downloads\1\UXMv33\uxm\core\runtime\services\runtime_sparse_vector_services.bas(61) error 4: Duplicated definition in 'Declare Sub MetaSparseVector(ByVal metaId As ULongInt)'
+----------------------------------------
+[TEST] C:\Users\mete\Downloads\1\UXMv33\uxm\tests\v33\stage13\test_s13_vec_add.uxm
+[FAIL_BUILD_TEST] C:\Users\mete\Downloads\1\UXMv33\uxm\tests\v33\stage13\test_s13_vec_add.uxm
+ASM uretildi: build\asm\program.asm
+[V3.3-stage13] Native ASM hazir. Link islemi build_one_native.bat tarafindan yurutulur.
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+C:\Users\mete\Downloads\1\UXMv33\uxm\core\runtime\services\runtime_sparse_vector_services.bas(61) error 4: Duplicated definition in 'Declare Sub MetaSparseVector(ByVal metaId As ULongInt)'
+----------------------------------------
+[TEST] C:\Users\mete\Downloads\1\UXMv33\uxm\tests\v33\stage13\test_s13_vec_dot.uxm
+[FAIL_BUILD_TEST] C:\Users\mete\Downloads\1\UXMv33\uxm\tests\v33\stage13\test_s13_vec_dot.uxm
+ASM uretildi: build\asm\program.asm
+[V3.3-stage13] Native ASM hazir. Link islemi build_one_native.bat tarafindan yurutulur.
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+C:\Users\mete\Downloads\1\UXMv33\uxm\core\runtime\services\runtime_sparse_vector_services.bas(61) error 4: Duplicated definition in 'Declare Sub MetaSparseVector(ByVal metaId As ULongInt)'
+----------------------------------------
+[TEST] C:\Users\mete\Downloads\1\UXMv33\uxm\tests\v33\stage13\test_s13_vec_fill.uxm
+[FAIL_BUILD_TEST] C:\Users\mete\Downloads\1\UXMv33\uxm\tests\v33\stage13\test_s13_vec_fill.uxm
+ASM uretildi: build\asm\program.asm
+[V3.3-stage13] Native ASM hazir. Link islemi build_one_native.bat tarafindan yurutulur.
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+C:\Users\mete\Downloads\1\UXMv33\uxm\core\runtime\services\runtime_sparse_vector_services.bas(61) error 4: Duplicated definition in 'Declare Sub MetaSparseVector(ByVal metaId As ULongInt)'
+----------------------------------------
+[TEST] C:\Users\mete\Downloads\1\UXMv33\uxm\tests\v33\stage13\test_s13_vec_from_data.uxm
+[FAIL_BUILD_TEST] C:\Users\mete\Downloads\1\UXMv33\uxm\tests\v33\stage13\test_s13_vec_from_data.uxm
+ASM uretildi: build\asm\program.asm
+[V3.3-stage13] Native ASM hazir. Link islemi build_one_native.bat tarafindan yurutulur.
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+C:\Users\mete\Downloads\1\UXMv33\uxm\core\runtime\services\runtime_sparse_vector_services.bas(61) error 4: Duplicated definition in 'Declare Sub MetaSparseVector(ByVal metaId As ULongInt)'
+----------------------------------------
+[TEST] C:\Users\mete\Downloads\1\UXMv33\uxm\tests\v33\stage13\test_s13_vec_get.uxm
+[FAIL_BUILD_TEST] C:\Users\mete\Downloads\1\UXMv33\uxm\tests\v33\stage13\test_s13_vec_get.uxm
+ASM uretildi: build\asm\program.asm
+[V3.3-stage13] Native ASM hazir. Link islemi build_one_native.bat tarafindan yurutulur.
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+C:\Users\mete\Downloads\1\UXMv33\uxm\core\runtime\services\runtime_sparse_vector_services.bas(61) error 4: Duplicated definition in 'Declare Sub MetaSparseVector(ByVal metaId As ULongInt)'
+----------------------------------------
+[TEST] C:\Users\mete\Downloads\1\UXMv33\uxm\tests\v33\stage13\test_s13_vec_info.uxm
+[FAIL_BUILD_TEST] C:\Users\mete\Downloads\1\UXMv33\uxm\tests\v33\stage13\test_s13_vec_info.uxm
+ASM uretildi: build\asm\program.asm
+[V3.3-stage13] Native ASM hazir. Link islemi build_one_native.bat tarafindan yurutulur.
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+C:\Users\mete\Downloads\1\UXMv33\uxm\core\runtime\services\runtime_sparse_vector_services.bas(61) error 4: Duplicated definition in 'Declare Sub MetaSparseVector(ByVal metaId As ULongInt)'
+----------------------------------------
+[TEST] C:\Users\mete\Downloads\1\UXMv33\uxm\tests\v33\stage13\test_s13_vec_init.uxm
+[FAIL_BUILD_TEST] C:\Users\mete\Downloads\1\UXMv33\uxm\tests\v33\stage13\test_s13_vec_init.uxm
+ASM uretildi: build\asm\program.asm
+[V3.3-stage13] Native ASM hazir. Link islemi build_one_native.bat tarafindan yurutulur.
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+C:\Users\mete\Downloads\1\UXMv33\uxm\core\runtime\services\runtime_sparse_vector_services.bas(61) error 4: Duplicated definition in 'Declare Sub MetaSparseVector(ByVal metaId As ULongInt)'
+----------------------------------------
+[TEST] C:\Users\mete\Downloads\1\UXMv33\uxm\tests\v33\stage13\test_s13_vec_norm1.uxm
+[FAIL_BUILD_TEST] C:\Users\mete\Downloads\1\UXMv33\uxm\tests\v33\stage13\test_s13_vec_norm1.uxm
+ASM uretildi: build\asm\program.asm
+[V3.3-stage13] Native ASM hazir. Link islemi build_one_native.bat tarafindan yurutulur.
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+C:\Users\mete\Downloads\1\UXMv33\uxm\core\runtime\services\runtime_sparse_vector_services.bas(61) error 4: Duplicated definition in 'Declare Sub MetaSparseVector(ByVal metaId As ULongInt)'
+----------------------------------------
+[TEST] C:\Users\mete\Downloads\1\UXMv33\uxm\tests\v33\stage13\test_s13_vec_norm2sq.uxm
+[FAIL_BUILD_TEST] C:\Users\mete\Downloads\1\UXMv33\uxm\tests\v33\stage13\test_s13_vec_norm2sq.uxm
+ASM uretildi: build\asm\program.asm
+[V3.3-stage13] Native ASM hazir. Link islemi build_one_native.bat tarafindan yurutulur.
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+C:\Users\mete\Downloads\1\UXMv33\uxm\core\runtime\services\runtime_sparse_vector_services.bas(61) error 4: Duplicated definition in 'Declare Sub MetaSparseVector(ByVal metaId As ULongInt)'
+----------------------------------------
+[TEST] C:\Users\mete\Downloads\1\UXMv33\uxm\tests\v33\stage13\test_s13_vec_scale.uxm
+[FAIL_BUILD_TEST] C:\Users\mete\Downloads\1\UXMv33\uxm\tests\v33\stage13\test_s13_vec_scale.uxm
+ASM uretildi: build\asm\program.asm
+[V3.3-stage13] Native ASM hazir. Link islemi build_one_native.bat tarafindan yurutulur.
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+C:\Users\mete\Downloads\1\UXMv33\uxm\core\runtime\services\runtime_sparse_vector_services.bas(61) error 4: Duplicated definition in 'Declare Sub MetaSparseVector(ByVal metaId As ULongInt)'
+----------------------------------------
+[TEST] C:\Users\mete\Downloads\1\UXMv33\uxm\tests\v33\stage13\test_s13_vec_set.uxm
+[FAIL_BUILD_TEST] C:\Users\mete\Downloads\1\UXMv33\uxm\tests\v33\stage13\test_s13_vec_set.uxm
+ASM uretildi: build\asm\program.asm
+[V3.3-stage13] Native ASM hazir. Link islemi build_one_native.bat tarafindan yurutulur.
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+C:\Users\mete\Downloads\1\UXMv33\uxm\core\runtime\services\runtime_sparse_vector_services.bas(61) error 4: Duplicated definition in 'Declare Sub MetaSparseVector(ByVal metaId As ULongInt)'
+----------------------------------------
+[TEST] C:\Users\mete\Downloads\1\UXMv33\uxm\tests\v33\stage13\test_s13_vec_sum.uxm
+[FAIL_BUILD_TEST] C:\Users\mete\Downloads\1\UXMv33\uxm\tests\v33\stage13\test_s13_vec_sum.uxm
+ASM uretildi: build\asm\program.asm
+[V3.3-stage13] Native ASM hazir. Link islemi build_one_native.bat tarafindan yurutulur.
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+C:\Users\mete\Downloads\1\UXMv33\uxm\core\runtime\services\runtime_sparse_vector_services.bas(61) error 4: Duplicated definition in 'Declare Sub MetaSparseVector(ByVal metaId As ULongInt)'
+----------------------------------------
+[TEST] C:\Users\mete\Downloads\1\UXMv33\uxm\tests\v33\stage13\test_s13_vec_to_data.uxm
+[FAIL_BUILD_TEST] C:\Users\mete\Downloads\1\UXMv33\uxm\tests\v33\stage13\test_s13_vec_to_data.uxm
+ASM uretildi: build\asm\program.asm
+[V3.3-stage13] Native ASM hazir. Link islemi build_one_native.bat tarafindan yurutulur.
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+C:\Users\mete\Downloads\1\UXMv33\uxm\core\runtime\services\runtime_sparse_vector_services.bas(61) error 4: Duplicated definition in 'Declare Sub MetaSparseVector(ByVal metaId As ULongInt)'
+[STAGE13_SMOKE_FAIL] 25 test calisti, hata var.
+
+--- STDERR ---

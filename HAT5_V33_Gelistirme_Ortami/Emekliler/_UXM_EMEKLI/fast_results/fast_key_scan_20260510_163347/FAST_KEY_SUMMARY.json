@@ -1,0 +1,17 @@
+{
+  "source_csv": "expected_results_v2\\all_expected_v2_20260510_141605\\expected_results_v2.csv",
+  "total_rows": 1054,
+  "bad_rows": 37,
+  "unique_bad_keys": 37,
+  "failed_all_manifest_rows": 37,
+  "failed_unique_manifest_rows": 37,
+  "class_counts": {
+    "memory_policy_data_directive": 37
+  },
+  "status_counts": {
+    "BASARILI": 1017,
+    "BUILD_FAIL": 37
+  },
+  "outdir": "fast_results\\fast_key_scan_20260510_163347",
+  "latest_dir": "fast_results\\latest"
+}

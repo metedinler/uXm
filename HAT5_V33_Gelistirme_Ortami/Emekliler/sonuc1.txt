@@ -1,0 +1,885 @@
+START_SESSION@Cum 08.05.2026@ 9:31:09,15 
+ 
+START_BUILD@ 9:31:09,17 
+OK: build\exe\uxm_native.exe
+END_BUILD@ 9:31:10,88 
+ 
+KLASOR@uxm\tests\fp 
+ 
+DATA_START@uxm\tests\fp\test_fp01_add_int.uxm@ 9:31:10,95 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.o
+FreeBASIC runtime ile link:
+fbc uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.o -x build\exe\<ad>.exe
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+46.0000000000000000
+[UXM program derlendi.]
+RESULT@[TAMAMLANDI]@uxm\tests\fp\test_fp01_add_int.uxm 
+DATA_END@uxm\tests\fp\test_fp01_add_int.uxm@ 9:31:13,02 
+........................................ 
+DATA_START@uxm\tests\fp\test_fp02_sub_int.uxm@ 9:31:13,05 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.o
+FreeBASIC runtime ile link:
+fbc uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.o -x build\exe\<ad>.exe
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+25.0000000000000000
+[UXM program derlendi.]
+RESULT@[TAMAMLANDI]@uxm\tests\fp\test_fp02_sub_int.uxm 
+DATA_END@uxm\tests\fp\test_fp02_sub_int.uxm@ 9:31:14,74 
+........................................ 
+DATA_START@uxm\tests\fp\test_fp03_mul_int.uxm@ 9:31:14,77 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.o
+FreeBASIC runtime ile link:
+fbc uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.o -x build\exe\<ad>.exe
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+408.0000000000000000
+[UXM program derlendi.]
+RESULT@[TAMAMLANDI]@uxm\tests\fp\test_fp03_mul_int.uxm 
+DATA_END@uxm\tests\fp\test_fp03_mul_int.uxm@ 9:31:17,28 
+........................................ 
+DATA_START@uxm\tests\fp\test_fp04_div_int.uxm@ 9:31:17,33 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.o
+FreeBASIC runtime ile link:
+fbc uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.o -x build\exe\<ad>.exe
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+3.3333333333333333
+[UXM program derlendi.]
+RESULT@[TAMAMLANDI]@uxm\tests\fp\test_fp04_div_int.uxm 
+DATA_END@uxm\tests\fp\test_fp04_div_int.uxm@ 9:31:19,23 
+........................................ 
+DATA_START@uxm\tests\fp\test_fp05_from_string.uxm@ 9:31:19,26 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.o
+FreeBASIC runtime ile link:
+fbc uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.o -x build\exe\<ad>.exe
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+12.3400000000000000
+[UXM program derlendi.]
+RESULT@[TAMAMLANDI]@uxm\tests\fp\test_fp05_from_string.uxm 
+DATA_END@uxm\tests\fp\test_fp05_from_string.uxm@ 9:31:20,93 
+........................................ 
+DATA_START@uxm\tests\fp\test_fp06_add_dec_string.uxm@ 9:31:20,97 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.o
+FreeBASIC runtime ile link:
+fbc uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.o -x build\exe\<ad>.exe
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+17.9400000000000000
+[UXM program derlendi.]
+RESULT@[TAMAMLANDI]@uxm\tests\fp\test_fp06_add_dec_string.uxm 
+DATA_END@uxm\tests\fp\test_fp06_add_dec_string.uxm@ 9:31:22,68 
+........................................ 
+DATA_START@uxm\tests\fp\test_fp07_int_zero_sign_abs.uxm@ 9:31:22,71 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.o
+FreeBASIC runtime ile link:
+fbc uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.o -x build\exe\<ad>.exe
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+210
+0
+1
+0
+210
+[UXM program derlendi.]
+RESULT@[TAMAMLANDI]@uxm\tests\fp\test_fp07_int_zero_sign_abs.uxm 
+DATA_END@uxm\tests\fp\test_fp07_int_zero_sign_abs.uxm@ 9:31:24,33 
+........................................ 
+ 
+KLASOR@uxm\tests\math 
+ 
+DATA_START@uxm\tests\math\test_math01_poly_deriv_arge.uxm@ 9:31:24,41 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.o
+FreeBASIC runtime ile link:
+fbc uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.o -x build\exe\<ad>.exe
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+4 + 12x + 24x^2
+[UXM program derlendi.]
+RESULT@[TAMAMLANDI]@uxm\tests\math\test_math01_poly_deriv_arge.uxm 
+DATA_END@uxm\tests\math\test_math01_poly_deriv_arge.uxm@ 9:31:26,00 
+........................................ 
+DATA_START@uxm\tests\math\test_math02_poly_integral_arge.uxm@ 9:31:26,03 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.o
+FreeBASIC runtime ile link:
+fbc uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.o -x build\exe\<ad>.exe
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+0 + 2x + 2x^2 + 2x^3 + 2x^4
+[UXM program derlendi.]
+RESULT@[TAMAMLANDI]@uxm\tests\math\test_math02_poly_integral_arge.uxm 
+DATA_END@uxm\tests\math\test_math02_poly_integral_arge.uxm@ 9:31:27,57 
+........................................ 
+DATA_START@uxm\tests\math\test_math03_poly_eval_arge.uxm@ 9:31:27,60 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.o
+FreeBASIC runtime ile link:
+fbc uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.o -x build\exe\<ad>.exe
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+98
+[UXM program derlendi.]
+RESULT@[TAMAMLANDI]@uxm\tests\math\test_math03_poly_eval_arge.uxm 
+DATA_END@uxm\tests\math\test_math03_poly_eval_arge.uxm@ 9:31:29,17 
+........................................ 
+DATA_START@uxm\tests\math\test_math04_expr_rpn_eval.uxm@ 9:31:29,20 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.o
+FreeBASIC runtime ile link:
+fbc uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.o -x build\exe\<ad>.exe
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+0
+[UXM program derlendi.]
+RESULT@[TAMAMLANDI]@uxm\tests\math\test_math04_expr_rpn_eval.uxm 
+DATA_END@uxm\tests\math\test_math04_expr_rpn_eval.uxm@ 9:31:30,71 
+........................................ 
+DATA_START@uxm\tests\math\test_math05_num_deriv.uxm@ 9:31:30,74 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.o
+FreeBASIC runtime ile link:
+fbc uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.o -x build\exe\<ad>.exe
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+0
+[UXM program derlendi.]
+RESULT@[TAMAMLANDI]@uxm\tests\math\test_math05_num_deriv.uxm 
+DATA_END@uxm\tests\math\test_math05_num_deriv.uxm@ 9:31:32,34 
+........................................ 
+DATA_START@uxm\tests\math\test_math06_integral_trap.uxm@ 9:31:32,37 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.o
+FreeBASIC runtime ile link:
+fbc uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.o -x build\exe\<ad>.exe
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+0
+[UXM program derlendi.]
+RESULT@[TAMAMLANDI]@uxm\tests\math\test_math06_integral_trap.uxm 
+DATA_END@uxm\tests\math\test_math06_integral_trap.uxm@ 9:31:33,96 
+........................................ 
+DATA_START@uxm\tests\math\test_math07_integral_simpson.uxm@ 9:31:33,99 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.o
+FreeBASIC runtime ile link:
+fbc uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.o -x build\exe\<ad>.exe
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+0
+[UXM program derlendi.]
+RESULT@[TAMAMLANDI]@uxm\tests\math\test_math07_integral_simpson.uxm 
+DATA_END@uxm\tests\math\test_math07_integral_simpson.uxm@ 9:31:35,76 
+........................................ 
+ 
+KLASOR@uxm\tests\matrix 
+ 
+DATA_START@uxm\tests\matrix\test_matrix01_init_set_print.uxm@ 9:31:35,84 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.o
+FreeBASIC runtime ile link:
+fbc uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.o -x build\exe\<ad>.exe
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+[1 2]
+[3 4]
+
+[UXM program derlendi.]
+RESULT@[TAMAMLANDI]@uxm\tests\matrix\test_matrix01_init_set_print.uxm 
+DATA_END@uxm\tests\matrix\test_matrix01_init_set_print.uxm@ 9:31:37,57 
+........................................ 
+DATA_START@uxm\tests\matrix\test_matrix02_add_2x2.uxm@ 9:31:37,60 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.o
+FreeBASIC runtime ile link:
+fbc uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.o -x build\exe\<ad>.exe
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+[6 8]
+[10 12]
+
+[UXM program derlendi.]
+RESULT@[TAMAMLANDI]@uxm\tests\matrix\test_matrix02_add_2x2.uxm 
+DATA_END@uxm\tests\matrix\test_matrix02_add_2x2.uxm@ 9:31:39,17 
+........................................ 
+DATA_START@uxm\tests\matrix\test_matrix03_mul_2x2.uxm@ 9:31:39,20 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.o
+FreeBASIC runtime ile link:
+fbc uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.o -x build\exe\<ad>.exe
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+[19 22]
+[43 50]
+
+[UXM program derlendi.]
+RESULT@[TAMAMLANDI]@uxm\tests\matrix\test_matrix03_mul_2x2.uxm 
+DATA_END@uxm\tests\matrix\test_matrix03_mul_2x2.uxm@ 9:31:40,76 
+........................................ 
+DATA_START@uxm\tests\matrix\test_matrix04_identity_trace_det2.uxm@ 9:31:40,79 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.o
+FreeBASIC runtime ile link:
+fbc uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.o -x build\exe\<ad>.exe
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+[1 0 0]
+[0 1 0]
+[0 0 1]
+3-2
+[UXM program derlendi.]
+RESULT@[TAMAMLANDI]@uxm\tests\matrix\test_matrix04_identity_trace_det2.uxm 
+DATA_END@uxm\tests\matrix\test_matrix04_identity_trace_det2.uxm@ 9:31:42,39 
+........................................ 
+DATA_START@uxm\tests\matrix\_tmp_det_debug.uxm@ 9:31:42,42 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.o
+FreeBASIC runtime ile link:
+fbc uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.o -x build\exe\<ad>.exe
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+[1 2]
+[3 4]
+-2
+[UXM program derlendi.]
+RESULT@[TAMAMLANDI]@uxm\tests\matrix\_tmp_det_debug.uxm 
+DATA_END@uxm\tests\matrix\_tmp_det_debug.uxm@ 9:31:43,99 
+........................................ 
+ 
+KLASOR@uxm\tests\native 
+ 
+DATA_START@uxm\tests\native\test01_print_A.uxm@ 9:31:44,06 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.o
+FreeBASIC runtime ile link:
+fbc uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.o -x build\exe\<ad>.exe
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+50
+[UXM program derlendi.]
+RESULT@[TAMAMLANDI]@uxm\tests\native\test01_print_A.uxm 
+DATA_END@uxm\tests\native\test01_print_A.uxm@ 9:31:45,60 
+........................................ 
+DATA_START@uxm\tests\native\test02_string.uxm@ 9:31:45,63 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.o
+FreeBASIC runtime ile link:
+fbc uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.o -x build\exe\<ad>.exe
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+Merhaba UX-MINIMA V3.1
+
+[UXM program derlendi.]
+RESULT@[TAMAMLANDI]@uxm\tests\native\test02_string.uxm 
+DATA_END@uxm\tests\native\test02_string.uxm@ 9:31:47,16 
+........................................ 
+DATA_START@uxm\tests\native\test03_addressing.uxm@ 9:31:47,19 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.o
+FreeBASIC runtime ile link:
+fbc uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.o -x build\exe\<ad>.exe
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+AB
+[UXM program derlendi.]
+RESULT@[TAMAMLANDI]@uxm\tests\native\test03_addressing.uxm 
+DATA_END@uxm\tests\native\test03_addressing.uxm@ 9:31:48,72 
+........................................ 
+DATA_START@uxm\tests\native\test04_stack_lifo.uxm@ 9:31:48,75 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.o
+FreeBASIC runtime ile link:
+fbc uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.o -x build\exe\<ad>.exe
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+BA
+[UXM program derlendi.]
+RESULT@[TAMAMLANDI]@uxm\tests\native\test04_stack_lifo.uxm 
+DATA_END@uxm\tests\native\test04_stack_lifo.uxm@ 9:31:50,33 
+........................................ 
+DATA_START@uxm\tests\native\test05_meta_add.uxm@ 9:31:50,36 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.o
+FreeBASIC runtime ile link:
+fbc uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.o -x build\exe\<ad>.exe
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+30
+[UXM program derlendi.]
+RESULT@[TAMAMLANDI]@uxm\tests\native\test05_meta_add.uxm 
+DATA_END@uxm\tests\native\test05_meta_add.uxm@ 9:31:51,97 
+........................................ 
+DATA_START@uxm\tests\native\test06_dynamic_meta_mul.uxm@ 9:31:52,01 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.o
+FreeBASIC runtime ile link:
+fbc uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.o -x build\exe\<ad>.exe
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+42
+[UXM program derlendi.]
+RESULT@[TAMAMLANDI]@uxm\tests\native\test06_dynamic_meta_mul.uxm 
+DATA_END@uxm\tests\native\test06_dynamic_meta_mul.uxm@ 9:31:53,58 
+........................................ 
+DATA_START@uxm\tests\native\test07_macro.uxm@ 9:31:53,61 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.o
+FreeBASIC runtime ile link:
+fbc uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.o -x build\exe\<ad>.exe
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+A
+[UXM program derlendi.]
+RESULT@[TAMAMLANDI]@uxm\tests\native\test07_macro.uxm 
+DATA_END@uxm\tests\native\test07_macro.uxm@ 9:31:55,49 
+........................................ 
+DATA_START@uxm\tests\native\test08_newline.uxm@ 9:31:55,52 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.o
+FreeBASIC runtime ile link:
+fbc uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.o -x build\exe\<ad>.exe
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+A
+B
+[UXM program derlendi.]
+RESULT@[TAMAMLANDI]@uxm\tests\native\test08_newline.uxm 
+DATA_END@uxm\tests\native\test08_newline.uxm@ 9:31:57,18 
+........................................ 
+DATA_START@uxm\tests\native\test09_div_mod.uxm@ 9:31:57,21 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.o
+FreeBASIC runtime ile link:
+fbc uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.o -x build\exe\<ad>.exe
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+3
+2
+[UXM program derlendi.]
+RESULT@[TAMAMLANDI]@uxm\tests\native\test09_div_mod.uxm 
+DATA_END@uxm\tests\native\test09_div_mod.uxm@ 9:31:58,47 
+........................................ 
+DATA_START@uxm\tests\native\test10_sin_scaled.uxm@ 9:31:58,49 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.o
+FreeBASIC runtime ile link:
+fbc uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.o -x build\exe\<ad>.exe
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+50
+[UXM program derlendi.]
+RESULT@[TAMAMLANDI]@uxm\tests\native\test10_sin_scaled.uxm 
+DATA_END@uxm\tests\native\test10_sin_scaled.uxm@ 9:31:59,79 
+........................................ 
+DATA_START@uxm\tests\native\test11_hypotenuse.uxm@ 9:31:59,82 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.o
+FreeBASIC runtime ile link:
+fbc uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.o -x build\exe\<ad>.exe
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+5
+[UXM program derlendi.]
+RESULT@[TAMAMLANDI]@uxm\tests\native\test11_hypotenuse.uxm 
+DATA_END@uxm\tests\native\test11_hypotenuse.uxm@ 9:32:01,32 
+........................................ 
+DATA_START@uxm\tests\native\test12_signed_mode.uxm@ 9:32:01,34 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.o
+FreeBASIC runtime ile link:
+fbc uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.o -x build\exe\<ad>.exe
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+0
+[UXM program derlendi.]
+RESULT@[TAMAMLANDI]@uxm\tests\native\test12_signed_mode.uxm 
+DATA_END@uxm\tests\native\test12_signed_mode.uxm@ 9:32:02,88 
+........................................ 
+DATA_START@uxm\tests\native\test13_status_div_zero.uxm@ 9:32:02,91 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.o
+FreeBASIC runtime ile link:
+fbc uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.o -x build\exe\<ad>.exe
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+0
+[UXM program derlendi.]
+RESULT@[TAMAMLANDI]@uxm\tests\native\test13_status_div_zero.uxm 
+DATA_END@uxm\tests\native\test13_status_div_zero.uxm@ 9:32:04,46 
+........................................ 
+DATA_START@uxm\tests\native\test14_branch_current_zero.uxm@ 9:32:04,49 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.o
+FreeBASIC runtime ile link:
+fbc uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.o -x build\exe\<ad>.exe
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+ B
+[UXM program derlendi.]
+RESULT@[TAMAMLANDI]@uxm\tests\native\test14_branch_current_zero.uxm 
+DATA_END@uxm\tests\native\test14_branch_current_zero.uxm@ 9:32:06,00 
+........................................ 
+DATA_START@uxm\tests\native\test15_branch_nonzero.uxm@ 9:32:06,03 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.o
+FreeBASIC runtime ile link:
+fbc uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.o -x build\exe\<ad>.exe
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+B
+[UXM program derlendi.]
+RESULT@[TAMAMLANDI]@uxm\tests\native\test15_branch_nonzero.uxm 
+DATA_END@uxm\tests\native\test15_branch_nonzero.uxm@ 9:32:07,56 
+........................................ 
+DATA_START@uxm\tests\native\test16_data_digit.uxm@ 9:32:07,59 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.o
+FreeBASIC runtime ile link:
+fbc uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.o -x build\exe\<ad>.exe
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+5
+[UXM program derlendi.]
+RESULT@[TAMAMLANDI]@uxm\tests\native\test16_data_digit.uxm 
+DATA_END@uxm\tests\native\test16_data_digit.uxm@ 9:32:09,15 
+........................................ 
+DATA_START@uxm\tests\native\test17_endian_word_split.uxm@ 9:32:09,18 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.o
+FreeBASIC runtime ile link:
+fbc uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.o -x build\exe\<ad>.exe
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+A
+[UXM program derlendi.]
+RESULT@[TAMAMLANDI]@uxm\tests\native\test17_endian_word_split.uxm 
+DATA_END@uxm\tests\native\test17_endian_word_split.uxm@ 9:32:10,72 
+........................................ 
+DATA_START@uxm\tests\native\test18_pointer_service.uxm@ 9:32:10,75 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.o
+FreeBASIC runtime ile link:
+fbc uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.o -x build\exe\<ad>.exe
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+A
+[UXM program derlendi.]
+RESULT@[TAMAMLANDI]@uxm\tests\native\test18_pointer_service.uxm 
+DATA_END@uxm\tests\native\test18_pointer_service.uxm@ 9:32:12,26 
+........................................ 
+DATA_START@uxm\tests\native\test20_fifo_char_order.uxm@ 9:32:12,29 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.o
+FreeBASIC runtime ile link:
+fbc uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.o -x build\exe\<ad>.exe
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+AB
+[UXM program derlendi.]
+RESULT@[TAMAMLANDI]@uxm\tests\native\test20_fifo_char_order.uxm 
+DATA_END@uxm\tests\native\test20_fifo_char_order.uxm@ 9:32:13,82 
+........................................ 
+DATA_START@uxm\tests\native\test21_fifo_count_peek.uxm@ 9:32:13,85 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.o
+FreeBASIC runtime ile link:
+fbc uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.o -x build\exe\<ad>.exe
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+2
+10
+[UXM program derlendi.]
+RESULT@[TAMAMLANDI]@uxm\tests\native\test21_fifo_count_peek.uxm 
+DATA_END@uxm\tests\native\test21_fifo_count_peek.uxm@ 9:32:15,40 
+........................................ 
+DATA_START@uxm\tests\native\test22_data_write_read_char.uxm@ 9:32:15,44 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.o
+FreeBASIC runtime ile link:
+fbc uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.o -x build\exe\<ad>.exe
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+X
+[UXM program derlendi.]
+RESULT@[TAMAMLANDI]@uxm\tests\native\test22_data_write_read_char.uxm 
+DATA_END@uxm\tests\native\test22_data_write_read_char.uxm@ 9:32:16,98 
+........................................ 
+DATA_START@uxm\tests\native\test23_data_digit_ascii_to_number.uxm@ 9:32:17,01 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.o
+FreeBASIC runtime ile link:
+fbc uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.o -x build\exe\<ad>.exe
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+8
+[UXM program derlendi.]
+RESULT@[TAMAMLANDI]@uxm\tests\native\test23_data_digit_ascii_to_number.uxm 
+DATA_END@uxm\tests\native\test23_data_digit_ascii_to_number.uxm@ 9:32:18,55 
+........................................ 
+DATA_START@uxm\tests\native\test24_data_block_copy_print.uxm@ 9:32:18,58 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.o
+FreeBASIC runtime ile link:
+fbc uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.o -x build\exe\<ad>.exe
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+HELLO
+[UXM program derlendi.]
+RESULT@[TAMAMLANDI]@uxm\tests\native\test24_data_block_copy_print.uxm 
+DATA_END@uxm\tests\native\test24_data_block_copy_print.uxm@ 9:32:20,14 
+........................................ 
+DATA_START@uxm\tests\native\test25_data_sort_ascending.uxm@ 9:32:20,17 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.o
+FreeBASIC runtime ile link:
+fbc uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.o -x build\exe\<ad>.exe
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+ABC
+[UXM program derlendi.]
+RESULT@[TAMAMLANDI]@uxm\tests\native\test25_data_sort_ascending.uxm 
+DATA_END@uxm\tests\native\test25_data_sort_ascending.uxm@ 9:32:21,80 
+........................................ 
+DATA_START@uxm\tests\native\test26_tape_sort_descending_chars.uxm@ 9:32:21,83 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.o
+FreeBASIC runtime ile link:
+fbc uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.o -x build\exe\<ad>.exe
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+321
+[UXM program derlendi.]
+RESULT@[TAMAMLANDI]@uxm\tests\native\test26_tape_sort_descending_chars.uxm 
+DATA_END@uxm\tests\native\test26_tape_sort_descending_chars.uxm@ 9:32:23,39 
+........................................ 
+DATA_START@uxm\tests\native\test27_tape_linear_search.uxm@ 9:32:23,42 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.o
+FreeBASIC runtime ile link:
+fbc uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.o -x build\exe\<ad>.exe
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+2
+[UXM program derlendi.]
+RESULT@[TAMAMLANDI]@uxm\tests\native\test27_tape_linear_search.uxm 
+DATA_END@uxm\tests\native\test27_tape_linear_search.uxm@ 9:32:25,00 
+........................................ 
+DATA_START@uxm\tests\native\test28_dynamic_meta_fifo.uxm@ 9:32:25,03 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.o
+FreeBASIC runtime ile link:
+fbc uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.o -x build\exe\<ad>.exe
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+A
+[UXM program derlendi.]
+RESULT@[TAMAMLANDI]@uxm\tests\native\test28_dynamic_meta_fifo.uxm 
+DATA_END@uxm\tests\native\test28_dynamic_meta_fifo.uxm@ 9:32:26,56 
+........................................ 
+DATA_START@uxm\tests\native\test29_nested_macro_call.uxm@ 9:32:26,59 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.o
+FreeBASIC runtime ile link:
+fbc uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.o -x build\exe\<ad>.exe
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+HI!
+[UXM program derlendi.]
+RESULT@[TAMAMLANDI]@uxm\tests\native\test29_nested_macro_call.uxm 
+DATA_END@uxm\tests\native\test29_nested_macro_call.uxm@ 9:32:27,91 
+........................................ 
+DATA_START@uxm\tests\native\test30_word_mode_add.uxm@ 9:32:27,93 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.o
+FreeBASIC runtime ile link:
+fbc uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.o -x build\exe\<ad>.exe
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+700
+[UXM program derlendi.]
+RESULT@[TAMAMLANDI]@uxm\tests\native\test30_word_mode_add.uxm 
+DATA_END@uxm\tests\native\test30_word_mode_add.uxm@ 9:32:29,42 
+........................................ 
+DATA_START@uxm\tests\native\test31_safe_mode_wild_denied.uxm@ 9:32:29,45 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.o
+FreeBASIC runtime ile link:
+fbc uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.o -x build\exe\<ad>.exe
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+23
+[UXM program derlendi.]
+RESULT@[TAMAMLANDI]@uxm\tests\native\test31_safe_mode_wild_denied.uxm 
+DATA_END@uxm\tests\native\test31_safe_mode_wild_denied.uxm@ 9:32:30,97 
+........................................ 
+DATA_START@uxm\tests\native\test32_wild_layout_change.uxm@ 9:32:31,00 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.o
+FreeBASIC runtime ile link:
+fbc uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.o -x build\exe\<ad>.exe
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+0
+[UXM program derlendi.]
+RESULT@[TAMAMLANDI]@uxm\tests\native\test32_wild_layout_change.uxm 
+DATA_END@uxm\tests\native\test32_wild_layout_change.uxm@ 9:32:32,81 
+........................................ 
+DATA_START@uxm\tests\native\test33_bitwise_and_stack.uxm@ 9:32:32,84 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.o
+FreeBASIC runtime ile link:
+fbc uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.o -x build\exe\<ad>.exe
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+8
+[UXM program derlendi.]
+RESULT@[TAMAMLANDI]@uxm\tests\native\test33_bitwise_and_stack.uxm 
+DATA_END@uxm\tests\native\test33_bitwise_and_stack.uxm@ 9:32:34,69 
+........................................ 
+DATA_START@uxm\tests\native\test34_data_block_clear.uxm@ 9:32:34,72 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.o
+FreeBASIC runtime ile link:
+fbc uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.o -x build\exe\<ad>.exe
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+A C
+[UXM program derlendi.]
+RESULT@[TAMAMLANDI]@uxm\tests\native\test34_data_block_clear.uxm 
+DATA_END@uxm\tests\native\test34_data_block_clear.uxm@ 9:32:36,32 
+........................................ 
+DATA_START@uxm\tests\native\test35_optimizer_visible_result.uxm@ 9:32:36,35 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.o
+FreeBASIC runtime ile link:
+fbc uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.o -x build\exe\<ad>.exe
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+B
+[UXM program derlendi.]
+RESULT@[TAMAMLANDI]@uxm\tests\native\test35_optimizer_visible_result.uxm 
+DATA_END@uxm\tests\native\test35_optimizer_visible_result.uxm@ 9:32:37,88 
+........................................ 
+DATA_START@uxm\tests\native\test40_4bit_cpu_alu_model.uxm@ 9:32:37,91 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.o
+FreeBASIC runtime ile link:
+fbc uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.o -x build\exe\<ad>.exe
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+4BIT CPU TEST
+ADD=3 C=1
+AND=4
+XOR=11
+SHL=8 C=1
+
+[UXM program derlendi.]
+RESULT@[TAMAMLANDI]@uxm\tests\native\test40_4bit_cpu_alu_model.uxm 
+DATA_END@uxm\tests\native\test40_4bit_cpu_alu_model.uxm@ 9:32:39,47 
+........................................ 
+DATA_START@uxm\tests\native\test41_4_neuron_nn_model.uxm@ 9:32:39,50 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.o
+FreeBASIC runtime ile link:
+fbc uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.o -x build\exe\<ad>.exe
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+4 NEURON NN TEST
+X1=1 X2=0
+N1=1 N2=0 N3=1 OUT=1
+
+[UXM program derlendi.]
+RESULT@[TAMAMLANDI]@uxm\tests\native\test41_4_neuron_nn_model.uxm 
+DATA_END@uxm\tests\native\test41_4_neuron_nn_model.uxm@ 9:32:41,10 
+........................................ 
+DATA_START@uxm\tests\native\test42_error_flag_set_reset.uxm@ 9:32:41,13 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.o
+FreeBASIC runtime ile link:
+fbc uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.o -x build\exe\<ad>.exe
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\program.o" -x "build\exe\program.exe"
+
+Aborting due to runtime error 9 ("interrupted" signal)
+
+Terminate batch job (Y/N)? Terminate batch job (Y/N)? 
+^CTerminate batch job (Y/N)? 
+^CThe syntax of the command is incorrect.

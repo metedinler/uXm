@@ -1,0 +1,8 @@
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\bin\win64\ld.exe: build\obj\program.o:build\asm\program.:(.text+0x35f): undefined reference to `ux_meta_call_ex'
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\bin\win64\ld.exe: build\obj\program.o:build\asm\program.:(.text+0x38c): undefined reference to `ux_meta_call_ex'
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\bin\win64\ld.exe: build\obj\program.o:build\asm\program.:(.text+0x3ba): undefined reference to `ux_runtime_error'
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\bin\win64\ld.exe: build\obj\program.o:build\asm\program.:(.text+0x3cd): undefined reference to `ux_runtime_error'
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\bin\win64\ld.exe: build\obj\program.o:build\asm\program.:(.text+0x3e0): undefined reference to `ux_runtime_error'
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\bin\win64\ld.exe: build\obj\program.o:build\asm\program.:(.text+0x3f3): undefined reference to `ux_runtime_error'
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\bin\win64\ld.exe: C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\lib\win64/libmingw32.a(lib64_libmingw32_a-crt0_c.o): in function `main':
+R:\winlibs64-sjlj-9.3.0\mingw-w64-v7.0.0\mingw-w64-crt/crt/crt0_c.c:18: undefined reference to `WinMain'

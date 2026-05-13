@@ -1,0 +1,37 @@
+1) Ana klasördeki bozulmuş test_history.csv dosyasını silme; emekliye taşı:
+
+   mkdir _UXM_EMEKLI\csv_bozuk
+   move test_history.csv _UXM_EMEKLI\csv_bozuk\test_history_mixed_20260509.csv
+   move test_stats_summary.csv _UXM_EMEKLI\csv_bozuk\test_stats_summary_mixed_20260509.csv
+
+2) Bu paketteki recovered_data\test_history.csv dosyasını ana UXMv33 klasörüne kopyala.
+   Bu dosya başlıksız 4 kolon legacy formattadır ve stsx.py ile uyumludur.
+
+3) Bu paketteki recovered_data\test_stats_summary_legacy_recovered.csv dosyasını
+   ana klasöre test_stats_summary.csv adıyla kopyala:
+
+   copy recovered_data\test_stats_summary_legacy_recovered.csv test_stats_summary.csv
+
+4) PATCHED_EXISTING_FILES içindeki aynı adlı dosyaları ana klasöre kopyalayarak mevcut dosyaların üstüne yaz:
+
+   stsx.py
+   UXMPerformansAnalizatoru.py
+   run_opt.bat
+   zekiassop.py
+   UXM_Heavy_Asm_Optimizer.py
+   build_optimized.py
+
+5) UXM_STAGE_RUNNER.py kullanmayacaksan pasife al:
+
+   mkdir _UXM_EMEKLI\runner_deneme
+   move UXM_STAGE_RUNNER.py _UXM_EMEKLI\runner_deneme\
+   move run_stage_auto.bat _UXM_EMEKLI\runner_deneme\
+   move UXM_V33_EXISTING_FLOW_MANAGER.py _UXM_EMEKLI\runner_deneme\
+
+6) Temiz çalışma sırası:
+
+   call run_stage13_smoke.bat
+   call rtxz.bat
+   python stsx.py
+   python UXMPerformansAnalizatoru.py
+   call run_opt.bat

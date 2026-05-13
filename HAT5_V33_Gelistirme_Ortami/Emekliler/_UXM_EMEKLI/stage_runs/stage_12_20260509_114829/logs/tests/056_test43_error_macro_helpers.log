@@ -1,0 +1,16 @@
+LABEL: test:uxm\tests\native\test43_error_macro_helpers.uxm
+COMMAND: call build_one_native.bat "uxm\tests\native\test43_error_macro_helpers.uxm"
+RETURNCODE: 0
+ELAPSED_SEC: 3.404415
+
+--- STDOUT ---
+ASM uretildi: build\asm\test43_error_macro_helpers.asm
+[V3.3-stage12] Native ASM hazir. Link islemi build_one_native.bat tarafindan yurutulur.
+NASM:
+nasm -f win64 "build\asm\test43_error_macro_helpers.asm" -o "build\obj\test43_error_macro_helpers.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\test43_error_macro_helpers.o" -x "build\exe\test43_error_macro_helpers.exe"
+100
+[UXM program derlendi.]
+
+--- STDERR ---

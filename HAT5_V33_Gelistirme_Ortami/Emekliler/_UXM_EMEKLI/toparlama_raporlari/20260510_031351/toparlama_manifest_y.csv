@@ -1,0 +1,24 @@
+﻿action,category,src,dst,reason
+MOVE,package_zip,asmoptimizer.zip,Emekliler\packages\20260510_031351\asmoptimizer.zip,eski paket/zip arsivi
+MOVE,build_dir,build,Emekliler\builds\20260510_031351\build,bitmis build/obj/asm/exe ciktilari
+MOVE,build_dir,build stage 15,Emekliler\builds\20260510_031351\build stage 15,bitmis build/obj/asm/exe ciktilari
+MOVE,y_trial,build_native_cache_y.bat,Emekliler\y_denemeleri\20260510_031351\build_native_cache_y.bat,kullanici y suffix deneme dosyasi
+MOVE,y_trial,build_one_native_cache_y.bat,Emekliler\y_denemeleri\20260510_031351\build_one_native_cache_y.bat,kullanici y suffix deneme dosyasi
+MOVE,analysis_artifact,PATCH_INSTRUCTIONS,Emekliler\analysis_artifacts\20260510_031351\PATCH_INSTRUCTIONS,onceki analiz/yama ara urunu
+MOVE,analysis_artifact,PATCHED_EXISTING_FILES,Emekliler\analysis_artifacts\20260510_031351\PATCHED_EXISTING_FILES,onceki analiz/yama ara urunu
+MOVE,xlsx_report,Performans_Raporu_20260508_0746.xlsx,Emekliler\reports\20260510_031351\Performans_Raporu_20260508_0746.xlsx,eski Excel raporu
+MOVE,xlsx_report,Performans_Raporu_20260508_0820.xlsx,Emekliler\reports\20260510_031351\Performans_Raporu_20260508_0820.xlsx,eski Excel raporu
+MOVE,analysis_artifact,recovered_data,Emekliler\analysis_artifacts\20260510_031351\recovered_data,onceki analiz/yama ara urunu
+MOVE,log,runallbatsonuc.txt,Emekliler\logs\20260510_031351\runallbatsonuc.txt,test/build log dosyasi
+MOVE,log,runtestssonucu.txt,Emekliler\logs\20260510_031351\runtestssonucu.txt,test/build log dosyasi
+MOVE,analysis_artifact,sample_stage12_audit_from_uploaded_zip,Emekliler\analysis_artifacts\20260510_031351\sample_stage12_audit_from_uploaded_zip,onceki analiz/yama ara urunu
+MOVE,analysis_artifact,sample_stage12_optimizer_analyze_only,Emekliler\analysis_artifacts\20260510_031351\sample_stage12_optimizer_analyze_only,onceki analiz/yama ara urunu
+MOVE,log,sonuc1.txt,Emekliler\logs\20260510_031351\sonuc1.txt,test/build log dosyasi
+MOVE,log,sonuc17.txt,Emekliler\logs\20260510_031351\sonuc17.txt,test/build log dosyasi
+MOVE,log,sonuc18.txt,Emekliler\logs\20260510_031351\sonuc18.txt,test/build log dosyasi
+MOVE,log,sonuc19.txt,Emekliler\logs\20260510_031351\sonuc19.txt,test/build log dosyasi
+MOVE,log,sonuc2.txt,Emekliler\logs\20260510_031351\sonuc2.txt,test/build log dosyasi
+MOVE,log,sonuc20.txt,Emekliler\logs\20260510_031351\sonuc20.txt,test/build log dosyasi
+MOVE,log,sonuc21.txt,Emekliler\logs\20260510_031351\sonuc21.txt,test/build log dosyasi
+MOVE,log,sonuc3.txt,Emekliler\logs\20260510_031351\sonuc3.txt,test/build log dosyasi
+MOVE,log,sonuc4.txt,Emekliler\logs\20260510_031351\sonuc4.txt,test/build log dosyasi

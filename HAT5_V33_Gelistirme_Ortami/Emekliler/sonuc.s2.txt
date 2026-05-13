@@ -1,0 +1,704 @@
+======================================== 
+TEST BASLATILDI: Cum 08.05.2026  6:03:42,22 
+======================================== 
+OK: build\exe\uxm_native.exe
+Derleyici hazir. 
+---------------------------------------- 
+KLASOR: uxm\tests\fp 
+---------------------------------------- 
+TEST: uxm\tests\fp\test_fp01_add_int.uxm 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.obj
+FreeBASIC runtime ile link:
+fbc -x build\exe\<ad>.exe uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.obj
+error 81: Invalid command-line option, "build\obj\program.obj"
+[BASARISIZ] uxm\tests\fp\test_fp01_add_int.uxm 
+........................................ 
+TEST: uxm\tests\fp\test_fp02_sub_int.uxm 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.obj
+FreeBASIC runtime ile link:
+fbc -x build\exe\<ad>.exe uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.obj
+error 81: Invalid command-line option, "build\obj\program.obj"
+[BASARISIZ] uxm\tests\fp\test_fp02_sub_int.uxm 
+........................................ 
+TEST: uxm\tests\fp\test_fp03_mul_int.uxm 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.obj
+FreeBASIC runtime ile link:
+fbc -x build\exe\<ad>.exe uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.obj
+error 81: Invalid command-line option, "build\obj\program.obj"
+[BASARISIZ] uxm\tests\fp\test_fp03_mul_int.uxm 
+........................................ 
+TEST: uxm\tests\fp\test_fp04_div_int.uxm 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.obj
+FreeBASIC runtime ile link:
+fbc -x build\exe\<ad>.exe uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.obj
+error 81: Invalid command-line option, "build\obj\program.obj"
+[BASARISIZ] uxm\tests\fp\test_fp04_div_int.uxm 
+........................................ 
+TEST: uxm\tests\fp\test_fp05_from_string.uxm 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.obj
+FreeBASIC runtime ile link:
+fbc -x build\exe\<ad>.exe uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.obj
+error 81: Invalid command-line option, "build\obj\program.obj"
+[BASARISIZ] uxm\tests\fp\test_fp05_from_string.uxm 
+........................................ 
+TEST: uxm\tests\fp\test_fp06_add_dec_string.uxm 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.obj
+FreeBASIC runtime ile link:
+fbc -x build\exe\<ad>.exe uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.obj
+error 81: Invalid command-line option, "build\obj\program.obj"
+[BASARISIZ] uxm\tests\fp\test_fp06_add_dec_string.uxm 
+........................................ 
+TEST: uxm\tests\fp\test_fp07_int_zero_sign_abs.uxm 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.obj
+FreeBASIC runtime ile link:
+fbc -x build\exe\<ad>.exe uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.obj
+error 81: Invalid command-line option, "build\obj\program.obj"
+[BASARISIZ] uxm\tests\fp\test_fp07_int_zero_sign_abs.uxm 
+........................................ 
+---------------------------------------- 
+KLASOR: uxm\tests\math 
+---------------------------------------- 
+TEST: uxm\tests\math\test_math01_poly_deriv_arge.uxm 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.obj
+FreeBASIC runtime ile link:
+fbc -x build\exe\<ad>.exe uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.obj
+error 81: Invalid command-line option, "build\obj\program.obj"
+[BASARISIZ] uxm\tests\math\test_math01_poly_deriv_arge.uxm 
+........................................ 
+TEST: uxm\tests\math\test_math02_poly_integral_arge.uxm 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.obj
+FreeBASIC runtime ile link:
+fbc -x build\exe\<ad>.exe uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.obj
+error 81: Invalid command-line option, "build\obj\program.obj"
+[BASARISIZ] uxm\tests\math\test_math02_poly_integral_arge.uxm 
+........................................ 
+TEST: uxm\tests\math\test_math03_poly_eval_arge.uxm 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.obj
+FreeBASIC runtime ile link:
+fbc -x build\exe\<ad>.exe uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.obj
+error 81: Invalid command-line option, "build\obj\program.obj"
+[BASARISIZ] uxm\tests\math\test_math03_poly_eval_arge.uxm 
+........................................ 
+TEST: uxm\tests\math\test_math04_expr_rpn_eval.uxm 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.obj
+FreeBASIC runtime ile link:
+fbc -x build\exe\<ad>.exe uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.obj
+error 81: Invalid command-line option, "build\obj\program.obj"
+[BASARISIZ] uxm\tests\math\test_math04_expr_rpn_eval.uxm 
+........................................ 
+TEST: uxm\tests\math\test_math05_num_deriv.uxm 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.obj
+FreeBASIC runtime ile link:
+fbc -x build\exe\<ad>.exe uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.obj
+error 81: Invalid command-line option, "build\obj\program.obj"
+[BASARISIZ] uxm\tests\math\test_math05_num_deriv.uxm 
+........................................ 
+TEST: uxm\tests\math\test_math06_integral_trap.uxm 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.obj
+FreeBASIC runtime ile link:
+fbc -x build\exe\<ad>.exe uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.obj
+error 81: Invalid command-line option, "build\obj\program.obj"
+[BASARISIZ] uxm\tests\math\test_math06_integral_trap.uxm 
+........................................ 
+TEST: uxm\tests\math\test_math07_integral_simpson.uxm 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.obj
+FreeBASIC runtime ile link:
+fbc -x build\exe\<ad>.exe uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.obj
+error 81: Invalid command-line option, "build\obj\program.obj"
+[BASARISIZ] uxm\tests\math\test_math07_integral_simpson.uxm 
+........................................ 
+---------------------------------------- 
+KLASOR: uxm\tests\matrix 
+---------------------------------------- 
+TEST: uxm\tests\matrix\test_matrix01_init_set_print.uxm 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.obj
+FreeBASIC runtime ile link:
+fbc -x build\exe\<ad>.exe uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.obj
+error 81: Invalid command-line option, "build\obj\program.obj"
+[BASARISIZ] uxm\tests\matrix\test_matrix01_init_set_print.uxm 
+........................................ 
+TEST: uxm\tests\matrix\test_matrix02_add_2x2.uxm 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.obj
+FreeBASIC runtime ile link:
+fbc -x build\exe\<ad>.exe uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.obj
+error 81: Invalid command-line option, "build\obj\program.obj"
+[BASARISIZ] uxm\tests\matrix\test_matrix02_add_2x2.uxm 
+........................................ 
+TEST: uxm\tests\matrix\test_matrix03_mul_2x2.uxm 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.obj
+FreeBASIC runtime ile link:
+fbc -x build\exe\<ad>.exe uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.obj
+error 81: Invalid command-line option, "build\obj\program.obj"
+[BASARISIZ] uxm\tests\matrix\test_matrix03_mul_2x2.uxm 
+........................................ 
+TEST: uxm\tests\matrix\test_matrix04_identity_trace_det2.uxm 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.obj
+FreeBASIC runtime ile link:
+fbc -x build\exe\<ad>.exe uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.obj
+error 81: Invalid command-line option, "build\obj\program.obj"
+[BASARISIZ] uxm\tests\matrix\test_matrix04_identity_trace_det2.uxm 
+........................................ 
+TEST: uxm\tests\matrix\_tmp_det_debug.uxm 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.obj
+FreeBASIC runtime ile link:
+fbc -x build\exe\<ad>.exe uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.obj
+error 81: Invalid command-line option, "build\obj\program.obj"
+[BASARISIZ] uxm\tests\matrix\_tmp_det_debug.uxm 
+........................................ 
+---------------------------------------- 
+KLASOR: uxm\tests\native 
+---------------------------------------- 
+TEST: uxm\tests\native\test01_print_A.uxm 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.obj
+FreeBASIC runtime ile link:
+fbc -x build\exe\<ad>.exe uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.obj
+error 81: Invalid command-line option, "build\obj\program.obj"
+[BASARISIZ] uxm\tests\native\test01_print_A.uxm 
+........................................ 
+TEST: uxm\tests\native\test02_string.uxm 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.obj
+FreeBASIC runtime ile link:
+fbc -x build\exe\<ad>.exe uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.obj
+error 81: Invalid command-line option, "build\obj\program.obj"
+[BASARISIZ] uxm\tests\native\test02_string.uxm 
+........................................ 
+TEST: uxm\tests\native\test03_addressing.uxm 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.obj
+FreeBASIC runtime ile link:
+fbc -x build\exe\<ad>.exe uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.obj
+error 81: Invalid command-line option, "build\obj\program.obj"
+[BASARISIZ] uxm\tests\native\test03_addressing.uxm 
+........................................ 
+TEST: uxm\tests\native\test04_stack_lifo.uxm 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.obj
+FreeBASIC runtime ile link:
+fbc -x build\exe\<ad>.exe uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.obj
+error 81: Invalid command-line option, "build\obj\program.obj"
+[BASARISIZ] uxm\tests\native\test04_stack_lifo.uxm 
+........................................ 
+TEST: uxm\tests\native\test05_meta_add.uxm 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.obj
+FreeBASIC runtime ile link:
+fbc -x build\exe\<ad>.exe uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.obj
+error 81: Invalid command-line option, "build\obj\program.obj"
+[BASARISIZ] uxm\tests\native\test05_meta_add.uxm 
+........................................ 
+TEST: uxm\tests\native\test06_dynamic_meta_mul.uxm 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.obj
+FreeBASIC runtime ile link:
+fbc -x build\exe\<ad>.exe uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.obj
+error 81: Invalid command-line option, "build\obj\program.obj"
+[BASARISIZ] uxm\tests\native\test06_dynamic_meta_mul.uxm 
+........................................ 
+TEST: uxm\tests\native\test07_macro.uxm 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.obj
+FreeBASIC runtime ile link:
+fbc -x build\exe\<ad>.exe uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.obj
+error 81: Invalid command-line option, "build\obj\program.obj"
+[BASARISIZ] uxm\tests\native\test07_macro.uxm 
+........................................ 
+TEST: uxm\tests\native\test08_newline.uxm 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.obj
+FreeBASIC runtime ile link:
+fbc -x build\exe\<ad>.exe uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.obj
+error 81: Invalid command-line option, "build\obj\program.obj"
+[BASARISIZ] uxm\tests\native\test08_newline.uxm 
+........................................ 
+TEST: uxm\tests\native\test09_div_mod.uxm 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.obj
+FreeBASIC runtime ile link:
+fbc -x build\exe\<ad>.exe uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.obj
+error 81: Invalid command-line option, "build\obj\program.obj"
+[BASARISIZ] uxm\tests\native\test09_div_mod.uxm 
+........................................ 
+TEST: uxm\tests\native\test10_sin_scaled.uxm 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.obj
+FreeBASIC runtime ile link:
+fbc -x build\exe\<ad>.exe uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.obj
+error 81: Invalid command-line option, "build\obj\program.obj"
+[BASARISIZ] uxm\tests\native\test10_sin_scaled.uxm 
+........................................ 
+TEST: uxm\tests\native\test11_hypotenuse.uxm 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.obj
+FreeBASIC runtime ile link:
+fbc -x build\exe\<ad>.exe uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.obj
+error 81: Invalid command-line option, "build\obj\program.obj"
+[BASARISIZ] uxm\tests\native\test11_hypotenuse.uxm 
+........................................ 
+TEST: uxm\tests\native\test12_signed_mode.uxm 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.obj
+FreeBASIC runtime ile link:
+fbc -x build\exe\<ad>.exe uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.obj
+error 81: Invalid command-line option, "build\obj\program.obj"
+[BASARISIZ] uxm\tests\native\test12_signed_mode.uxm 
+........................................ 
+TEST: uxm\tests\native\test13_status_div_zero.uxm 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.obj
+FreeBASIC runtime ile link:
+fbc -x build\exe\<ad>.exe uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.obj
+error 81: Invalid command-line option, "build\obj\program.obj"
+[BASARISIZ] uxm\tests\native\test13_status_div_zero.uxm 
+........................................ 
+TEST: uxm\tests\native\test14_branch_current_zero.uxm 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.obj
+FreeBASIC runtime ile link:
+fbc -x build\exe\<ad>.exe uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.obj
+error 81: Invalid command-line option, "build\obj\program.obj"
+[BASARISIZ] uxm\tests\native\test14_branch_current_zero.uxm 
+........................................ 
+TEST: uxm\tests\native\test15_branch_nonzero.uxm 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.obj
+FreeBASIC runtime ile link:
+fbc -x build\exe\<ad>.exe uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.obj
+error 81: Invalid command-line option, "build\obj\program.obj"
+[BASARISIZ] uxm\tests\native\test15_branch_nonzero.uxm 
+........................................ 
+TEST: uxm\tests\native\test16_data_digit.uxm 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.obj
+FreeBASIC runtime ile link:
+fbc -x build\exe\<ad>.exe uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.obj
+error 81: Invalid command-line option, "build\obj\program.obj"
+[BASARISIZ] uxm\tests\native\test16_data_digit.uxm 
+........................................ 
+TEST: uxm\tests\native\test17_endian_word_split.uxm 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.obj
+FreeBASIC runtime ile link:
+fbc -x build\exe\<ad>.exe uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.obj
+error 81: Invalid command-line option, "build\obj\program.obj"
+[BASARISIZ] uxm\tests\native\test17_endian_word_split.uxm 
+........................................ 
+TEST: uxm\tests\native\test18_pointer_service.uxm 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.obj
+FreeBASIC runtime ile link:
+fbc -x build\exe\<ad>.exe uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.obj
+error 81: Invalid command-line option, "build\obj\program.obj"
+[BASARISIZ] uxm\tests\native\test18_pointer_service.uxm 
+........................................ 
+TEST: uxm\tests\native\test20_fifo_char_order.uxm 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.obj
+FreeBASIC runtime ile link:
+fbc -x build\exe\<ad>.exe uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.obj
+error 81: Invalid command-line option, "build\obj\program.obj"
+[BASARISIZ] uxm\tests\native\test20_fifo_char_order.uxm 
+........................................ 
+TEST: uxm\tests\native\test21_fifo_count_peek.uxm 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.obj
+FreeBASIC runtime ile link:
+fbc -x build\exe\<ad>.exe uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.obj
+error 81: Invalid command-line option, "build\obj\program.obj"
+[BASARISIZ] uxm\tests\native\test21_fifo_count_peek.uxm 
+........................................ 
+TEST: uxm\tests\native\test22_data_write_read_char.uxm 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.obj
+FreeBASIC runtime ile link:
+fbc -x build\exe\<ad>.exe uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.obj
+error 81: Invalid command-line option, "build\obj\program.obj"
+[BASARISIZ] uxm\tests\native\test22_data_write_read_char.uxm 
+........................................ 
+TEST: uxm\tests\native\test23_data_digit_ascii_to_number.uxm 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.obj
+FreeBASIC runtime ile link:
+fbc -x build\exe\<ad>.exe uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.obj
+error 81: Invalid command-line option, "build\obj\program.obj"
+[BASARISIZ] uxm\tests\native\test23_data_digit_ascii_to_number.uxm 
+........................................ 
+TEST: uxm\tests\native\test24_data_block_copy_print.uxm 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.obj
+FreeBASIC runtime ile link:
+fbc -x build\exe\<ad>.exe uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.obj
+error 81: Invalid command-line option, "build\obj\program.obj"
+[BASARISIZ] uxm\tests\native\test24_data_block_copy_print.uxm 
+........................................ 
+TEST: uxm\tests\native\test25_data_sort_ascending.uxm 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.obj
+FreeBASIC runtime ile link:
+fbc -x build\exe\<ad>.exe uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.obj
+error 81: Invalid command-line option, "build\obj\program.obj"
+[BASARISIZ] uxm\tests\native\test25_data_sort_ascending.uxm 
+........................................ 
+TEST: uxm\tests\native\test26_tape_sort_descending_chars.uxm 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.obj
+FreeBASIC runtime ile link:
+fbc -x build\exe\<ad>.exe uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.obj
+error 81: Invalid command-line option, "build\obj\program.obj"
+[BASARISIZ] uxm\tests\native\test26_tape_sort_descending_chars.uxm 
+........................................ 
+TEST: uxm\tests\native\test27_tape_linear_search.uxm 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.obj
+FreeBASIC runtime ile link:
+fbc -x build\exe\<ad>.exe uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.obj
+error 81: Invalid command-line option, "build\obj\program.obj"
+[BASARISIZ] uxm\tests\native\test27_tape_linear_search.uxm 
+........................................ 
+TEST: uxm\tests\native\test28_dynamic_meta_fifo.uxm 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.obj
+FreeBASIC runtime ile link:
+fbc -x build\exe\<ad>.exe uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.obj
+error 81: Invalid command-line option, "build\obj\program.obj"
+[BASARISIZ] uxm\tests\native\test28_dynamic_meta_fifo.uxm 
+........................................ 
+TEST: uxm\tests\native\test29_nested_macro_call.uxm 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.obj
+FreeBASIC runtime ile link:
+fbc -x build\exe\<ad>.exe uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.obj
+error 81: Invalid command-line option, "build\obj\program.obj"
+[BASARISIZ] uxm\tests\native\test29_nested_macro_call.uxm 
+........................................ 
+TEST: uxm\tests\native\test30_word_mode_add.uxm 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.obj
+FreeBASIC runtime ile link:
+fbc -x build\exe\<ad>.exe uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.obj
+error 81: Invalid command-line option, "build\obj\program.obj"
+[BASARISIZ] uxm\tests\native\test30_word_mode_add.uxm 
+........................................ 
+TEST: uxm\tests\native\test31_safe_mode_wild_denied.uxm 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.obj
+FreeBASIC runtime ile link:
+fbc -x build\exe\<ad>.exe uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.obj
+error 81: Invalid command-line option, "build\obj\program.obj"
+[BASARISIZ] uxm\tests\native\test31_safe_mode_wild_denied.uxm 
+........................................ 
+TEST: uxm\tests\native\test32_wild_layout_change.uxm 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.obj
+FreeBASIC runtime ile link:
+fbc -x build\exe\<ad>.exe uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.obj
+error 81: Invalid command-line option, "build\obj\program.obj"
+[BASARISIZ] uxm\tests\native\test32_wild_layout_change.uxm 
+........................................ 
+TEST: uxm\tests\native\test33_bitwise_and_stack.uxm 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.obj
+FreeBASIC runtime ile link:
+fbc -x build\exe\<ad>.exe uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.obj
+error 81: Invalid command-line option, "build\obj\program.obj"
+[BASARISIZ] uxm\tests\native\test33_bitwise_and_stack.uxm 
+........................................ 
+TEST: uxm\tests\native\test34_data_block_clear.uxm 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.obj
+FreeBASIC runtime ile link:
+fbc -x build\exe\<ad>.exe uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.obj
+error 81: Invalid command-line option, "build\obj\program.obj"
+[BASARISIZ] uxm\tests\native\test34_data_block_clear.uxm 
+........................................ 
+TEST: uxm\tests\native\test35_optimizer_visible_result.uxm 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.obj
+FreeBASIC runtime ile link:
+fbc -x build\exe\<ad>.exe uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.obj
+error 81: Invalid command-line option, "build\obj\program.obj"
+[BASARISIZ] uxm\tests\native\test35_optimizer_visible_result.uxm 
+........................................ 
+TEST: uxm\tests\native\test40_4bit_cpu_alu_model.uxm 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.obj
+FreeBASIC runtime ile link:
+fbc -x build\exe\<ad>.exe uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.obj
+error 81: Invalid command-line option, "build\obj\program.obj"
+[BASARISIZ] uxm\tests\native\test40_4bit_cpu_alu_model.uxm 
+........................................ 
+TEST: uxm\tests\native\test41_4_neuron_nn_model.uxm 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.obj
+FreeBASIC runtime ile link:
+fbc -x build\exe\<ad>.exe uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.obj
+error 81: Invalid command-line option, "build\obj\program.obj"
+[BASARISIZ] uxm\tests\native\test41_4_neuron_nn_model.uxm 
+........................................ 
+TEST: uxm\tests\native\test42_error_flag_set_reset.uxm 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.obj
+FreeBASIC runtime ile link:
+fbc -x build\exe\<ad>.exe uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.obj
+error 81: Invalid command-line option, "build\obj\program.obj"
+[BASARISIZ] uxm\tests\native\test42_error_flag_set_reset.uxm 
+........................................ 
+TEST: uxm\tests\native\test43_error_macro_helpers.uxm 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.obj
+FreeBASIC runtime ile link:
+fbc -x build\exe\<ad>.exe uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.obj
+error 81: Invalid command-line option, "build\obj\program.obj"
+[BASARISIZ] uxm\tests\native\test43_error_macro_helpers.uxm 
+........................................ 
+TEST: uxm\tests\native\test44_asin.uxm 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.obj
+FreeBASIC runtime ile link:
+fbc -x build\exe\<ad>.exe uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.obj
+error 81: Invalid command-line option, "build\obj\program.obj"
+[BASARISIZ] uxm\tests\native\test44_asin.uxm 
+........................................ 
+TEST: uxm\tests\native\test44_meta_version_info.uxm 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.obj
+FreeBASIC runtime ile link:
+fbc -x build\exe\<ad>.exe uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.obj
+error 81: Invalid command-line option, "build\obj\program.obj"
+[BASARISIZ] uxm\tests\native\test44_meta_version_info.uxm 
+........................................ 
+TEST: uxm\tests\native\test45_acos.uxm 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.obj
+FreeBASIC runtime ile link:
+fbc -x build\exe\<ad>.exe uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.obj
+error 81: Invalid command-line option, "build\obj\program.obj"
+[BASARISIZ] uxm\tests\native\test45_acos.uxm 
+........................................ 
+TEST: uxm\tests\native\test45_pointer_meta_extended.uxm 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.obj
+FreeBASIC runtime ile link:
+fbc -x build\exe\<ad>.exe uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.obj
+error 81: Invalid command-line option, "build\obj\program.obj"
+[BASARISIZ] uxm\tests\native\test45_pointer_meta_extended.uxm 
+........................................ 
+TEST: uxm\tests\native\test46_fifo_clear.uxm 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.obj
+FreeBASIC runtime ile link:
+fbc -x build\exe\<ad>.exe uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.obj
+error 81: Invalid command-line option, "build\obj\program.obj"
+[BASARISIZ] uxm\tests\native\test46_fifo_clear.uxm 
+........................................ 
+TEST: uxm\tests\native\test46_sqrt.uxm 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.obj
+FreeBASIC runtime ile link:
+fbc -x build\exe\<ad>.exe uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.obj
+error 81: Invalid command-line option, "build\obj\program.obj"
+[BASARISIZ] uxm\tests\native\test46_sqrt.uxm 
+........................................ 
+TEST: uxm\tests\native\test47_sinh.uxm 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.obj
+FreeBASIC runtime ile link:
+fbc -x build\exe\<ad>.exe uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.obj
+error 81: Invalid command-line option, "build\obj\program.obj"
+[BASARISIZ] uxm\tests\native\test47_sinh.uxm 
+........................................ 
+TEST: uxm\tests\native\test47_tape_sort_ascending.uxm 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.obj
+FreeBASIC runtime ile link:
+fbc -x build\exe\<ad>.exe uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.obj
+error 81: Invalid command-line option, "build\obj\program.obj"
+[BASARISIZ] uxm\tests\native\test47_tape_sort_ascending.uxm 
+........................................ 
+TEST: uxm\tests\native\test48_cosh.uxm 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.obj
+FreeBASIC runtime ile link:
+fbc -x build\exe\<ad>.exe uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.obj
+error 81: Invalid command-line option, "build\obj\program.obj"
+[BASARISIZ] uxm\tests\native\test48_cosh.uxm 
+........................................ 
+TEST: uxm\tests\native\test48_data_sort_descending.uxm 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.obj
+FreeBASIC runtime ile link:
+fbc -x build\exe\<ad>.exe uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.obj
+error 81: Invalid command-line option, "build\obj\program.obj"
+[BASARISIZ] uxm\tests\native\test48_data_sort_descending.uxm 
+........................................ 
+TEST: uxm\tests\native\test49_data_linear_search.uxm 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.obj
+FreeBASIC runtime ile link:
+fbc -x build\exe\<ad>.exe uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.obj
+error 81: Invalid command-line option, "build\obj\program.obj"
+[BASARISIZ] uxm\tests\native\test49_data_linear_search.uxm 
+........................................ 
+TEST: uxm\tests\native\test49_tanh.uxm 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.obj
+FreeBASIC runtime ile link:
+fbc -x build\exe\<ad>.exe uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.obj
+error 81: Invalid command-line option, "build\obj\program.obj"
+[BASARISIZ] uxm\tests\native\test49_tanh.uxm 
+........................................ 
+TEST: uxm\tests\native\test50_tape_block_copy_clear.uxm 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.obj
+FreeBASIC runtime ile link:
+fbc -x build\exe\<ad>.exe uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.obj
+error 81: Invalid command-line option, "build\obj\program.obj"
+[BASARISIZ] uxm\tests\native\test50_tape_block_copy_clear.uxm 
+........................................ 
+TEST: uxm\tests\native\test51_meta_print_stack_pop.uxm 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.obj
+FreeBASIC runtime ile link:
+fbc -x build\exe\<ad>.exe uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.obj
+error 81: Invalid command-line option, "build\obj\program.obj"
+[BASARISIZ] uxm\tests\native\test51_meta_print_stack_pop.uxm 
+........................................ 
+TEST: uxm\tests\native\test52_meta_print_hex.uxm 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.obj
+FreeBASIC runtime ile link:
+fbc -x build\exe\<ad>.exe uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.obj
+error 81: Invalid command-line option, "build\obj\program.obj"
+[BASARISIZ] uxm\tests\native\test52_meta_print_hex.uxm 
+........................................ 
+TEST: uxm\tests\native\test53_meta_print_bin.uxm 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.obj
+FreeBASIC runtime ile link:
+fbc -x build\exe\<ad>.exe uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.obj
+error 81: Invalid command-line option, "build\obj\program.obj"
+[BASARISIZ] uxm\tests\native\test53_meta_print_bin.uxm 
+........................................ 
+TEST: uxm\tests\native\test54_meta_print_char_raw.uxm 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.obj
+FreeBASIC runtime ile link:
+fbc -x build\exe\<ad>.exe uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.obj
+error 81: Invalid command-line option, "build\obj\program.obj"
+[BASARISIZ] uxm\tests\native\test54_meta_print_char_raw.uxm 
+........................................ 
+---------------------------------------- 
+KLASOR: uxm\tests\v33 
+---------------------------------------- 
+TEST: uxm\tests\v33\test_v33_address_base_p.uxm 
+ASM uretildi: build\asm\program.asm
+NASM:
+nasm -f win64 build\asm\program.asm -o build\obj\<ad>.obj
+FreeBASIC runtime ile link:
+fbc -x build\exe\<ad>.exe uxm\core\runtime\uxm31_runtime_fb_full.bas build\obj\<ad>.obj
+error 81: Invalid command-line option, "build\obj\program.obj"
+[BASARISIZ] uxm\tests\v33\test_v33_address_base_p.uxm 
+........................................ 
+TEST: uxm\tests\v33\test_v33_dynamic_meta_addr.uxm 
+SYNTAX ERROR @191: gecersiz komut karakteri: (
+[BASARISIZ] uxm\tests\v33\test_v33_dynamic_meta_addr.uxm 
+........................................ 
+TEST: uxm\tests\v33\test_v33_stack_pointer_relative.uxm 
+SYNTAX ERROR @153: sN taniminda N bekleniyor
+[BASARISIZ] uxm\tests\v33\test_v33_stack_pointer_relative.uxm 
+........................................ 
+TEST BITTI: Cum 08.05.2026  6:03:55,03 

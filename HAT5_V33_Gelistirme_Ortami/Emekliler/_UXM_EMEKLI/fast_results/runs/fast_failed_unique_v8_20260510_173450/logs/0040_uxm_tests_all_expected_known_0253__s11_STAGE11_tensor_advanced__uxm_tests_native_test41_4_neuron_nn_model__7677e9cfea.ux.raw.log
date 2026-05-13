@@ -1,0 +1,11 @@
+ASM uretildi: build\asm\t0040_f8f9319cbc.asm
+[V3.3-stage15-16] Native ASM hazir. Link islemi build_one_native.bat tarafindan yurutulur.
+NASM:
+nasm -f win64 "build\asm\t0040_f8f9319cbc.asm" -o "build\obj\t0040_f8f9319cbc.o"
+FreeBASIC runtime kaynak ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe "uxm\core\runtime\uxm31_runtime_fb_full.bas" "build\obj\t0040_f8f9319cbc.o" -x "build\exe\t0040_f8f9319cbc.exe"
+4 NEURON NN TEST
+X1=1 X2=0
+N1=1 N2=0 N3=1 OUT=1
+
+[UXM program derlendi.]

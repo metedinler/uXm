@@ -1,0 +1,28 @@
+LABEL: smoke:run_stage12_smoke.bat
+COMMAND: call "run_stage12_smoke.bat"
+RETURNCODE: 0
+ELAPSED_SEC: 18.468984
+
+--- STDOUT ---
+[OK] compiler build
+----------------------------------------
+[TEST] uxm\tests\fp\test_fp01_add_int.uxm
+[OK] uxm\tests\fp\test_fp01_add_int.uxm expected=46
+----------------------------------------
+[TEST] uxm\tests\native\test05_meta_add.uxm
+[OK] uxm\tests\native\test05_meta_add.uxm expected=30
+----------------------------------------
+[TEST] uxm\tests\v33\test_v33_tensor3d_index_slice.uxm
+[OK] uxm\tests\v33\test_v33_tensor3d_index_slice.uxm expected=772377
+----------------------------------------
+[TEST] uxm\tests\v33\test_v33_tensor_reshape_infer_flatten.uxm
+[OK] uxm\tests\v33\test_v33_tensor_reshape_infer_flatten.uxm expected=82777782
+----------------------------------------
+[TEST] uxm\tests\v33\test_v33_tensor_slice_axes.uxm
+[OK] uxm\tests\v33\test_v33_tensor_slice_axes.uxm expected=77667755
+----------------------------------------
+[TEST] uxm\tests\v33\test_v33_tensor_broadcast_add.uxm
+[OK] uxm\tests\v33\test_v33_tensor_broadcast_add.uxm expected=223127225
+[SMOKE OK] Stage-12 smoke + expected-output testleri gecti.
+
+--- STDERR ---

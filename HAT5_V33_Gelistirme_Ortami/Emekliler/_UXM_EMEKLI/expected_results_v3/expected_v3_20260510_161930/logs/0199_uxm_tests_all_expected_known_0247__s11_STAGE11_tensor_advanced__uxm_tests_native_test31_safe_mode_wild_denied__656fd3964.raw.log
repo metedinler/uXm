@@ -1,0 +1,15 @@
+ASM uretildi: build\asm\program.asm
+[V3.3-stage15-16] Native ASM hazir. Link islemi build_one_native.bat tarafindan yurutulur.
+NASM:
+nasm -f win64 "build\asm\program.asm" -o "build\obj\program.o"
+
+build\asm\program.asm:376: error: label `__ux_ok_exit' inconsistently redefined
+build\asm\program.asm:288: info: label `__ux_ok_exit' originally defined here
+build\asm\program.asm:385: error: label `__ux_err_ptr' inconsistently redefined
+build\asm\program.asm:297: info: label `__ux_err_ptr' originally defined here
+build\asm\program.asm:390: error: label `__ux_err_stack_over' inconsistently redefined
+build\asm\program.asm:302: info: label `__ux_err_stack_over' originally defined here
+build\asm\program.asm:395: error: label `__ux_err_stack_under' inconsistently redefined
+build\asm\program.asm:307: info: label `__ux_err_stack_under' originally defined here
+build\asm\program.asm:400: error: label `__ux_err_data' inconsistently redefined
+build\asm\program.asm:312: info: label `__ux_err_data' originally defined here

@@ -1,0 +1,10 @@
+﻿action,category,src,dst,reason
+DRY_RUN,log,sonuc4.txt,Emekliler\logs\20260510_031359\sonuc4.txt,test/build log dosyasi
+DRY_RUN,log,sonuc5.txt,Emekliler\logs\20260510_031359\sonuc5.txt,test/build log dosyasi
+DRY_RUN,log,sonuc6.txt,Emekliler\logs\20260510_031359\sonuc6.txt,test/build log dosyasi
+DRY_RUN,log,sonuc7.txt,Emekliler\logs\20260510_031359\sonuc7.txt,test/build log dosyasi
+DRY_RUN,log,sonuc8.txt,Emekliler\logs\20260510_031359\sonuc8.txt,test/build log dosyasi
+DRY_RUN,xlsx_report,UXM_Performans_Analiz_Raporu_Final.xlsx,Emekliler\reports\20260510_031359\UXM_Performans_Analiz_Raporu_Final.xlsx,eski Excel raporu
+DRY_RUN,xlsx_report,UXM_Performans_Raporu_Final.xlsx,Emekliler\reports\20260510_031359\UXM_Performans_Raporu_Final.xlsx,eski Excel raporu
+DRY_RUN,package_zip,UXMv33(sondurum).zip,Emekliler\packages\20260510_031359\UXMv33(sondurum).zip,eski paket/zip arsivi
+DRY_RUN,package_zip,UXMv33.zip,Emekliler\packages\20260510_031359\UXMv33.zip,eski paket/zip arsivi

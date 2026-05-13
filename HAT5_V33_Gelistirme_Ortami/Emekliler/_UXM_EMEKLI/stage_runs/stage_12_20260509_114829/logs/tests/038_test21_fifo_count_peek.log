@@ -1,0 +1,17 @@
+LABEL: test:uxm\tests\native\test21_fifo_count_peek.uxm
+COMMAND: call build_one_native.bat "uxm\tests\native\test21_fifo_count_peek.uxm"
+RETURNCODE: 0
+ELAPSED_SEC: 4.017132
+
+--- STDOUT ---
+ASM uretildi: build\asm\test21_fifo_count_peek.asm
+[V3.3-stage12] Native ASM hazir. Link islemi build_one_native.bat tarafindan yurutulur.
+NASM:
+nasm -f win64 "build\asm\test21_fifo_count_peek.asm" -o "build\obj\test21_fifo_count_peek.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\test21_fifo_count_peek.o" -x "build\exe\test21_fifo_count_peek.exe"
+2
+10
+[UXM program derlendi.]
+
+--- STDERR ---

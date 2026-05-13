@@ -1,0 +1,1918 @@
+START_SESSION@Cmt 09.05.2026@17:29:50,42 
+ 
+START_BUILD@17:29:50,44 
+OK: build\exe\uxm_native.exe
+END_BUILD@17:29:52,46 
+ 
+KLASOR@uxm\tests\fp 
+DATA_START@uxm\tests\fp\test_fp01_add_int.uxm@17:29:52,51 
+ASM uretildi: build\asm\test_fp01_add_int.asm
+[V3.3-stage14] Native ASM hazir. Link islemi build_one_native.bat tarafindan yurutulur.
+NASM:
+nasm -f win64 "build\asm\test_fp01_add_int.asm" -o "build\obj\test_fp01_add_int.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\test_fp01_add_int.o" -x "build\exe\test_fp01_add_int.exe"
+uxm\core\runtime\uxm31_runtime_fb_full.asm: Assembler messages:
+uxm\core\runtime\uxm31_runtime_fb_full.asm:32060: Warning: end of file not at end of a line; newline inserted
+uxm\core\runtime\uxm31_runtime_fb_full.asm: Error: open SEH entry at end of file (missing .seh_endproc)
+RESULT@[BASARISIZ]@uxm\tests\fp\test_fp01_add_int.uxm 
+DATA_END@uxm\tests\fp\test_fp01_add_int.uxm@17:29:56,65 
+....................................... 
+ 
+DATA_START@uxm\tests\fp\test_fp02_sub_int.uxm@17:29:56,72 
+ASM uretildi: build\asm\test_fp02_sub_int.asm
+[V3.3-stage14] Native ASM hazir. Link islemi build_one_native.bat tarafindan yurutulur.
+NASM:
+nasm -f win64 "build\asm\test_fp02_sub_int.asm" -o "build\obj\test_fp02_sub_int.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\test_fp02_sub_int.o" -x "build\exe\test_fp02_sub_int.exe"
+25.0000000000000000
+[UXM program derlendi.]
+RESULT@[BASARILI]@uxm\tests\fp\test_fp02_sub_int.uxm 
+DATA_END@uxm\tests\fp\test_fp02_sub_int.uxm@17:30:02,31 
+....................................... 
+ 
+DATA_START@uxm\tests\fp\test_fp03_mul_int.uxm@17:30:02,36 
+ASM uretildi: build\asm\test_fp03_mul_int.asm
+[V3.3-stage14] Native ASM hazir. Link islemi build_one_native.bat tarafindan yurutulur.
+NASM:
+nasm -f win64 "build\asm\test_fp03_mul_int.asm" -o "build\obj\test_fp03_mul_int.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\test_fp03_mul_int.o" -x "build\exe\test_fp03_mul_int.exe"
+408.0000000000000000
+[UXM program derlendi.]
+RESULT@[BASARILI]@uxm\tests\fp\test_fp03_mul_int.uxm 
+DATA_END@uxm\tests\fp\test_fp03_mul_int.uxm@17:30:07,47 
+....................................... 
+ 
+DATA_START@uxm\tests\fp\test_fp04_div_int.uxm@17:30:07,52 
+ASM uretildi: build\asm\test_fp04_div_int.asm
+[V3.3-stage14] Native ASM hazir. Link islemi build_one_native.bat tarafindan yurutulur.
+NASM:
+nasm -f win64 "build\asm\test_fp04_div_int.asm" -o "build\obj\test_fp04_div_int.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\test_fp04_div_int.o" -x "build\exe\test_fp04_div_int.exe"
+3.3333333333333333
+[UXM program derlendi.]
+RESULT@[BASARILI]@uxm\tests\fp\test_fp04_div_int.uxm 
+DATA_END@uxm\tests\fp\test_fp04_div_int.uxm@17:30:13,23 
+....................................... 
+ 
+DATA_START@uxm\tests\fp\test_fp05_from_string.uxm@17:30:13,29 
+ASM uretildi: build\asm\test_fp05_from_string.asm
+[V3.3-stage14] Native ASM hazir. Link islemi build_one_native.bat tarafindan yurutulur.
+NASM:
+nasm -f win64 "build\asm\test_fp05_from_string.asm" -o "build\obj\test_fp05_from_string.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\test_fp05_from_string.o" -x "build\exe\test_fp05_from_string.exe"
+12.3400000000000000
+[UXM program derlendi.]
+RESULT@[BASARILI]@uxm\tests\fp\test_fp05_from_string.uxm 
+DATA_END@uxm\tests\fp\test_fp05_from_string.uxm@17:30:18,77 
+....................................... 
+ 
+DATA_START@uxm\tests\fp\test_fp06_add_dec_string.uxm@17:30:18,84 
+ASM uretildi: build\asm\test_fp06_add_dec_string.asm
+[V3.3-stage14] Native ASM hazir. Link islemi build_one_native.bat tarafindan yurutulur.
+NASM:
+nasm -f win64 "build\asm\test_fp06_add_dec_string.asm" -o "build\obj\test_fp06_add_dec_string.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\test_fp06_add_dec_string.o" -x "build\exe\test_fp06_add_dec_string.exe"
+17.9400000000000000
+[UXM program derlendi.]
+RESULT@[BASARILI]@uxm\tests\fp\test_fp06_add_dec_string.uxm 
+DATA_END@uxm\tests\fp\test_fp06_add_dec_string.uxm@17:30:24,66 
+....................................... 
+ 
+DATA_START@uxm\tests\fp\test_fp07_int_zero_sign_abs.uxm@17:30:24,72 
+ASM uretildi: build\asm\test_fp07_int_zero_sign_abs.asm
+[V3.3-stage14] Native ASM hazir. Link islemi build_one_native.bat tarafindan yurutulur.
+NASM:
+nasm -f win64 "build\asm\test_fp07_int_zero_sign_abs.asm" -o "build\obj\test_fp07_int_zero_sign_abs.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\test_fp07_int_zero_sign_abs.o" -x "build\exe\test_fp07_int_zero_sign_abs.exe"
+uxm\core\runtime\uxm31_runtime_fb_full.asm: Assembler messages:
+uxm\core\runtime\uxm31_runtime_fb_full.asm:48916: Warning: end of file not at end of a line; newline inserted
+uxm\core\runtime\uxm31_runtime_fb_full.asm:48917: Error: number of operands mismatch for `mov'
+RESULT@[BASARISIZ]@uxm\tests\fp\test_fp07_int_zero_sign_abs.uxm 
+DATA_END@uxm\tests\fp\test_fp07_int_zero_sign_abs.uxm@17:30:28,87 
+....................................... 
+ 
+ 
+KLASOR@uxm\tests\math 
+DATA_START@uxm\tests\math\test_math01_poly_deriv_arge.uxm@17:30:28,95 
+ASM uretildi: build\asm\test_math01_poly_deriv_arge.asm
+[V3.3-stage14] Native ASM hazir. Link islemi build_one_native.bat tarafindan yurutulur.
+NASM:
+nasm -f win64 "build\asm\test_math01_poly_deriv_arge.asm" -o "build\obj\test_math01_poly_deriv_arge.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\test_math01_poly_deriv_arge.o" -x "build\exe\test_math01_poly_deriv_arge.exe"
+4 + 12x + 24x^2
+[UXM program derlendi.]
+RESULT@[BASARILI]@uxm\tests\math\test_math01_poly_deriv_arge.uxm 
+DATA_END@uxm\tests\math\test_math01_poly_deriv_arge.uxm@17:30:33,46 
+....................................... 
+ 
+DATA_START@uxm\tests\math\test_math02_poly_integral_arge.uxm@17:30:33,54 
+ASM uretildi: build\asm\test_math02_poly_integral_arge.asm
+[V3.3-stage14] Native ASM hazir. Link islemi build_one_native.bat tarafindan yurutulur.
+NASM:
+nasm -f win64 "build\asm\test_math02_poly_integral_arge.asm" -o "build\obj\test_math02_poly_integral_arge.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\test_math02_poly_integral_arge.o" -x "build\exe\test_math02_poly_integral_arge.exe"
+0 + 2x + 2x^2 + 2x^3 + 2x^4
+[UXM program derlendi.]
+RESULT@[BASARILI]@uxm\tests\math\test_math02_poly_integral_arge.uxm 
+DATA_END@uxm\tests\math\test_math02_poly_integral_arge.uxm@17:30:38,57 
+....................................... 
+ 
+DATA_START@uxm\tests\math\test_math03_poly_eval_arge.uxm@17:30:38,65 
+ASM uretildi: build\asm\test_math03_poly_eval_arge.asm
+[V3.3-stage14] Native ASM hazir. Link islemi build_one_native.bat tarafindan yurutulur.
+NASM:
+nasm -f win64 "build\asm\test_math03_poly_eval_arge.asm" -o "build\obj\test_math03_poly_eval_arge.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\test_math03_poly_eval_arge.o" -x "build\exe\test_math03_poly_eval_arge.exe"
+98
+[UXM program derlendi.]
+RESULT@[BASARILI]@uxm\tests\math\test_math03_poly_eval_arge.uxm 
+DATA_END@uxm\tests\math\test_math03_poly_eval_arge.uxm@17:30:43,65 
+....................................... 
+ 
+DATA_START@uxm\tests\math\test_math04_expr_rpn_eval.uxm@17:30:43,72 
+ASM uretildi: build\asm\test_math04_expr_rpn_eval.asm
+[V3.3-stage14] Native ASM hazir. Link islemi build_one_native.bat tarafindan yurutulur.
+NASM:
+nasm -f win64 "build\asm\test_math04_expr_rpn_eval.asm" -o "build\obj\test_math04_expr_rpn_eval.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\test_math04_expr_rpn_eval.o" -x "build\exe\test_math04_expr_rpn_eval.exe"
+
+Aborting due to runtime error 9 ("interrupted" signal)
+
+Terminate batch job (Y/N)? 
+^CRESULT@[BASARISIZ]@uxm\tests\math\test_math04_expr_rpn_eval.uxm 
+DATA_END@uxm\tests\math\test_math04_expr_rpn_eval.uxm@17:30:52,84 
+....................................... 
+ 
+DATA_START@uxm\tests\math\test_math05_num_deriv.uxm@17:30:52,90 
+ASM uretildi: build\asm\test_math05_num_deriv.asm
+[V3.3-stage14] Native ASM hazir. Link islemi build_one_native.bat tarafindan yurutulur.
+NASM:
+nasm -f win64 "build\asm\test_math05_num_deriv.asm" -o "build\obj\test_math05_num_deriv.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\test_math05_num_deriv.o" -x "build\exe\test_math05_num_deriv.exe"
+0
+[UXM program derlendi.]
+RESULT@[BASARILI]@uxm\tests\math\test_math05_num_deriv.uxm 
+DATA_END@uxm\tests\math\test_math05_num_deriv.uxm@17:30:56,81 
+....................................... 
+ 
+DATA_START@uxm\tests\math\test_math06_integral_trap.uxm@17:30:56,84 
+ASM uretildi: build\asm\test_math06_integral_trap.asm
+[V3.3-stage14] Native ASM hazir. Link islemi build_one_native.bat tarafindan yurutulur.
+NASM:
+nasm -f win64 "build\asm\test_math06_integral_trap.asm" -o "build\obj\test_math06_integral_trap.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\test_math06_integral_trap.o" -x "build\exe\test_math06_integral_trap.exe"
+uxm\core\runtime\uxm31_runtime_fb_full.asm: Assembler messages:
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:3: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:4: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:6: Error: junk `PTR 32[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:6: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:7: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:8: Error: junk `PTR -88[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:8: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:9: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:10: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:13: Error: junk `PTR 24[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:13: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:14: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:15: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:21: Error: junk `PTR 160[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:21: Error: too many memory references for `cmp'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:25: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:26: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:27: Error: too many memory references for `sub'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:28: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:30: Error: junk `PTR 16[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:30: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:31: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:32: Error: junk `PTR -40[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:32: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:33: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:34: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:35: Error: too many memory references for `sub'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:36: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:38: Error: junk `PTR 8[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:38: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:39: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:40: Error: junk `PTR -64[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:40: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:41: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:42: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:43: Error: too many memory references for `sub'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:44: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:46: Error: junk `PTR 0[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:46: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:47: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:48: Error: junk `PTR -72[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:48: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:49: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:50: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:51: Error: too many memory references for `sub'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:52: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:54: Error: junk `PTR -8[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:54: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:55: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:56: Error: junk `PTR -80[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:56: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:57: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:58: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:59: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:60: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:61: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:62: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:63: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:65: Error: junk `PTR -16[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:65: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:66: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:67: Error: junk `PTR -88[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:67: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:68: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:69: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:72: Error: junk `PTR -24[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:72: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:73: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:74: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:80: Error: junk `PTR 160[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:80: Error: too many memory references for `cmp'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:85: Error: junk `PTR -32[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:85: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:86: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:87: Error: junk `PTR -40[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:87: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:88: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:89: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:91: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:92: Error: too many memory references for `movzx'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:93: Error: too many memory references for `movzx'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:94: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:100: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:102: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:109: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:112: Error: .seh_endproc used without .seh_proc
+uxm\core\runtime\uxm31_runtime_fb_full.asm:119: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:122: Error: junk `PTR 16[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:122: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:123: Error: junk `PTR 24[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:123: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:124: Error: junk `PTR 32[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:124: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:126: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:127: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:128: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:129: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:130: Error: junk `PTR [rax]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:130: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:131: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:132: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:133: Error: too many memory references for `sal'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:134: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:135: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:136: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:137: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:138: Error: junk `PTR [rax]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:138: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:150: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:152: Error: too many memory references for `sub'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:155: Error: junk `PTR 16[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:155: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:156: Error: junk `PTR 24[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:156: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:157: Error: junk `PTR -8[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:157: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:159: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:160: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:161: Error: too many memory references for `test'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:163: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:165: Error: junk `PTR -8[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:165: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:171: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:172: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:173: Error: too many memory references for `sal'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:174: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:175: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:176: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:177: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:179: Error: junk `PTR -8[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:179: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:180: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:181: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:182: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:183: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:184: Error: junk `PTR [rax]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:184: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:186: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:187: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:199: Error: too many memory references for `sub'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:201: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:204: Error: junk `PTR 1312[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:204: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:205: Error: junk `PTR 1320[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:205: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:206: Error: junk `PTR 1088[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:206: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:208: Error: junk `PTR 1080[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:208: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:209: Error: junk `PTR 1072[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:209: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:210: Error: junk `PTR 1064[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:210: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:211: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:212: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:213: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:214: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:215: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:216: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:218: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:219: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:220: Error: junk `PTR [rax]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:220: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:221: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:222: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:223: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:224: Error: junk `PTR [rax]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:224: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:225: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:226: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:227: Error: junk `PTR [rax]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:227: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:228: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:229: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:230: Error: junk `PTR [rax]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:230: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:231: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:232: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:233: Error: junk `PTR [rax]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:233: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:234: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:235: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:236: Error: junk `PTR [rax]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:236: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:237: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:238: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:239: Error: junk `PTR [rax]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:239: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:240: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:241: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:242: Error: junk `PTR [rax]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:242: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:243: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:244: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:245: Error: junk `PTR [rax]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:245: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:246: Error: junk `PTR -56[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:246: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:247: Error: junk `PTR -64[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:247: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:248: Error: junk `PTR -72[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:248: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:249: Error: junk `PTR -80[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:249: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:250: Error: junk `PTR -88[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:250: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:251: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:253: Error: junk `PTR 1272[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:253: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:254: Error: junk `PTR 1272[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:254: Error: too many memory references for `cmp'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:256: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:258: Error: junk `PTR 1088[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:258: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:264: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:265: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:266: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:268: Error: junk `PTR 1264[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:268: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:269: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:270: Error: junk `PTR 1080[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:270: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:271: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:272: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:273: Error: junk `PTR 1072[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:273: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:274: Error: junk `PTR -56[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:274: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:276: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:277: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:279: Error: junk `PTR 1256[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:279: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:280: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:281: Error: junk `PTR 1064[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:281: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:282: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:283: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:284: Error: junk `PTR 1072[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:284: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:285: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:286: Error: too many memory references for `cmp'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:290: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:291: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:293: Error: junk `PTR 1248[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:293: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:294: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:295: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:296: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:297: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:298: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:300: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:301: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:302: Error: junk `PTR 1072[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:302: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:307: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:308: Error: too many memory references for `cmp'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:312: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:313: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:314: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:315: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:316: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:322: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:323: Error: too many memory references for `cmp'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:327: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:328: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:329: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:331: Error: junk `PTR 1240[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:331: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:332: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:333: Error: junk `PTR -72[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:333: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:334: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:335: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:336: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:338: Error: junk `PTR 1232[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:338: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:339: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:340: Error: junk `PTR -64[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:340: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:341: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:342: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:343: Error: invalid char '[' beginning operand 2 `[rdx+rax]'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:344: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:345: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:346: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:347: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:353: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:354: Error: too many memory references for `cmp'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:358: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:359: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:360: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:362: Error: junk `PTR 1224[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:362: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:363: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:364: Error: junk `PTR -72[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:364: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:365: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:366: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:367: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:369: Error: junk `PTR 1216[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:369: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:370: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:371: Error: junk `PTR -64[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:371: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:372: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:373: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:374: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:375: Error: too many memory references for `sub'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:376: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:377: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:378: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:379: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:385: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:386: Error: too many memory references for `cmp'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:390: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:391: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:392: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:394: Error: junk `PTR 1208[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:394: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:395: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:396: Error: junk `PTR -72[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:396: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:397: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:398: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:399: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:401: Error: junk `PTR 1200[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:401: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:402: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:403: Error: junk `PTR -64[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:403: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:404: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:405: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:406: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:407: Error: too many memory references for `imul'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:408: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:409: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:410: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:411: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:417: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:418: Error: too many memory references for `cmp'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:422: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:423: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:424: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:426: Error: junk `PTR 1192[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:426: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:427: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:428: Error: junk `PTR -72[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:428: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:429: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:430: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:431: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:433: Error: junk `PTR 1184[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:433: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:434: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:435: Error: junk `PTR -64[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:435: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:436: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:437: Error: too many memory references for `test'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:439: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:441: Error: junk `PTR 1088[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:441: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:446: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:447: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:449: Error: no instruction mnemonic suffix given and no register operands; can't size instruction
+uxm\core\runtime\uxm31_runtime_fb_full.asm:450: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:451: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:452: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:453: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:454: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:461: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:462: Error: too many memory references for `cmp'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:466: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:467: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:468: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:470: Error: junk `PTR 1176[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:470: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:471: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:472: Error: junk `PTR -72[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:472: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:473: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:474: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:475: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:477: Error: junk `PTR 1168[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:477: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:478: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:479: Error: junk `PTR -64[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:479: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:480: Error: junk `PTR -88[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:480: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:481: Error: junk `PTR -80[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:481: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:482: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:483: Error: junk `PTR 1160[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:483: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:488: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:489: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:490: Error: too many memory references for `imul'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:491: Error: junk `PTR -88[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:491: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:493: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:494: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:495: Error: junk `PTR -80[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:495: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:497: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:498: Error: junk `PTR 1160[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:498: Error: too many memory references for `cmp'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:502: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:503: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:504: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:505: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:506: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:512: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:513: Error: too many memory references for `cmp'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:517: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:518: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:519: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:521: Error: junk `PTR 1152[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:521: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:522: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:523: Error: junk `PTR -64[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:523: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:524: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:525: Error: too many memory references for `cvtsi2sd'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:526: Warning: `xmm0' is not valid here (expected `(%rsi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:526: Error: junk `PTR .LC14[rip]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:526: Warning: `QWORD PTR .LC14[rip]' is not valid here (expected `(%rdi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:527: Error: too many memory references for `mulsd'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:528: Warning: `xmm1' is not valid here (expected `(%rsi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:528: Error: junk `PTR .LC15[rip]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:528: Warning: `QWORD PTR .LC15[rip]' is not valid here (expected `(%rdi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:529: Error: too many memory references for `divsd'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:531: Warning: `xmm1' is not valid here (expected `(%rsi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:531: Error: junk `PTR .LC54[rip]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:531: Warning: `QWORD PTR .LC54[rip]' is not valid here (expected `(%rdi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:532: Error: too many memory references for `mulsd'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:534: Error: too many memory references for `cvttsd2si'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:535: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:536: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:537: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:538: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:544: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:545: Error: too many memory references for `cmp'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:549: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:550: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:551: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:553: Error: junk `PTR 1144[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:553: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:554: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:555: Error: junk `PTR -64[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:555: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:556: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:557: Error: too many memory references for `cvtsi2sd'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:558: Warning: `xmm0' is not valid here (expected `(%rsi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:558: Error: junk `PTR .LC14[rip]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:558: Warning: `QWORD PTR .LC14[rip]' is not valid here (expected `(%rdi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:559: Error: too many memory references for `mulsd'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:560: Warning: `xmm1' is not valid here (expected `(%rsi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:560: Error: junk `PTR .LC15[rip]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:560: Warning: `QWORD PTR .LC15[rip]' is not valid here (expected `(%rdi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:561: Error: too many memory references for `divsd'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:563: Warning: `xmm1' is not valid here (expected `(%rsi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:563: Error: junk `PTR .LC54[rip]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:563: Warning: `QWORD PTR .LC54[rip]' is not valid here (expected `(%rdi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:564: Error: too many memory references for `mulsd'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:566: Error: too many memory references for `cvttsd2si'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:567: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:568: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:569: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:570: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:576: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:577: Error: too many memory references for `cmp'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:581: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:582: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:583: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:585: Error: junk `PTR 1136[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:585: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:586: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:587: Error: junk `PTR -64[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:587: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:588: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:589: Error: too many memory references for `cvtsi2sd'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:590: Warning: `xmm0' is not valid here (expected `(%rsi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:590: Error: junk `PTR .LC14[rip]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:590: Warning: `QWORD PTR .LC14[rip]' is not valid here (expected `(%rdi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:591: Error: too many memory references for `mulsd'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:592: Warning: `xmm1' is not valid here (expected `(%rsi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:592: Error: junk `PTR .LC15[rip]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:592: Warning: `QWORD PTR .LC15[rip]' is not valid here (expected `(%rdi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:593: Error: too many memory references for `divsd'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:595: Warning: `xmm1' is not valid here (expected `(%rsi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:595: Error: junk `PTR .LC54[rip]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:595: Warning: `QWORD PTR .LC54[rip]' is not valid here (expected `(%rdi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:596: Error: too many memory references for `mulsd'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:598: Error: too many memory references for `cvttsd2si'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:599: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:600: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:601: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:602: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:608: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:609: Error: too many memory references for `cmp'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:613: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:614: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:615: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:617: Error: junk `PTR 1128[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:617: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:618: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:619: Error: junk `PTR -64[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:619: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:620: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:621: Error: too many memory references for `cvtsi2sd'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:624: Error: too many memory references for `cvttsd2si'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:625: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:626: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:627: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:628: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:634: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:635: Error: too many memory references for `cmp'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:639: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:640: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:641: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:643: Error: junk `PTR 1120[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:643: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:644: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:645: Error: junk `PTR -64[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:645: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:646: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:647: Error: too many memory references for `test'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:649: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:651: Error: junk `PTR 1088[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:651: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:656: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:657: Error: too many memory references for `cvtsi2sd'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:660: Error: too many memory references for `cvttsd2si'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:661: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:662: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:663: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:664: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:671: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:672: Error: too many memory references for `cmp'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:676: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:677: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:678: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:680: Error: junk `PTR 1112[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:680: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:681: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:682: Error: junk `PTR -64[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:682: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:683: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:684: Error: too many memory references for `test'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:686: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:688: Error: junk `PTR 1088[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:688: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:693: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:694: Error: too many memory references for `cvtsi2sd'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:695: Error: too many memory references for `sqrtsd'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:697: Error: too many memory references for `cvttsd2si'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:698: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:699: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:700: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:701: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:708: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:709: Error: too many memory references for `cmp'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:713: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:714: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:715: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:717: Error: junk `PTR 1104[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:717: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:718: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:719: Error: junk `PTR -64[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:719: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:720: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:721: Error: no instruction mnemonic suffix given and no register operands; can't size instruction
+uxm\core\runtime\uxm31_runtime_fb_full.asm:722: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:723: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:724: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:725: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:726: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:732: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:733: Error: too many memory references for `cmp'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:737: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:738: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:739: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:741: Error: junk `PTR 1096[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:741: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:742: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:743: Error: junk `PTR -64[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:743: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:744: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:745: Error: too many memory references for `test'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:747: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:748: Error: no instruction mnemonic suffix given and no register operands; can't size instruction
+uxm\core\runtime\uxm31_runtime_fb_full.asm:749: Error: junk `PTR -64[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:749: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:754: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:755: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:756: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:757: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:758: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:764: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:765: Error: too many memory references for `cmp'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:773: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:775: Error: junk `PTR 1088[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:775: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:779: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:780: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:781: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:782: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:783: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:784: Error: too many memory references for `cmp'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:793: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:794: Error: too many memory references for `test'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:796: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:798: Error: junk `PTR 1088[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:798: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:803: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:805: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:806: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:807: Error: too many memory references for `sal'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:808: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:809: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:811: Error: junk `PTR 1088[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:811: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:814: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:815: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:826: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:828: Error: too many memory references for `sub'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:831: Error: junk `PTR 16[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:831: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:832: Error: junk `PTR 24[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:832: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:833: Error: junk `PTR 32[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:833: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:834: Error: junk `PTR -24[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:834: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:836: Error: junk `PTR -32[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:836: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:837: Error: junk `PTR -40[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:837: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:838: Error: junk `PTR 32[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:838: Error: too many memory references for `cmp'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:840: Error: junk `PTR 32[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:840: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:845: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:846: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:847: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:848: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:849: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:851: Error: junk `PTR -8[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:851: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:852: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:853: Error: junk `PTR -32[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:853: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:854: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:855: Error: too many memory references for `sub'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:856: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:857: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:859: Error: junk `PTR -16[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:859: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:860: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:861: Error: junk `PTR -40[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:861: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:862: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:863: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:864: Error: too many memory references for `sub'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:865: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:866: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:867: Error: invalid char '[' beginning operand 2 `[rdx+rdx]'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:869: Error: no instruction mnemonic suffix given and no register operands; can't size instruction
+uxm\core\runtime\uxm31_runtime_fb_full.asm:870: Error: junk `PTR -24[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:870: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:871: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:874: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:875: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:885: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:887: Error: too many memory references for `sub'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:890: Error: junk `PTR 16[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:890: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:891: Error: junk `PTR 24[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:891: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:892: Error: junk `PTR 32[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:892: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:893: Error: junk `PTR 40[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:893: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:894: Error: junk `PTR -40[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:894: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:896: Error: junk `PTR -48[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:896: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:897: Error: junk `PTR -56[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:897: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:898: Error: junk `PTR -64[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:898: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:899: Error: junk `PTR -72[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:899: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:900: Error: junk `PTR 40[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:900: Error: too many memory references for `cmp'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:902: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:904: Error: junk `PTR -40[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:904: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:909: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:910: Error: too many memory references for `sub'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:912: Error: junk `PTR 40[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:912: Error: no instruction mnemonic suffix given and no register operands; can't size instruction
+uxm\core\runtime\uxm31_runtime_fb_full.asm:913: Error: junk `PTR -48[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:913: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:914: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:915: Error: too many memory references for `test'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:917: Error: junk `PTR -48[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:917: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:922: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:923: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:924: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:926: Error: junk `PTR -8[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:926: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:927: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:928: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:929: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:931: Error: junk `PTR -16[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:931: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:932: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:933: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:934: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:935: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:936: Error: too many memory references for `shr'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:937: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:938: Error: no instruction mnemonic suffix given and no register operands; can't size instruction
+uxm\core\runtime\uxm31_runtime_fb_full.asm:939: Error: junk `PTR -72[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:939: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:940: Error: junk `PTR -56[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:940: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:941: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:942: Error: too many memory references for `sub'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:943: Error: junk `PTR -24[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:943: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:948: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:949: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:950: Error: too many memory references for `imul'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:951: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:952: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:953: Error: junk `PTR -64[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:953: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:954: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:955: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:956: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:958: Error: junk `PTR -32[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:958: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:959: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:960: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:961: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:962: Error: junk `PTR -72[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:962: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:964: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:965: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:966: Error: junk `PTR -56[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:966: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:968: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:969: Error: junk `PTR -24[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:969: Error: too many memory references for `cmp'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:973: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:975: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:976: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:977: Error: too many memory references for `imul'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:978: Error: junk `PTR -40[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:978: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:981: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:982: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:992: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:994: Error: too many memory references for `sub'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:997: Error: junk `PTR 16[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:997: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:998: Error: junk `PTR 24[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:998: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:999: Error: junk `PTR 32[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:999: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1000: Error: junk `PTR 40[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1000: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1001: Error: junk `PTR -48[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1001: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1003: Error: junk `PTR -56[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1003: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1004: Error: junk `PTR -64[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1004: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1005: Error: junk `PTR -72[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1005: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1006: Error: junk `PTR -80[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1006: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1007: Error: junk `PTR 40[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1007: Error: too many memory references for `cmp'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1009: Error: too many memory references for `movzx'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1010: Error: no instruction mnemonic suffix given and no register operands; can't size instruction
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1011: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1012: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1013: Error: too many memory references for `and'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1014: Error: too many memory references for `test'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1016: Error: too many memory references for `movzx'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1017: Error: no instruction mnemonic suffix given and no register operands; can't size instruction
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1018: Error: too many memory references for `or'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1019: Error: too many memory references for `test'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1021: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1023: Error: junk `PTR -48[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1023: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1028: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1029: Error: too many memory references for `sub'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1031: Error: junk `PTR 40[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1031: Error: no instruction mnemonic suffix given and no register operands; can't size instruction
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1032: Error: junk `PTR -56[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1032: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1033: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1034: Error: too many memory references for `test'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1036: Error: junk `PTR -56[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1036: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1041: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1042: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1043: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1045: Error: junk `PTR -8[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1045: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1046: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1047: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1048: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1050: Error: junk `PTR -16[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1050: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1051: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1052: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1053: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1054: Error: junk `PTR -80[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1054: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1055: Error: junk `PTR -64[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1055: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1056: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1057: Error: too many memory references for `sub'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1058: Error: junk `PTR -24[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1058: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1063: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1064: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1065: Error: too many memory references for `imul'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1066: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1067: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1068: Error: junk `PTR -72[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1068: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1069: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1070: Error: too many memory references for `and'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1071: Error: too many memory references for `test'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1073: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1074: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1075: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1077: Error: junk `PTR -32[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1077: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1078: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1079: Error: invalid char '[' beginning operand 2 `[rax+rax]'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1080: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1081: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1082: Error: junk `PTR -80[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1082: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1087: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1088: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1089: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1091: Error: junk `PTR -40[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1091: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1092: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1093: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1094: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1095: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1096: Error: junk `PTR -80[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1096: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1099: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1100: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1101: Error: junk `PTR -64[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1101: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1103: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1104: Error: junk `PTR -24[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1104: Error: too many memory references for `cmp'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1108: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1110: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1111: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1112: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1113: Error: too many memory references for `imul'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1114: Error: too many memory references for `movabs'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1115: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1116: Error: no instruction mnemonic suffix given and no register operands; can't size instruction
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1117: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1118: Error: too many memory references for `sar'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1119: Error: too many memory references for `sub'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1120: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1121: Error: junk `PTR -48[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1121: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1124: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1125: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1173: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1175: Error: too many memory references for `sub'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1178: Error: junk `PTR 16[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1178: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1180: Error: junk `PTR -184[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1180: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1181: Error: junk `PTR -192[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1181: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1182: Error: junk `PTR -200[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1182: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1183: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1185: Error: junk `PTR -8[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1185: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1186: Error: junk `PTR -8[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1186: Error: too many memory references for `cmp'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1188: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1194: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1195: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1196: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1198: Error: junk `PTR -16[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1198: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1199: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1200: Error: junk `PTR -184[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1200: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1201: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1202: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1203: Error: junk `PTR -192[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1203: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1205: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1206: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1208: Error: junk `PTR -24[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1208: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1209: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1210: Error: junk `PTR -200[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1210: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1211: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1212: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1213: Error: junk `PTR -192[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1213: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1214: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1215: Error: too many memory references for `cmp'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1219: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1220: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1222: Error: junk `PTR -32[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1222: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1223: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1224: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1225: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1226: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1228: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1229: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1231: Error: junk `PTR -40[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1231: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1232: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1233: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1234: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1235: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1237: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1238: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1240: Error: junk `PTR -48[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1240: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1241: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1242: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1243: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1244: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1246: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1247: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1248: Error: junk `PTR -192[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1248: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1253: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1254: Error: too many memory references for `cmp'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1258: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1259: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1261: Error: junk `PTR -56[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1261: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1262: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1263: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1264: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1265: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1271: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1272: Error: too many memory references for `cmp'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1276: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1277: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1279: Error: junk `PTR -64[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1279: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1280: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1281: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1282: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1283: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1289: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1290: Error: too many memory references for `cmp'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1294: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1295: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1297: Error: junk `PTR -72[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1297: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1298: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1299: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1300: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1301: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1307: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1308: Error: too many memory references for `cmp'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1312: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1313: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1315: Error: junk `PTR -80[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1315: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1316: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1317: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1318: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1319: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1325: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1326: Error: too many memory references for `cmp'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1330: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1331: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1333: Error: junk `PTR -88[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1333: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1334: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1335: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1336: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1337: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1343: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1344: Error: too many memory references for `cmp'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1348: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1349: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1351: Error: junk `PTR -96[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1351: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1352: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1353: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1354: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1355: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1361: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1362: Error: too many memory references for `cmp'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1366: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1367: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1369: Error: junk `PTR -104[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1369: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1370: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1371: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1372: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1373: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1379: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1380: Error: too many memory references for `cmp'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1384: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1385: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1387: Error: junk `PTR -112[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1387: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1388: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1389: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1390: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1391: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1397: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1398: Error: too many memory references for `cmp'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1402: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1403: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1405: Error: junk `PTR -120[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1405: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1406: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1407: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1408: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1409: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1415: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1416: Error: too many memory references for `cmp'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1420: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1421: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1423: Error: junk `PTR -128[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1423: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1424: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1425: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1426: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1427: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1433: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1434: Error: too many memory references for `cmp'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1438: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1439: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1441: Error: junk `PTR -136[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1441: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1442: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1443: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1444: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1445: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1451: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1452: Error: too many memory references for `cmp'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1456: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1457: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1459: Error: junk `PTR -144[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1459: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1460: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1461: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1462: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1463: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1469: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1470: Error: too many memory references for `cmp'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1474: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1475: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1477: Error: junk `PTR -152[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1477: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1478: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1479: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1480: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1481: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1487: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1488: Error: too many memory references for `cmp'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1492: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1493: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1495: Error: junk `PTR -160[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1495: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1496: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1497: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1498: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1499: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1505: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1506: Error: too many memory references for `cmp'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1510: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1511: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1513: Error: junk `PTR -168[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1513: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1514: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1515: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1516: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1517: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1523: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1524: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1526: Error: junk `PTR -176[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1526: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1527: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1528: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1529: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1530: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1534: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1535: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1536: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1537: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1538: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1539: Error: too many memory references for `cmp'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1548: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1553: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1563: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1565: Error: too many memory references for `sub'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1568: Error: junk `PTR 16[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1568: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1569: Error: junk `PTR -4[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1569: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1571: Error: junk `PTR -4[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1571: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1574: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1575: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1585: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1587: Error: too many memory references for `sub'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1590: Error: junk `PTR 16[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1590: Warning: `QWORD PTR 16[rbp]' is not valid here (expected `(%rsi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1590: Warning: `xmm0' is not valid here (expected `(%rdi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1591: Error: junk `PTR -8[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1591: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1593: Error: too many memory references for `pxor'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1594: Error: too many memory references for `comisd'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1596: Warning: `xmm1' is not valid here (expected `(%rsi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1596: Error: junk `PTR 16[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1596: Warning: `QWORD PTR 16[rbp]' is not valid here (expected `(%rdi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1597: Warning: `xmm0' is not valid here (expected `(%rsi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1597: Error: junk `PTR .LC22[rip]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1597: Warning: `QWORD PTR .LC22[rip]' is not valid here (expected `(%rdi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1598: Error: too many memory references for `addsd'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1600: Error: too many memory references for `cvttsd2si'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1601: Error: junk `PTR -8[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1601: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1606: Warning: `xmm0' is not valid here (expected `(%rsi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1606: Error: junk `PTR 16[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1606: Warning: `QWORD PTR 16[rbp]' is not valid here (expected `(%rdi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1607: Warning: `xmm1' is not valid here (expected `(%rsi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1607: Error: junk `PTR .LC22[rip]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1607: Warning: `QWORD PTR .LC22[rip]' is not valid here (expected `(%rdi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1608: Error: too many memory references for `subsd'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1610: Error: too many memory references for `cvttsd2si'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1611: Error: junk `PTR -8[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1611: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1615: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1616: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1628: Error: too many memory references for `sub'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1630: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1633: Error: junk `PTR 736[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1633: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1634: Error: junk `PTR 600[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1634: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1636: Error: junk `PTR 592[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1636: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1637: Error: junk `PTR 584[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1637: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1638: Error: junk `PTR 576[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1638: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1639: Error: junk `PTR 568[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1639: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1640: Error: junk `PTR 560[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1640: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1641: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1642: Error: junk `PTR [rax]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1642: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1643: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1644: Error: junk `PTR [rax]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1644: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1645: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1646: Error: junk `PTR [rax]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1646: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1647: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1648: Error: junk `PTR [rax]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1648: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1649: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1650: Error: junk `PTR [rax]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1650: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1651: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1653: Error: junk `PTR 700[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1653: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1654: Error: junk `PTR 700[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1654: Error: too many memory references for `cmp'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1656: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1658: Error: junk `PTR 600[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1658: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1664: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1666: Error: junk `PTR 688[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1666: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1667: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1668: Error: junk `PTR 592[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1668: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1669: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1671: Error: junk `PTR 680[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1671: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1672: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1673: Error: junk `PTR 680[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1673: Error: too many memory references for `cmp'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1675: Error: too many memory references for `movzx'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1676: Error: no instruction mnemonic suffix given and no register operands; can't size instruction
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1677: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1678: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1679: Error: too many memory references for `test'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1681: Error: too many memory references for `movzx'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1682: Error: no instruction mnemonic suffix given and no register operands; can't size instruction
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1683: Error: too many memory references for `or'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1684: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1685: Error: too many memory references for `cmp'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1687: Error: too many memory references for `movzx'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1688: Error: no instruction mnemonic suffix given and no register operands; can't size instruction
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1689: Error: too many memory references for `or'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1690: Error: too many memory references for `test'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1692: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1694: Error: junk `PTR 600[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1694: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1700: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1701: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1702: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1703: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1704: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1705: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1707: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1708: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1709: Error: junk `PTR [rax]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1709: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1710: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1711: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1712: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1713: Error: junk `PTR [rax]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1713: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1714: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1715: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1716: Error: junk `PTR [rax]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1716: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1717: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1718: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1719: Error: junk `PTR [rax]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1719: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1720: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1721: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1722: Error: junk `PTR [rax]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1722: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1723: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1724: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1725: Error: junk `PTR [rax]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1725: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1726: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1727: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1728: Error: junk `PTR [rax]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1728: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1729: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1730: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1731: Error: junk `PTR [rax]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1731: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1732: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1733: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1734: Error: junk `PTR [rax]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1734: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1735: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1736: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1737: Error: junk `PTR [rax]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1737: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1738: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1739: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1740: Error: junk `PTR [rax]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1740: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1741: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1742: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1743: Error: junk `PTR [rax]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1743: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1744: Error: junk `PTR 584[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1744: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1745: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1746: Error: too many memory references for `sub'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1747: Error: junk `PTR 672[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1747: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1752: Error: junk `PTR 576[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1752: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1753: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1754: Error: too many memory references for `sub'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1755: Error: junk `PTR 616[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1755: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1760: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1761: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1762: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1763: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1764: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1766: Error: junk `PTR 608[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1766: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1767: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1768: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1769: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1770: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1771: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1772: Error: too many memory references for `sal'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1773: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1774: Error: too many memory references for `cvtsi2sd'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1775: Error: junk `PTR [rax]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1775: Warning: `QWORD PTR [rax]' is not valid here (expected `(%rsi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1775: Warning: `xmm0' is not valid here (expected `(%rdi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1777: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1778: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1779: Error: junk `PTR 576[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1779: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1781: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1782: Error: junk `PTR 616[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1782: Error: too many memory references for `cmp'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1787: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1788: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1789: Error: junk `PTR 584[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1789: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1791: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1792: Error: junk `PTR 672[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1792: Error: too many memory references for `cmp'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1796: Warning: `xmm0' is not valid here (expected `(%rsi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1796: Error: junk `PTR .LC18[rip]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1796: Warning: `QWORD PTR .LC18[rip]' is not valid here (expected `(%rdi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1797: Error: junk `PTR 528[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1797: Warning: `QWORD PTR 528[rbp]' is not valid here (expected `(%rsi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1797: Warning: `xmm0' is not valid here (expected `(%rdi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1798: Warning: `xmm0' is not valid here (expected `(%rsi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1798: Error: junk `PTR .LC18[rip]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1798: Warning: `QWORD PTR .LC18[rip]' is not valid here (expected `(%rdi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1799: Error: junk `PTR 520[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1799: Warning: `QWORD PTR 520[rbp]' is not valid here (expected `(%rsi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1799: Warning: `xmm0' is not valid here (expected `(%rdi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1800: Error: junk `PTR 568[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1800: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1801: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1802: Error: too many memory references for `sub'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1803: Error: junk `PTR 664[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1803: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1808: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1809: Error: junk `PTR 560[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1809: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1810: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1811: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1812: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1813: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1814: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1815: Error: too many memory references for `sal'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1816: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1817: Warning: `xmm0' is not valid here (expected `(%rsi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1817: Error: junk `PTR [rax]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1817: Warning: `QWORD PTR [rax]' is not valid here (expected `(%rdi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1818: Error: too many memory references for `movq'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1819: Error: too many memory references for `andpd'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1820: Error: junk `PTR 552[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1820: Warning: `QWORD PTR 552[rbp]' is not valid here (expected `(%rsi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1820: Warning: `xmm0' is not valid here (expected `(%rdi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1821: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1822: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1823: Error: junk `PTR 584[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1823: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1824: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1825: Error: too many memory references for `sub'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1826: Error: junk `PTR 648[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1826: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1831: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1832: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1833: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1834: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1835: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1836: Error: too many memory references for `sal'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1837: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1838: Warning: `xmm0' is not valid here (expected `(%rsi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1838: Error: junk `PTR [rax]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1838: Warning: `QWORD PTR [rax]' is not valid here (expected `(%rdi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1839: Error: too many memory references for `movq'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1840: Error: too many memory references for `andpd'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1841: Warning: `xmm0' is not valid here (expected `(%rsi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1841: Error: junk `PTR 552[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1841: Warning: `QWORD PTR 552[rbp]' is not valid here (expected `(%rdi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1842: Error: too many memory references for `comisd'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1844: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1845: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1846: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1847: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1848: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1849: Error: too many memory references for `sal'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1850: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1851: Warning: `xmm0' is not valid here (expected `(%rsi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1851: Error: junk `PTR [rax]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1851: Warning: `QWORD PTR [rax]' is not valid here (expected `(%rdi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1852: Error: too many memory references for `movq'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1853: Error: too many memory references for `andpd'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1854: Error: junk `PTR 552[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1854: Warning: `QWORD PTR 552[rbp]' is not valid here (expected `(%rsi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1854: Warning: `xmm0' is not valid here (expected `(%rdi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1855: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1856: Error: junk `PTR 560[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1856: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1863: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1864: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1865: Error: junk `PTR 584[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1865: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1867: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1868: Error: junk `PTR 648[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1868: Error: too many memory references for `cmp'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1872: Warning: `xmm0' is not valid here (expected `(%rsi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1872: Error: junk `PTR 552[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1872: Warning: `QWORD PTR 552[rbp]' is not valid here (expected `(%rdi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1873: Error: too many memory references for `comisd'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1875: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1877: Error: junk `PTR 600[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1877: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1883: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1884: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1885: Error: too many memory references for `cmp'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1887: Error: junk `PTR 576[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1887: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1888: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1889: Error: too many memory references for `sub'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1890: Error: junk `PTR 640[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1890: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1895: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1896: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1897: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1898: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1899: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1900: Error: too many memory references for `sal'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1901: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1902: Warning: `xmm0' is not valid here (expected `(%rsi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1902: Error: junk `PTR [rax]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1902: Warning: `QWORD PTR [rax]' is not valid here (expected `(%rdi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1903: Error: junk `PTR 544[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1903: Warning: `QWORD PTR 544[rbp]' is not valid here (expected `(%rsi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1903: Warning: `xmm0' is not valid here (expected `(%rdi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1904: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1905: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1906: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1907: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1908: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1909: Error: too many memory references for `sal'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1910: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1911: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1912: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1913: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1914: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1915: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1916: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1917: Error: too many memory references for `sal'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1918: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1919: Warning: `xmm0' is not valid here (expected `(%rsi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1919: Error: junk `PTR [r8]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1919: Warning: `QWORD PTR [r8]' is not valid here (expected `(%rdi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1920: Error: junk `PTR [rax]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1920: Warning: `QWORD PTR [rax]' is not valid here (expected `(%rsi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1920: Warning: `xmm0' is not valid here (expected `(%rdi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1921: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1922: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1923: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1924: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1925: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1926: Error: too many memory references for `sal'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1927: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1928: Warning: `xmm0' is not valid here (expected `(%rsi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1928: Error: junk `PTR 544[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1928: Warning: `QWORD PTR 544[rbp]' is not valid here (expected `(%rdi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1929: Error: junk `PTR [rax]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1929: Warning: `QWORD PTR [rax]' is not valid here (expected `(%rsi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1929: Warning: `xmm0' is not valid here (expected `(%rdi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1931: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1932: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1933: Error: junk `PTR 576[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1933: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1935: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1936: Error: junk `PTR 640[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1936: Error: too many memory references for `cmp'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1940: Warning: `xmm0' is not valid here (expected `(%rsi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1940: Error: junk `PTR 520[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1940: Warning: `QWORD PTR 520[rbp]' is not valid here (expected `(%rdi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1941: Error: too many memory references for `movq'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1942: Error: too many memory references for `xorpd'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1943: Error: junk `PTR 520[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1943: Warning: `QWORD PTR 520[rbp]' is not valid here (expected `(%rsi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1943: Warning: `xmm0' is not valid here (expected `(%rdi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1949: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1950: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1951: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1952: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1953: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1954: Error: too many memory references for `sal'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1955: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1956: Warning: `xmm1' is not valid here (expected `(%rsi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1956: Error: junk `PTR [rax]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1956: Warning: `QWORD PTR [rax]' is not valid here (expected `(%rdi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1957: Warning: `xmm0' is not valid here (expected `(%rsi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1957: Error: junk `PTR 528[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1957: Warning: `QWORD PTR 528[rbp]' is not valid here (expected `(%rdi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1958: Error: too many memory references for `mulsd'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1959: Error: junk `PTR 528[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1959: Warning: `QWORD PTR 528[rbp]' is not valid here (expected `(%rsi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1959: Warning: `xmm0' is not valid here (expected `(%rdi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1960: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1961: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1962: Error: junk `PTR 584[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1962: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1963: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1964: Error: too many memory references for `sub'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1965: Error: junk `PTR 632[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1965: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1970: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1971: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1972: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1973: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1974: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1975: Error: too many memory references for `sal'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1976: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1977: Warning: `xmm0' is not valid here (expected `(%rsi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1977: Error: junk `PTR [rax]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1977: Warning: `QWORD PTR [rax]' is not valid here (expected `(%rdi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1978: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1979: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1980: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1981: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1982: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1983: Error: too many memory references for `sal'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1984: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1985: Warning: `xmm1' is not valid here (expected `(%rsi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1985: Error: junk `PTR [rax]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1985: Warning: `QWORD PTR [rax]' is not valid here (expected `(%rdi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1986: Error: too many memory references for `divsd'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1987: Error: junk `PTR 536[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1987: Warning: `QWORD PTR 536[rbp]' is not valid here (expected `(%rsi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1987: Warning: `xmm0' is not valid here (expected `(%rdi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1988: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1989: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1990: Error: junk `PTR 576[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1990: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1991: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1992: Error: too many memory references for `sub'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1993: Error: junk `PTR 624[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1993: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1998: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:1999: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2000: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2001: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2002: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2003: Error: too many memory references for `sal'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2004: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2005: Warning: `xmm0' is not valid here (expected `(%rsi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2005: Error: junk `PTR [rax]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2005: Warning: `QWORD PTR [rax]' is not valid here (expected `(%rdi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2006: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2007: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2008: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2009: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2010: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2011: Error: too many memory references for `sal'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2012: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2013: Warning: `xmm2' is not valid here (expected `(%rsi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2013: Error: junk `PTR [rax]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2013: Warning: `QWORD PTR [rax]' is not valid here (expected `(%rdi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2014: Warning: `xmm1' is not valid here (expected `(%rsi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2014: Error: junk `PTR 536[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2014: Warning: `QWORD PTR 536[rbp]' is not valid here (expected `(%rdi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2015: Error: too many memory references for `mulsd'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2016: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2017: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2018: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2019: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2020: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2021: Error: too many memory references for `sal'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2022: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2023: Error: too many memory references for `subsd'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2024: Error: junk `PTR [rax]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2024: Warning: `QWORD PTR [rax]' is not valid here (expected `(%rsi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2024: Warning: `xmm0' is not valid here (expected `(%rdi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2026: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2027: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2028: Error: junk `PTR 576[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2028: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2030: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2031: Error: junk `PTR 624[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2031: Error: too many memory references for `cmp'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2036: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2037: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2038: Error: junk `PTR 584[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2038: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2040: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2041: Error: junk `PTR 632[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2041: Error: too many memory references for `cmp'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2046: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2047: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2048: Error: junk `PTR 568[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2048: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2050: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2051: Error: junk `PTR 664[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2051: Error: too many memory references for `cmp'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2055: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2057: Warning: `xmm1' is not valid here (expected `(%rsi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2057: Error: junk `PTR 528[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2057: Warning: `QWORD PTR 528[rbp]' is not valid here (expected `(%rdi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2058: Warning: `xmm0' is not valid here (expected `(%rsi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2058: Error: junk `PTR 520[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2058: Warning: `QWORD PTR 520[rbp]' is not valid here (expected `(%rdi)')
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2059: Error: too many memory references for `mulsd'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2061: Error: junk `PTR 656[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2061: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2062: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2063: Error: junk `PTR 600[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2063: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2066: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2067: Error: too many memory references for `add'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2080: Error: too many memory references for `sub'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2082: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2085: Error: junk `PTR 752[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2085: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2086: Error: junk `PTR 616[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2086: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2088: Error: junk `PTR 608[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2088: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2089: Error: junk `PTR 600[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2089: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2090: Error: junk `PTR 592[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2090: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2091: Error: junk `PTR 584[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2091: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2092: Error: junk `PTR 576[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2092: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2093: Error: junk `PTR 568[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2093: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2094: Error: junk `PTR 560[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2094: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2095: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2096: Error: junk `PTR [rax]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2096: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2097: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2098: Error: junk `PTR [rax]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2098: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2099: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2100: Error: junk `PTR [rax]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2100: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2101: Error: too many memory references for `lea'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2102: Error: junk `PTR [rax]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2102: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2103: Error: junk `PTR 520[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2103: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2104: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2106: Error: junk `PTR 716[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2106: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2107: Error: junk `PTR 716[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2107: Error: too many memory references for `cmp'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2109: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2111: Error: junk `PTR 616[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2111: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2117: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2119: Error: junk `PTR 704[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2119: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2120: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2121: Error: junk `PTR 608[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2121: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2122: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2124: Error: junk `PTR 696[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2124: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2125: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2126: Error: junk `PTR 600[rbp]' after expression
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2126: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2127: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2128: Error: too many memory references for `test'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2130: Error: too many memory references for `movzx'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2131: Error: no instruction mnemonic suffix given and no register operands; can't size instruction
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2132: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2133: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2134: Error: too many memory references for `test'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2136: Error: too many memory references for `movzx'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2137: Error: no instruction mnemonic suffix given and no register operands; can't size instruction
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2138: Error: too many memory references for `or'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2139: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2140: Error: too many memory references for `cmp'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2142: Error: too many memory references for `movzx'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2143: Error: no instruction mnemonic suffix given and no register operands; can't size instruction
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2144: Error: too many memory references for `or'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2145: Error: too many memory references for `mov'
+uxm\core\runtime\uxm31_runtime_fb_full.asm:2146: Error: too many memory references for `cmp'
+
+Aborting due to runtime error 9 ("interrupted" signal)
+
+Terminate batch job (Y/N)? 
+^CRESULT@[BASARISIZ]@uxm\tests\math\test_math06_integral_trap.uxm 
+DATA_END@uxm\tests\math\test_math06_integral_trap.uxm@17:31:25,35 
+....................................... 
+ 
+DATA_START@uxm\tests\math\test_math07_integral_simpson.uxm@17:31:25,38 
+ASM uretildi: build\asm\test_math07_integral_simpson.asm
+[V3.3-stage14] Native ASM hazir. Link islemi build_one_native.bat tarafindan yurutulur.
+NASM:
+nasm -f win64 "build\asm\test_math07_integral_simpson.asm" -o "build\obj\test_math07_integral_simpson.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\test_math07_integral_simpson.o" -x "build\exe\test_math07_integral_simpson.exe"
+
+Aborting due to runtime error 9 ("interrupted" signal)
+
+Terminate batch job (Y/N)? 
+^CRESULT@[BASARISIZ]@uxm\tests\math\test_math07_integral_simpson.uxm 
+DATA_END@uxm\tests\math\test_math07_integral_simpson.uxm@17:31:26,11 
+....................................... 
+ 
+ 
+KLASOR@uxm\tests\matrix 
+DATA_START@uxm\tests\matrix\test_matrix01_init_set_print.uxm@17:31:26,19 
+ASM uretildi: build\asm\test_matrix01_init_set_print.asm
+[V3.3-stage14] Native ASM hazir. Link islemi build_one_native.bat tarafindan yurutulur.
+NASM:
+nasm -f win64 "build\asm\test_matrix01_init_set_print.asm" -o "build\obj\test_matrix01_init_set_print.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\test_matrix01_init_set_print.o" -x "build\exe\test_matrix01_init_set_print.exe"
+
+Aborting due to runtime error 9 ("interrupted" signal)
+
+Terminate batch job (Y/N)? 
+^CRESULT@[BASARISIZ]@uxm\tests\matrix\test_matrix01_init_set_print.uxm 
+DATA_END@uxm\tests\matrix\test_matrix01_init_set_print.uxm@17:31:28,53 
+....................................... 
+ 
+DATA_START@uxm\tests\matrix\test_matrix02_add_2x2.uxm@17:31:28,58 
+ASM uretildi: build\asm\test_matrix02_add_2x2.asm
+[V3.3-stage14] Native ASM hazir. Link islemi build_one_native.bat tarafindan yurutulur.
+NASM:
+nasm -f win64 "build\asm\test_matrix02_add_2x2.asm" -o "build\obj\test_matrix02_add_2x2.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\test_matrix02_add_2x2.o" -x "build\exe\test_matrix02_add_2x2.exe"
+^CTerminate batch job (Y/N)? Terminate batch job (Y/N)? 
+^CThe syntax of the command is incorrect.

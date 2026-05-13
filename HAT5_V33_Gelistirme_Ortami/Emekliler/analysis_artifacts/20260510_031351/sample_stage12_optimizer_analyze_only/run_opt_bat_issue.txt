@@ -1,0 +1,1 @@
+run_opt.bat uxm_optimizer_pro.py çağırıyor; zip içinde uxm_optimizer_pro2.py var. Manager opt akışı pro2'yi kullanır.

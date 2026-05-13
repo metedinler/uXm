@@ -1,0 +1,4 @@
+# source: embedded_EXPECT_OUTPUT
+
+0
+255

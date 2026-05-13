@@ -1,0 +1,5 @@
+uxm\core\runtime\uxm31_runtime_fb_full.bas() error 91: Executable not found: "C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\bin\win64\ld.exe"
+
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\bin\win64\ld.exe: build\obj\program.o: warning: illegal symbol index 1073812875 in relocs
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\bin\win64\ld.exe: build\obj\program.o: warning: illegal symbol index 16286536 in relocs
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\bin\win64\ld.exe: build\obj\program.o: illegal relocation type 1141 at address 0xf0e28366

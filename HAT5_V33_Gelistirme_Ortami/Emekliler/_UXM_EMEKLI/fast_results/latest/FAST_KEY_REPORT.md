@@ -1,0 +1,14 @@
+# UXM Fast Key Report V7
+
+{
+  "source": "expected_results_v3\\expected_v3_20260510_161930\\expected_results_v3.csv",
+  "total_bad_rows": 676,
+  "unique_bad_keys": 83,
+  "classes": {
+    "OUTPUT_MISMATCH": 35,
+    "LINK_OR_TOOLCHAIN": 633,
+    "PARALLEL_FILE_LOCK": 2,
+    "BUILD_OR_RUNTIME_ERROR": 3,
+    "ASM_BUILD_ERROR": 3
+  }
+}

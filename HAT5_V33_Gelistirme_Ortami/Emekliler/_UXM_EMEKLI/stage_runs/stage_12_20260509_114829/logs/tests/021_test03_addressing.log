@@ -1,0 +1,16 @@
+LABEL: test:uxm\tests\native\test03_addressing.uxm
+COMMAND: call build_one_native.bat "uxm\tests\native\test03_addressing.uxm"
+RETURNCODE: 0
+ELAPSED_SEC: 3.774667
+
+--- STDOUT ---
+ASM uretildi: build\asm\test03_addressing.asm
+[V3.3-stage12] Native ASM hazir. Link islemi build_one_native.bat tarafindan yurutulur.
+NASM:
+nasm -f win64 "build\asm\test03_addressing.asm" -o "build\obj\test03_addressing.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\test03_addressing.o" -x "build\exe\test03_addressing.exe"
+AB
+[UXM program derlendi.]
+
+--- STDERR ---

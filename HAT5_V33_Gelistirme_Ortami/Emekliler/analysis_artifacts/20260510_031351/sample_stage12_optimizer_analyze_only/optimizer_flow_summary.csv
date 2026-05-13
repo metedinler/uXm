@@ -1,0 +1,3 @@
+﻿step,command,code,elapsed_s,log
+zekiassop_import,"python -c ""import os, zekiassop; zekiassop.UXM_ASM_Intelligence(os.getcwd()).run()""",0,1.3655,stage_runs\stage_12_optimizer_20260509_092446\zekiassop_import.log
+heavy_optimizer_import,"python -c ""import os, UXM_Heavy_Asm_Optimizer as h; print(h.UXM_Final_Optimizer(os.getcwd()).analyze_and_suggest()); print(h.UXM_Heavy_Optimizer(os.getcwd()).build_report())""",0,1.4197,stage_runs\stage_12_optimizer_20260509_092446\heavy_optimizer_import.log

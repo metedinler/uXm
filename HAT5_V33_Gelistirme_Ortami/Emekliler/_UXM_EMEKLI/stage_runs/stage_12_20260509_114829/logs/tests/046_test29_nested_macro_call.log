@@ -1,0 +1,16 @@
+LABEL: test:uxm\tests\native\test29_nested_macro_call.uxm
+COMMAND: call build_one_native.bat "uxm\tests\native\test29_nested_macro_call.uxm"
+RETURNCODE: 0
+ELAPSED_SEC: 3.419052
+
+--- STDOUT ---
+ASM uretildi: build\asm\test29_nested_macro_call.asm
+[V3.3-stage12] Native ASM hazir. Link islemi build_one_native.bat tarafindan yurutulur.
+NASM:
+nasm -f win64 "build\asm\test29_nested_macro_call.asm" -o "build\obj\test29_nested_macro_call.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\test29_nested_macro_call.o" -x "build\exe\test29_nested_macro_call.exe"
+HI!
+[UXM program derlendi.]
+
+--- STDERR ---

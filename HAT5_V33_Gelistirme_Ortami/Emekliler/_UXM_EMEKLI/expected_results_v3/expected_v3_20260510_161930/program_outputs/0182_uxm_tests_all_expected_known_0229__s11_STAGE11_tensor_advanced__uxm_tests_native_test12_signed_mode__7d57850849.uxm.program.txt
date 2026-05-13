@@ -1,0 +1,1 @@
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\bin\win64\ld.exe: cannot find uxm\core\runtime\uxm31_runtime_fb_full.o: No such file or directory

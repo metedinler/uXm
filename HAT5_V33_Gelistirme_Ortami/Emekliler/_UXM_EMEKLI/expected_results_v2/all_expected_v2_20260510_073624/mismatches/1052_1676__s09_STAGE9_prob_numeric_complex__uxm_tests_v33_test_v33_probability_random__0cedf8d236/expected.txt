@@ -1,0 +1,1 @@
+deterministic random values, all compile/run success

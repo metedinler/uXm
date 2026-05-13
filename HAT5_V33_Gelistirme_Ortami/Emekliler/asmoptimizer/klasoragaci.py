@@ -1,0 +1,79 @@
+Dizin yapısı oluşturuldu:
+uxm_asm_optimizer/
+  config/
+    __init__.py
+    nop_hook.py
+  safety/
+    __init__.py
+    nop_hook.py
+  report/
+    __init__.py
+    nop_hook.py
+  tests/
+    __init__.py
+    nop_hook.py
+  cfg/
+    __init__.py
+    nop_hook.py
+  core/
+    __init__.py
+    nop_hook.py
+  parser/
+    __init__.py
+    nop_hook.py
+  rules/
+    __init__.py
+    nop_hook.py
+  hooks/
+    __init__.py
+    nop_hook.py
+  utils/
+    __init__.py
+    nop_hook.py
+    
+    
+    ✅ Config, test, runner ve hooks modülleri oluşturuldu
+
+📁 Proje yapısı: /mnt/agents/output/uxm_asm_optimizer
+uxm_asm_optimizer/
+  run_optimizer.py
+  core/
+    __init__.py
+    nop_hook.py
+    optimizer.py
+  parser/
+    __init__.py
+    asm_parser.py
+    nop_hook.py
+  rules/
+    __init__.py
+    nop_hook.py
+    rule_engine.py
+  safety/
+    __init__.py
+    nop_hook.py
+    safety_analyzer.py
+  cfg/
+    __init__.py
+    cfg_builder.py
+    nop_hook.py
+  utils/
+    __init__.py
+    asm_utils.py
+    nop_hook.py
+  report/
+    __init__.py
+    nop_hook.py
+    report_generator.py
+  hooks/
+    __init__.py
+    hook_manager.py
+    nop_hook.py
+  tests/
+    __init__.py
+    nop_hook.py
+    test_sample.asm
+  config/
+    __init__.py
+    nop_hook.py
+    rules.json

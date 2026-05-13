@@ -1,0 +1,1 @@
+HATA: data bellek ust siniri 256 KB. Verilen=4096 KB. Toplam-politika icin #memory policy=total kullan.

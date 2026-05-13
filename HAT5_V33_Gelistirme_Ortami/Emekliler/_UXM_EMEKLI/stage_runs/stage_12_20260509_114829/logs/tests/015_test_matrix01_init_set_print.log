@@ -1,0 +1,18 @@
+LABEL: test:uxm\tests\matrix\test_matrix01_init_set_print.uxm
+COMMAND: call build_one_native.bat "uxm\tests\matrix\test_matrix01_init_set_print.uxm"
+RETURNCODE: 0
+ELAPSED_SEC: 3.454586
+
+--- STDOUT ---
+ASM uretildi: build\asm\test_matrix01_init_set_print.asm
+[V3.3-stage12] Native ASM hazir. Link islemi build_one_native.bat tarafindan yurutulur.
+NASM:
+nasm -f win64 "build\asm\test_matrix01_init_set_print.asm" -o "build\obj\test_matrix01_init_set_print.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\test_matrix01_init_set_print.o" -x "build\exe\test_matrix01_init_set_print.exe"
+[1 2]
+[3 4]
+
+[UXM program derlendi.]
+
+--- STDERR ---

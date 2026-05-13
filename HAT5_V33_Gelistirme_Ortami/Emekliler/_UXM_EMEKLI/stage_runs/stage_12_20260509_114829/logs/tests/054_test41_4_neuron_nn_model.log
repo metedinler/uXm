@@ -1,0 +1,19 @@
+LABEL: test:uxm\tests\native\test41_4_neuron_nn_model.uxm
+COMMAND: call build_one_native.bat "uxm\tests\native\test41_4_neuron_nn_model.uxm"
+RETURNCODE: 0
+ELAPSED_SEC: 3.507613
+
+--- STDOUT ---
+ASM uretildi: build\asm\test41_4_neuron_nn_model.asm
+[V3.3-stage12] Native ASM hazir. Link islemi build_one_native.bat tarafindan yurutulur.
+NASM:
+nasm -f win64 "build\asm\test41_4_neuron_nn_model.asm" -o "build\obj\test41_4_neuron_nn_model.o"
+FreeBASIC runtime ile link:
+C:\Users\mete\Downloads\BasicOyunSource\uXBasic_repo\tools\FreeBASIC-1.10.1-win64\fbc.exe uxm\core\runtime\uxm31_runtime_fb_full.bas "build\obj\test41_4_neuron_nn_model.o" -x "build\exe\test41_4_neuron_nn_model.exe"
+4 NEURON NN TEST
+X1=1 X2=0
+N1=1 N2=0 N3=1 OUT=1
+
+[UXM program derlendi.]
+
+--- STDERR ---
